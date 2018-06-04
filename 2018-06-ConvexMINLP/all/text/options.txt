@@ -1,0 +1,34 @@
+solufile                       []
+writetext                      all/text/
+ccreltol                       0.001
+timeshift                      10.0
+nodeshift                      100
+refsolver                      []
+nosortsolver                   False
+file                           ['results/baron.trc', 'results/dicopt.trc', 'results/aecp.trc', 'results/antigone.trc', 'results/knitro.trc', 'results/scip.trc', 'results/shot.trc', 'results/sbb.trc', 'results/bhyb.trc', 'results/boa.trc', 'results/bbb.trc', 'results/couenne.trc', 'results/mtaurqgcpx.trc', 'results/mtaurbnbcpx.trc', 'results/pajarito.trc', 'results/juniper.trc', 'results/lindo.trc', 'results/aimms.trc', '/home/aton3/alundell/Research/minlplib2/minlplib.solu']
+ccabstol                       0.001
+ignoredualbounds               None
+tracefile                      []
+timerelimpr                    0.1
+mintime                        1.0
+gaptol                         0.001002
+writehtml                      all/html/
+evalgap                        [0.01, 0.1]
+figformat                      png
+filternodes                    None
+failnodes                      None
+novirt                         False
+failtime                       900.0
+bw                             False
+optfileisrunname               False
+eval                           []
+boundrelimpr                   0.1
+ccfeastol                      2e-06
+nocheckinstanceattr            True
+zerogaptol                     1e-09
+instances                      None
+extendedprofiles               False
+numpts                         5000
+setup                          None
+filtertime                     10.0
+ccopttol                       inf

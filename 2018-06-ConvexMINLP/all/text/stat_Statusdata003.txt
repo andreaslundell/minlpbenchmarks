@@ -1,0 +1,6 @@
+                        AOA.0  Pajarito.0  aecp.1  antigone  baron  bbb.3  bhyb.2  boa.1  couenne.1  dicopt.1  juniper.0  knitro  lindo.1  mtaurbnbcpx.0  mtaurqgcpx.0  sbb.1  scip.1  shot.1  virt. best  virt. worst
+ball_mk3_30                 -           -       -         -      -    5.0       -      -          -         -          -       -        -              -             -      -       -       -         5.0            -
+portfol_classical200_2      -           -       -         -      -      -       -      -          -         -          -       -        -              -             -    5.0       -       -         5.0            -
+rsyn0820m02m                -           -       -         -      -      -       -      -          -         -          -       -        -              -             -    5.0       -       -         5.0            -
+watercontamination0202      -           -       -         -    5.0      -       -      -          -         -          -       -        -              -             -      -       -       -         5.0            -
+watercontamination0303      -           -       -         -    5.0      -       -      -          -         -          -       -        -              -             -      -       -       -         5.0            -

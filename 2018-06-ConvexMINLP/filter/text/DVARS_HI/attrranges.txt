@@ -1,0 +1,45 @@
+                          count         mean          std      min       25%  \
+Direction                   151            1            0        1         1   
+NumberOfDiscreteVariables   151      67.8543      95.0913        2        20   
+NumberOfEquations           151       88.947      461.953        1         4   
+NumberOfNonZeros            151      585.715      2297.92        5        61   
+NumberOfNonlinearNonZeros   151      46.0132      49.4686        1      16.5   
+NumberOfVariables           151      83.0199       120.54        3        31   
+KnownPrimalBound            150          inf          NaN   -29605  0.549098   
+KnownDualBound              151          inf          NaN   -29605  0.699399   
+JulianDate                 2462      37995.4      14102.6        0   43203.9   
+TerminationStatus          2612     0.339587      1.26675        0         0   
+PrimalBound                2605          NaN          NaN     -inf  0.398797   
+DualBound                  2599          NaN          NaN     -inf  0.263234   
+SolverTime                 2598      132.136      294.458        0   0.21225   
+NumberOfIterations         2317  2.44198e+06  4.72992e+07        0         0   
+NumberOfDomainViolations   2176  0.000459559    0.0214373        0         0   
+NumberOfNodes              1877      34083.6       175799        0         0   
+Fail                       2718          NaN          NaN      NaN       NaN   
+FailReason                 2718          NaN          NaN      NaN       NaN   
+Gap                        2610          inf          NaN -4.54599         0   
+PrimalGap                  2628          inf          NaN  -6.7476         0   
+DualGap                    2628          inf          NaN -24.8761         0   
+
+                                   50%          75%          max  
+Direction                            1            1            1  
+NumberOfDiscreteVariables           30          100          720  
+NumberOfEquations                    4           53         5330  
+NumberOfNonZeros                   121          401        24395  
+NumberOfNonlinearNonZeros           30           76          330  
+NumberOfVariables                   37          101          961  
+KnownPrimalBound               14.6248      7705.62          inf  
+KnownDualBound                 14.3692      7318.75          inf  
+JulianDate                     43221.3      43248.8      43254.5  
+TerminationStatus                    0            0            8  
+PrimalBound                         16      40262.4          inf  
+DualBound                      9.79621          281          inf  
+SolverTime                        1.42      25.5095      1277.47  
+NumberOfIterations                   4         1565      2.1e+09  
+NumberOfDomainViolations             0            0            1  
+NumberOfNodes                       20          432  3.39635e+06  
+Fail                               NaN          NaN          NaN  
+FailReason                         NaN          NaN          NaN  
+Gap                                  0  0.000995777          inf  
+PrimalGap                            0  0.000225909          inf  
+DualGap                    5.06086e-09  0.000984697          inf  

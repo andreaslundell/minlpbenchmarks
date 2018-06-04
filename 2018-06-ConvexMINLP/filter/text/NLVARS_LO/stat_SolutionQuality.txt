@@ -1,0 +1,229 @@
+Category: Solution Quality
+Attribute: Gap
+Filter: no fail by all solver
+             AOA.0  Pajarito.0  aecp.1  antigone  baron  bbb.3  bhyb.2  boa.1  couenne.1  dicopt.1  juniper.0  knitro  lindo.1  mtaurbnbcpx.0  mtaurqgcpx.0  sbb.1  scip.1  shot.1  virt. best  virt. worst
+count        40.00       40.00   40.00     40.00  40.00  40.00   40.00  40.00      40.00     40.00      40.00   40.00    40.00          40.00         40.00  40.00   40.00   40.00       40.00        40.00
+arith. mean   0.00        0.00    0.05      0.29   0.05   0.07    0.00   0.00       0.31      0.05       0.30    0.20     0.08           0.05          0.00   0.07    0.10    0.00        0.00         0.85
+arith. std.   0.00        0.00    0.32      0.57   0.32   0.32    0.00   0.00       0.72      0.32       0.72    0.61     0.35           0.32          0.00   0.33    0.44    0.00        0.00         0.92
+min           0.00        0.00    0.00      0.00   0.00   0.00    0.00   0.00       0.00      0.00       0.00    0.00     0.00           0.00          0.00   0.00    0.00    0.00        0.00         0.00
+10.0%         0.00        0.00    0.00      0.00   0.00   0.00    0.00   0.00       0.00      0.00       0.00    0.00     0.00           0.00          0.00   0.00    0.00    0.00        0.00         0.00
+25.0%         0.00        0.00    0.00      0.00   0.00   0.00    0.00   0.00       0.00      0.00       0.00    0.00     0.00           0.00          0.00   0.00    0.00    0.00        0.00         0.00
+50.0%         0.00        0.00    0.00      0.00   0.00   0.00    0.00   0.00       0.00      0.00       0.00    0.00     0.00           0.00          0.00   0.00    0.00    0.00        0.00         0.32
+75.0%         0.00        0.00    0.00      0.18   0.00   0.00    0.00   0.00       0.00      0.00       0.00    0.00     0.00           0.00          0.00   0.00    0.00    0.00        0.00         2.00
+90.0%         0.00        0.00    0.00      1.07   0.00   0.01    0.00   0.00       2.00      0.00       2.00    0.20     0.00           0.00          0.00   0.00    0.00    0.00        0.00         2.00
+max           0.00        0.00    2.00      2.00   2.00   2.00    0.00   0.00       2.00      2.00       2.00    2.00     2.00           2.00          0.00   2.00    2.00    0.00        0.00         2.00
+Data: stat_SolutionQualitydata000.txt
+
+Category: Solution Quality
+Attribute: Gap
+Filter: time >= 10.0 by at least one solver and no fail for all solvers
+             AOA.0  Pajarito.0  aecp.1  antigone  baron  bbb.3  bhyb.2  boa.1  couenne.1  dicopt.1  juniper.0  knitro  lindo.1  mtaurbnbcpx.0  mtaurqgcpx.0  sbb.1  scip.1  shot.1  virt. best  virt. worst
+count        29.00       29.00   29.00     29.00  29.00  29.00   29.00  29.00      29.00     29.00      29.00   29.00    29.00          29.00         29.00  29.00   29.00   29.00       29.00        29.00
+arith. mean   0.00        0.00    0.07      0.40   0.07   0.09    0.00   0.00       0.43      0.00       0.41    0.28     0.11           0.07          0.00   0.10    0.14    0.00        0.00         1.10
+arith. std.   0.00        0.00    0.37      0.64   0.37   0.38    0.00   0.00       0.82      0.00       0.82    0.70     0.41           0.37          0.00   0.38    0.52    0.00        0.00         0.90
+min           0.00        0.00    0.00      0.00   0.00   0.00    0.00   0.00       0.00      0.00       0.00    0.00     0.00           0.00          0.00   0.00    0.00    0.00        0.00         0.00
+10.0%         0.00        0.00    0.00      0.00   0.00   0.00    0.00   0.00       0.00      0.00       0.00    0.00     0.00           0.00          0.00   0.00    0.00    0.00        0.00         0.00
+25.0%         0.00        0.00    0.00      0.00   0.00   0.00    0.00   0.00       0.00      0.00       0.00    0.00     0.00           0.00          0.00   0.00    0.00    0.00        0.00         0.00
+50.0%         0.00        0.00    0.00      0.00   0.00   0.00    0.00   0.00       0.00      0.00       0.00    0.00     0.00           0.00          0.00   0.00    0.00    0.00        0.00         1.04
+75.0%         0.00        0.00    0.00      0.88   0.00   0.00    0.00   0.00       0.01      0.00       0.00    0.00     0.00           0.00          0.00   0.00    0.00    0.00        0.00         2.00
+90.0%         0.00        0.00    0.00      1.38   0.00   0.07    0.00   0.00       2.00      0.00       2.00    2.00     0.08           0.00          0.00   0.08    0.00    0.00        0.00         2.00
+max           0.00        0.00    2.00      2.00   2.00   2.00    0.00   0.00       2.00      0.00       2.00    2.00     2.00           2.00          0.00   2.00    2.00    0.00        0.00         2.00
+Data: stat_SolutionQualitydata001.txt
+
+Category: Solution Quality
+Attribute: Gap
+Filter: no fail
+Absolute performance profile: stat_SolutionQualityprofileabs002.txt
+
+Category: Solution Quality
+Attribute: Gap
+Filter: gap <= 0.1002% and not failed
+       AOA.0  Pajarito.0  aecp.1  antigone  baron  bbb.3  bhyb.2  boa.1  couenne.1  dicopt.1  juniper.0  knitro  lindo.1  mtaurbnbcpx.0  mtaurqgcpx.0  sbb.1  scip.1  shot.1  virt. best  virt. worst
+count    209         135     172       153    210    138     162    208         62       213        114     137       87            169           203    128     211     222         224           18
+Data: stat_SolutionQualitydata003.txt
+
+Category: Solution Quality
+Attribute: Gap
+Filter: gap <= 1.0% and not failed
+       AOA.0  Pajarito.0  aecp.1  antigone  baron  bbb.3  bhyb.2  boa.1  couenne.1  dicopt.1  juniper.0  knitro  lindo.1  mtaurbnbcpx.0  mtaurqgcpx.0  sbb.1  scip.1  shot.1  virt. best  virt. worst
+count    209         135     209       162    214    145     162    209         62       215        114     139       89            174           205    131     211     224         225           18
+Data: stat_SolutionQualitydata004.txt
+
+Category: Solution Quality
+Attribute: Gap
+Filter: gap <= 10.0% and not failed
+       AOA.0  Pajarito.0  aecp.1  antigone  baron  bbb.3  bhyb.2  boa.1  couenne.1  dicopt.1  juniper.0  knitro  lindo.1  mtaurbnbcpx.0  mtaurqgcpx.0  sbb.1  scip.1  shot.1  virt. best  virt. worst
+count    212         135     219       174    221    153     172    209         66       218        114     144       91            177           214    134     217     226         227           19
+Data: stat_SolutionQualitydata005.txt
+
+Category: Solution Quality
+Attribute: PrimalGap
+Filter: no fail by all solver and known optimal value
+             AOA.0  Pajarito.0  aecp.1  antigone  baron  bbb.3  bhyb.2  boa.1  couenne.1  dicopt.1  juniper.0  knitro  lindo.1  mtaurbnbcpx.0  mtaurqgcpx.0  sbb.1  scip.1  shot.1  virt. best  virt. worst
+count        40.00       40.00   40.00     40.00  40.00  40.00   40.00  40.00      40.00     40.00      40.00   40.00    40.00          40.00         40.00  40.00   40.00   40.00       40.00        40.00
+arith. mean   0.00        0.00    0.00      0.00   0.05   0.05    0.00   0.00       0.17      0.00       0.30    0.20     0.03           0.05          0.00   0.03    0.01    0.00        0.00         0.50
+arith. std.   0.00        0.00    0.00      0.01   0.32   0.32    0.00   0.00       0.54      0.00       0.72    0.61     0.17           0.32          0.00   0.18    0.04    0.00        0.00         0.87
+min           0.00        0.00    0.00      0.00   0.00   0.00    0.00   0.00       0.00      0.00       0.00    0.00     0.00           0.00          0.00   0.00    0.00    0.00        0.00         0.00
+10.0%         0.00        0.00    0.00      0.00   0.00   0.00    0.00   0.00       0.00      0.00       0.00    0.00     0.00           0.00          0.00   0.00    0.00    0.00        0.00         0.00
+25.0%         0.00        0.00    0.00      0.00   0.00   0.00    0.00   0.00       0.00      0.00       0.00    0.00     0.00           0.00          0.00   0.00    0.00    0.00        0.00         0.00
+50.0%         0.00        0.00    0.00      0.00   0.00   0.00    0.00   0.00       0.00      0.00       0.00    0.00     0.00           0.00          0.00   0.00    0.00    0.00        0.00         0.00
+75.0%         0.00        0.00    0.00      0.00   0.00   0.00    0.00   0.00       0.00      0.00       0.00    0.00     0.00           0.00          0.00   0.00    0.00    0.00        0.00         0.56
+90.0%         0.00        0.00    0.00      0.00   0.00   0.00    0.00   0.00       0.24      0.00       2.00    0.20     0.00           0.00          0.00   0.00    0.00    0.00        0.00         2.00
+max           0.00        0.00    0.00      0.06   2.00   2.00    0.00   0.00       2.00      0.00       2.00    2.00     1.07           2.00          0.00   1.16    0.26    0.00        0.00         2.00
+Data: stat_SolutionQualitydata006.txt
+
+Category: Solution Quality
+Attribute: PrimalGap
+Filter: time >= 10.0 by at least one solver and no fail for all solvers and known optimal value
+             AOA.0  Pajarito.0  aecp.1  antigone  baron  bbb.3  bhyb.2  boa.1  couenne.1  dicopt.1  juniper.0  knitro  lindo.1  mtaurbnbcpx.0  mtaurqgcpx.0  sbb.1  scip.1  shot.1  virt. best  virt. worst
+count        29.00       29.00   29.00     29.00  29.00  29.00   29.00  29.00      29.00     29.00      29.00   29.00    29.00          29.00         29.00  29.00   29.00   29.00       29.00        29.00
+arith. mean   0.00        0.00    0.00      0.00   0.07   0.07    0.00   0.00       0.24      0.00       0.41    0.28     0.04           0.07          0.00   0.04    0.01    0.00        0.00         0.70
+arith. std.   0.00        0.00    0.00      0.01   0.37   0.37    0.00   0.00       0.62      0.00       0.82    0.70     0.20           0.37          0.00   0.22    0.05    0.00        0.00         0.96
+min           0.00        0.00    0.00      0.00   0.00   0.00    0.00   0.00       0.00      0.00       0.00    0.00     0.00           0.00          0.00   0.00    0.00    0.00        0.00         0.00
+10.0%         0.00        0.00    0.00      0.00   0.00   0.00    0.00   0.00       0.00      0.00       0.00    0.00     0.00           0.00          0.00   0.00    0.00    0.00        0.00         0.00
+25.0%         0.00        0.00    0.00      0.00   0.00   0.00    0.00   0.00       0.00      0.00       0.00    0.00     0.00           0.00          0.00   0.00    0.00    0.00        0.00         0.00
+50.0%         0.00        0.00    0.00      0.00   0.00   0.00    0.00   0.00       0.00      0.00       0.00    0.00     0.00           0.00          0.00   0.00    0.00    0.00        0.00         0.00
+75.0%         0.00        0.00    0.00      0.00   0.00   0.00    0.00   0.00       0.00      0.00       0.00    0.00     0.00           0.00          0.00   0.00    0.00    0.00        0.00         2.00
+90.0%         0.00        0.00    0.00      0.00   0.00   0.00    0.00   0.00       0.99      0.00       2.00    2.00     0.00           0.00          0.00   0.00    0.00    0.00        0.00         2.00
+max           0.00        0.00    0.00      0.06   2.00   2.00    0.00   0.00       2.00      0.00       2.00    2.00     1.07           2.00          0.00   1.16    0.26    0.00        0.00         2.00
+Data: stat_SolutionQualitydata007.txt
+
+Category: Solution Quality
+Attribute: PrimalGap
+Filter: no fail
+Absolute performance profile: stat_SolutionQualityprofileabs008.txt
+
+Category: Solution Quality
+Attribute: PrimalGap
+Filter: within 0.1002% of known optimal value and not failed
+       AOA.0  Pajarito.0  aecp.1  antigone  baron  bbb.3  bhyb.2  boa.1  couenne.1  dicopt.1  juniper.0  knitro  lindo.1  mtaurbnbcpx.0  mtaurqgcpx.0  sbb.1  scip.1  shot.1  virt. best  virt. worst
+count    213         135     217       186    220    150     169    208         76       218        113     138       98            171           209    136     219     223         227           24
+Data: stat_SolutionQualitydata009.txt
+
+Category: Solution Quality
+Attribute: PrimalGap
+Filter: within 1.0% of known optimal value and not failed
+       AOA.0  Pajarito.0  aecp.1  antigone  baron  bbb.3  bhyb.2  boa.1  couenne.1  dicopt.1  juniper.0  knitro  lindo.1  mtaurbnbcpx.0  mtaurqgcpx.0  sbb.1  scip.1  shot.1  virt. best  virt. worst
+count    213         135     219       196    222    157     185    208         87       218        113     139       98            176           213    137     221     224         227           27
+Data: stat_SolutionQualitydata010.txt
+
+Category: Solution Quality
+Attribute: PrimalGap
+Filter: within 10.0% of known optimal value and not failed
+       AOA.0  Pajarito.0  aecp.1  antigone  baron  bbb.3  bhyb.2  boa.1  couenne.1  dicopt.1  juniper.0  knitro  lindo.1  mtaurbnbcpx.0  mtaurqgcpx.0  sbb.1  scip.1  shot.1  virt. best  virt. worst
+count    217         135     220       214    225    173     199    208        119       220        113     145      104            184           220    140     226     228         228           30
+Data: stat_SolutionQualitydata011.txt
+
+Category: Solution Quality
+Attribute: DualGap
+Filter: no fail by all solver and known optimal value
+             AOA.0  Pajarito.0  aecp.1  antigone  baron  bbb.3  bhyb.2  boa.1  couenne.1  dicopt.1  juniper.0  knitro  lindo.1  mtaurbnbcpx.0  mtaurqgcpx.0  sbb.1  scip.1  shot.1  virt. best  virt. worst
+count        40.00       40.00   40.00     40.00  40.00  40.00   40.00  40.00      40.00     40.00      40.00   40.00    40.00          40.00         40.00  40.00   40.00   40.00       40.00        40.00
+arith. mean   0.00        0.00    0.05      0.28   0.05   0.02    0.00   0.00       0.15      0.05       0.02    0.04     0.08           0.05          0.00   0.05    0.10    0.00        0.00         0.50
+arith. std.   0.00        0.00    0.32      0.56   0.32   0.08    0.00   0.00       0.50      0.32       0.06    0.15     0.35           0.32          0.00   0.23    0.44    0.00        0.00         0.72
+min           0.00        0.00    0.00      0.00   0.00   0.00    0.00   0.00       0.00      0.00       0.00    0.00     0.00           0.00          0.00   0.00    0.00    0.00        0.00         0.00
+10.0%         0.00        0.00    0.00      0.00   0.00   0.00    0.00   0.00       0.00      0.00       0.00    0.00     0.00           0.00          0.00   0.00    0.00    0.00        0.00         0.00
+25.0%         0.00        0.00    0.00      0.00   0.00   0.00    0.00   0.00       0.00      0.00       0.00    0.00     0.00           0.00          0.00   0.00    0.00    0.00        0.00         0.00
+50.0%         0.00        0.00    0.00      0.00   0.00   0.00    0.00   0.00       0.00      0.00       0.00    0.00     0.00           0.00          0.00   0.00    0.00    0.00        0.00         0.00
+75.0%         0.00        0.00    0.00      0.18   0.00   0.00    0.00   0.00       0.00      0.00       0.00    0.00     0.00           0.00          0.00   0.00    0.00    0.00        0.00         0.90
+90.0%         0.00        0.00    0.00      1.06   0.00   0.00    0.00   0.00       0.05      0.00       0.01    0.00     0.00           0.00          0.00   0.00    0.00    0.00        0.00         2.00
+max           0.00        0.00    2.00      2.00   2.00   0.43    0.00   0.00       2.00      2.00       0.27    0.89     2.00           2.00          0.00   1.36    2.00    0.00        0.00         2.00
+Data: stat_SolutionQualitydata012.txt
+
+Category: Solution Quality
+Attribute: DualGap
+Filter: time >= 10.0 by at least one solver and no fail for all solvers and known optimal value
+             AOA.0  Pajarito.0  aecp.1  antigone  baron  bbb.3  bhyb.2  boa.1  couenne.1  dicopt.1  juniper.0  knitro  lindo.1  mtaurbnbcpx.0  mtaurqgcpx.0  sbb.1  scip.1  shot.1  virt. best  virt. worst
+count        29.00       29.00   29.00     29.00  29.00  29.00   29.00  29.00      29.00     29.00      29.00   29.00    29.00          29.00         29.00  29.00   29.00   29.00       29.00        29.00
+arith. mean   0.00        0.00    0.07      0.39   0.07   0.03    0.00   0.00       0.21      0.00       0.02    0.05     0.11           0.07          0.00   0.07    0.14    0.00        0.00         0.62
+arith. std.   0.00        0.00    0.37      0.63   0.37   0.10    0.00   0.00       0.58      0.00       0.07    0.18     0.41           0.37          0.00   0.27    0.52    0.00        0.00         0.74
+min           0.00        0.00    0.00      0.00   0.00   0.00    0.00   0.00       0.00      0.00       0.00    0.00     0.00           0.00          0.00   0.00    0.00    0.00        0.00         0.00
+10.0%         0.00        0.00    0.00      0.00   0.00   0.00    0.00   0.00       0.00      0.00       0.00    0.00     0.00           0.00          0.00   0.00    0.00    0.00        0.00         0.00
+25.0%         0.00        0.00    0.00      0.00   0.00   0.00    0.00   0.00       0.00      0.00       0.00    0.00     0.00           0.00          0.00   0.00    0.00    0.00        0.00         0.00
+50.0%         0.00        0.00    0.00      0.00   0.00   0.00    0.00   0.00       0.00      0.00       0.00    0.00     0.00           0.00          0.00   0.00    0.00    0.00        0.00         0.34
+75.0%         0.00        0.00    0.00      0.86   0.00   0.00    0.00   0.00       0.00      0.00       0.00    0.00     0.00           0.00          0.00   0.00    0.00    0.00        0.00         0.93
+90.0%         0.00        0.00    0.00      1.27   0.00   0.06    0.00   0.00       0.62      0.00       0.05    0.08     0.08           0.00          0.00   0.08    0.00    0.00        0.00         2.00
+max           0.00        0.00    2.00      2.00   2.00   0.43    0.00   0.00       2.00      0.00       0.27    0.89     2.00           2.00          0.00   1.36    2.00    0.00        0.00         2.00
+Data: stat_SolutionQualitydata013.txt
+
+Category: Solution Quality
+Attribute: DualGap
+Filter: dual gap <= 0.1002% and not failed
+       AOA.0  Pajarito.0  aecp.1  antigone  baron  bbb.3  bhyb.2  boa.1  couenne.1  dicopt.1  juniper.0  knitro  lindo.1  mtaurbnbcpx.0  mtaurqgcpx.0  sbb.1  scip.1  shot.1  virt. best  virt. worst
+count    209         138     173       152    207    141     162    208         72       212        121     137       85            173           203    126     210     220         221           21
+Data: stat_SolutionQualitydata014.txt
+
+Category: Solution Quality
+Attribute: DualGap
+Filter: dual gap <= 1.0% and not failed
+       AOA.0  Pajarito.0  aecp.1  antigone  baron  bbb.3  bhyb.2  boa.1  couenne.1  dicopt.1  juniper.0  knitro  lindo.1  mtaurbnbcpx.0  mtaurqgcpx.0  sbb.1  scip.1  shot.1  virt. best  virt. worst
+count    209         139     209       163    213    145     162    208         72       213        126     139       87            173           206    129     210     222         222           21
+Data: stat_SolutionQualitydata015.txt
+
+Category: Solution Quality
+Attribute: DualGap
+Filter: dual gap <= 10.0% and not failed
+       AOA.0  Pajarito.0  aecp.1  antigone  baron  bbb.3  bhyb.2  boa.1  couenne.1  dicopt.1  juniper.0  knitro  lindo.1  mtaurbnbcpx.0  mtaurqgcpx.0  sbb.1  scip.1  shot.1  virt. best  virt. worst
+count    211         145     216       171    218    150     172    208         80       219        131     148       91            177           215    134     214     223         225           22
+Data: stat_SolutionQualitydata016.txt
+
+Category: Solution Quality
+Attribute: PrimalBound
+Filter: no fail by all solver
+       AOA.0  Pajarito.0  aecp.1  antigone  baron  bbb.3  bhyb.2  boa.1  couenne.1  dicopt.1  juniper.0  knitro  lindo.1  mtaurbnbcpx.0  mtaurqgcpx.0  sbb.1  scip.1  shot.1  virt. best  virt. worst
+count     40          40      40        40     40     40      40     40         40        40         40      40       40             40            40     40      40      40          40           40
+Data: stat_SolutionQualitydata017.txt
+
+Relative to virt. best :
+        AOA.0  Pajarito.0  aecp.1  antigone  baron  bbb.3  bhyb.2  boa.1  couenne.1  dicopt.1  juniper.0  knitro  lindo.1  mtaurbnbcpx.0  mtaurqgcpx.0  sbb.1  scip.1  shot.1  virt. worst
+count      40          40      40        40     40     40      40     40         40        40         40      40       40             40            40     40      40      40           40
+better      0           0       0         0      0      0       0      0          0         0          0       0        0              0             0      0       0       0            0
+close      40          40      40        40     39     39      40     40         35        40         34      36       39             39            40     39      39      40           30
+worse       0           0       0         0      1      1       0      0          5         0          6       4        1              1             0      1       1       0           10
+Data: stat_SolutionQualityratio017_virt.best.txt
+
+Category: Solution Quality
+Attribute: PrimalBound
+Filter: time >= 10.0 by at least one solver and no fail for all solvers
+       AOA.0  Pajarito.0  aecp.1  antigone  baron  bbb.3  bhyb.2  boa.1  couenne.1  dicopt.1  juniper.0  knitro  lindo.1  mtaurbnbcpx.0  mtaurqgcpx.0  sbb.1  scip.1  shot.1  virt. best  virt. worst
+count     29          29      29        29     29     29      29     29         29        29         29      29       29             29            29     29      29      29          29           29
+Data: stat_SolutionQualitydata018.txt
+
+Relative to virt. best :
+        AOA.0  Pajarito.0  aecp.1  antigone  baron  bbb.3  bhyb.2  boa.1  couenne.1  dicopt.1  juniper.0  knitro  lindo.1  mtaurbnbcpx.0  mtaurqgcpx.0  sbb.1  scip.1  shot.1  virt. worst
+count      29          29      29        29     29     29      29     29         29        29         29      29       29             29            29     29      29      29           29
+better      0           0       0         0      0      0       0      0          0         0          0       0        0              0             0      0       0       0            0
+close      29          29      29        29     28     28      29     29         24        29         23      25       28             28            29     28      28      29           19
+worse       0           0       0         0      1      1       0      0          5         0          6       4        1              1             0      1       1       0           10
+Data: stat_SolutionQualityratio018_virt.best.txt
+
+Category: Solution Quality
+Attribute: DualBound
+Filter: no fail by all solver
+       AOA.0  Pajarito.0  aecp.1  antigone  baron  bbb.3  bhyb.2  boa.1  couenne.1  dicopt.1  juniper.0  knitro  lindo.1  mtaurbnbcpx.0  mtaurqgcpx.0  sbb.1  scip.1  shot.1  virt. best  virt. worst
+count     40          40      40        40     40     40      40     40         40        40         40      40       40             39            40     40      40      40          40           39
+Data: stat_SolutionQualitydata019.txt
+
+Relative to virt. best :
+        AOA.0  Pajarito.0  aecp.1  antigone  baron  bbb.3  bhyb.2  boa.1  couenne.1  dicopt.1  juniper.0  knitro  lindo.1  mtaurbnbcpx.0  mtaurqgcpx.0  sbb.1  scip.1  shot.1  virt. worst
+count      40          40      40        40     40     40      40     40         40        40         40      40       40             39            40     40      40      40           39
+better      0           0       0         0      0      0       0      0          0         0          0       0        0              0             0      0       0       0            0
+close      40          40      39        29     39     37      40     40         36        39         37      37       37             39            40     37      38      40           22
+worse       0           0       1        11      1      3       0      0          4         1          3       3        3              0             0      3       2       0           17
+Data: stat_SolutionQualityratio019_virt.best.txt
+
+Category: Solution Quality
+Attribute: DualBound
+Filter: time >= 10.0 by at least one solver and no fail for all solvers
+       AOA.0  Pajarito.0  aecp.1  antigone  baron  bbb.3  bhyb.2  boa.1  couenne.1  dicopt.1  juniper.0  knitro  lindo.1  mtaurbnbcpx.0  mtaurqgcpx.0  sbb.1  scip.1  shot.1  virt. best  virt. worst
+count     29          29      29        29     29     29      29     29         29        29         29      29       29             28            29     29      29      29          29           28
+Data: stat_SolutionQualitydata020.txt
+
+Relative to virt. best :
+        AOA.0  Pajarito.0  aecp.1  antigone  baron  bbb.3  bhyb.2  boa.1  couenne.1  dicopt.1  juniper.0  knitro  lindo.1  mtaurbnbcpx.0  mtaurqgcpx.0  sbb.1  scip.1  shot.1  virt. worst
+count      29          29      29        29     29     29      29     29         29        29         29      29       29             28            29     29      29      29           28
+better      0           0       0         0      0      0       0      0          0         0          0       0        0              0             0      0       0       0            0
+close      29          29      28        18     28     26      29     29         25        29         26      26       26             28            29     26      27      29           12
+worse       0           0       1        11      1      3       0      0          4         0          3       3        3              0             0      3       2       0           16
+Data: stat_SolutionQualityratio020_virt.best.txt
+

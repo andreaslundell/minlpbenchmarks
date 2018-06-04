@@ -1,0 +1,34 @@
+solufile                       []
+writetext                      filter/text/NLVARS_LO/
+ccreltol                       0.001
+timeshift                      10.0
+nodeshift                      100
+refsolver                      []
+nosortsolver                   False
+file                           ['results/baronNLVARS_LO.trc', 'results/dicoptNLVARS_LO.trc', 'results/aecpNLVARS_LO.trc', 'results/antigoneNLVARS_LO.trc', 'results/knitroNLVARS_LO.trc', 'results/scipNLVARS_LO.trc', 'results/shotNLVARS_LO.trc', 'results/sbbNLVARS_LO.trc', 'results/bhybNLVARS_LO.trc', 'results/boaNLVARS_LO.trc', 'results/bbbNLVARS_LO.trc', 'results/couenneNLVARS_LO.trc', 'results/mtaurqgcpxNLVARS_LO.trc', 'results/mtaurbnbcpxNLVARS_LO.trc', 'results/pajaritoNLVARS_LO.trc', 'results/juniperNLVARS_LO.trc', 'results/lindoNLVARS_LO.trc', 'results/aimmsNLVARS_LO.trc', '/home/aton3/alundell/Research/minlplib2/minlplib.solu']
+ccabstol                       0.001
+ignoredualbounds               None
+tracefile                      []
+timerelimpr                    0.1
+mintime                        1.0
+gaptol                         0.001002
+writehtml                      filter/html/NLVARS_LO/
+evalgap                        [0.01, 0.1]
+figformat                      png
+filternodes                    None
+failnodes                      None
+novirt                         False
+failtime                       900.0
+bw                             False
+optfileisrunname               False
+eval                           []
+boundrelimpr                   0.1
+ccfeastol                      2e-06
+nocheckinstanceattr            True
+zerogaptol                     1e-09
+instances                      None
+extendedprofiles               False
+numpts                         5000
+setup                          None
+filtertime                     10.0
+ccopttol                       inf
