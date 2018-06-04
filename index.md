@@ -1,8 +1,6 @@
-## Comparisons of MINLP solvers
+## Current benchmarks
 
-### Current benchmarks
-
-#### Paper 'A Review and Comparison of Solvers for Convex MINLP'
+### Paper 'A Review and Comparison of Solvers for Convex MINLP'
 
 The PAVER reports used in the paper: "A Review and Comparison of Solvers for Convex MINLP" by J. Kronqvist, D.E. Bernal, A. Lundell and I.E. Grossmann is available here.
 
