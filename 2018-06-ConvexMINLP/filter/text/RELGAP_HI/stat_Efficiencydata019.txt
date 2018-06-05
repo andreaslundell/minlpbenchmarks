@@ -1,5 +1,4 @@
            AOA.0  Pajarito.0  aecp.1  antigone  baron  bbb.3  bhyb.2  boa.1  couenne.1  dicopt.1  juniper.0  knitro  lindo.1  mtaurbnbcpx.0  mtaurqgcpx.0  sbb.1  scip.1  shot.1  virt. best  virt. worst
 clay0204h      -           -       -         1      1   1568    1601      1       4699         -          -    1523     1358              1             1   3685     821    1343         1.0            -
 clay0204m      -           -       -         1     11   1501     672      1        930         -          -    1695     1005              1             1   2561     434     824         1.0            -
-clay0305m      -           -       -         2     37  18689    7001      1      18966         -          -   17228    10923              1             1  34883    5035    7961         1.0            -
 m3             -           -       -         1      1     69      18      1         26         -          -      55       36              1             1     52      11      36         1.0            -

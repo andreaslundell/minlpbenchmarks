@@ -2,21 +2,21 @@ Category: Status
 Attribute: Fail
 Filter: instance or solve run marked as failed
        AOA.0  Pajarito.0  aecp.1  antigone  baron  bbb.3  bhyb.2  boa.1  couenne.1  dicopt.1  juniper.0  knitro  lindo.1  mtaurbnbcpx.0  mtaurqgcpx.0  sbb.1  scip.1  shot.1  virt. best  virt. worst
-count      7          78       2         4      1      5      22     21         92         2         49       8       44             21            12      8       0       1         176            0
+count      7          57       2         4      1      5      22     21         92         2         49       8       44             21            12      8       0       1         178            0
 Data: stat_Statusdata000.txt
 
 Category: Status
 Attribute: TerminationStatus
 Filter: normal termination
        AOA.0  Pajarito.0  aecp.1  antigone  baron  bbb.3  bhyb.2  boa.1  couenne.1  dicopt.1  juniper.0  knitro  lindo.1  mtaurbnbcpx.0  mtaurqgcpx.0  sbb.1  scip.1  shot.1  virt. best  virt. worst
-count    206         124     192       146    207    206     188    197        152       201        169     206      202            209           206    204     191     207         213           52
+count    206         147     192       146    207    206     188    197        152       201        169     206      202            209           206    204     191     207         213           70
 Data: stat_Statusdata001.txt
 
 Category: Status
 Attribute: TerminationStatus
 Filter: exceeded some limit
        AOA.0  Pajarito.0  aecp.1  antigone  baron  bbb.3  bhyb.2  boa.1  couenne.1  dicopt.1  juniper.0  knitro  lindo.1  mtaurbnbcpx.0  mtaurqgcpx.0  sbb.1  scip.1  shot.1  virt. best  virt. worst
-count      7          14      22        65      7      6      22      0         44        13         12       5       10              5             8      6      24       7         104            0
+count      7          12      22        65      7      6      22      0         44        13         12       5       10              5             8      6      24       7         104            0
 Data: stat_Statusdata002.txt
 
 Category: Status
@@ -37,6 +37,6 @@ Category: Status
 Attribute: TerminationStatus
 Filter: error or other problem
        AOA.0  Pajarito.0  aecp.1  antigone  baron  bbb.3  bhyb.2  boa.1  couenne.1  dicopt.1  juniper.0  knitro  lindo.1  mtaurbnbcpx.0  mtaurqgcpx.0  sbb.1  scip.1  shot.1  virt. best  virt. worst
-count      0          74       0         0      0      0       1      1          3         0          1       3        3              0             0      0       0       1          81            0
+count      0          54       0         0      0      0       1      1          3         0          1       3        3              0             0      0       0       1          62            0
 Data: stat_Statusdata005.txt
 

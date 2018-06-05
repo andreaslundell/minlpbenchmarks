@@ -2,32 +2,32 @@ Category: Solution Quality
 Attribute: Gap
 Filter: no fail by all solver
              AOA.0  Pajarito.0  aecp.1  antigone  baron  bbb.3  bhyb.2  boa.1  couenne.1  dicopt.1  juniper.0  knitro  lindo.1  mtaurbnbcpx.0  mtaurqgcpx.0  sbb.1  scip.1  shot.1  virt. best  virt. worst
-count        56.00       56.00   56.00     56.00  56.00  56.00   56.00  56.00      56.00     56.00      56.00   56.00    56.00          56.00         56.00  56.00   56.00   56.00       56.00        56.00
-arith. mean   0.00        0.04    0.11      0.24   0.04   0.05    0.00   0.00       0.28      0.11       0.21    0.14     0.09           0.04          0.00   0.05    0.10    0.00        0.00         0.78
-arith. std.   0.00        0.27    0.45      0.55   0.27   0.27    0.00   0.00       0.67      0.45       0.62    0.52     0.39           0.27          0.00   0.28    0.41    0.00        0.00         0.93
+count        53.00       53.00   53.00     53.00  53.00  53.00   53.00  53.00      53.00     53.00      53.00   53.00    53.00          53.00         53.00  53.00   53.00   53.00       53.00        53.00
+arith. mean   0.00        0.04    0.08      0.26   0.04   0.03    0.00   0.00       0.29      0.11       0.19    0.15     0.11           0.00          0.00   0.05    0.03    0.00        0.00         0.83
+arith. std.   0.00        0.27    0.38      0.59   0.27   0.11    0.00   0.00       0.66      0.47       0.59    0.53     0.39           0.00          0.00   0.29    0.18    0.00        0.00         0.91
 min           0.00        0.00    0.00      0.00   0.00   0.00    0.00   0.00       0.00      0.00       0.00    0.00     0.00           0.00          0.00   0.00    0.00    0.00        0.00         0.00
 10.0%         0.00        0.00    0.00      0.00   0.00   0.00    0.00   0.00       0.00      0.00       0.00    0.00     0.00           0.00          0.00   0.00    0.00    0.00        0.00         0.00
 25.0%         0.00        0.00    0.00      0.00   0.00   0.00    0.00   0.00       0.00      0.00       0.00    0.00     0.00           0.00          0.00   0.00    0.00    0.00        0.00         0.00
-50.0%         0.00        0.00    0.00      0.00   0.00   0.00    0.00   0.00       0.00      0.00       0.00    0.00     0.00           0.00          0.00   0.00    0.00    0.00        0.00         0.00
+50.0%         0.00        0.00    0.00      0.00   0.00   0.00    0.00   0.00       0.00      0.00       0.00    0.00     0.00           0.00          0.00   0.00    0.00    0.00        0.00         0.30
 75.0%         0.00        0.00    0.00      0.00   0.00   0.00    0.00   0.00       0.00      0.00       0.00    0.00     0.00           0.00          0.00   0.00    0.00    0.00        0.00         2.00
-90.0%         0.00        0.00    0.00      0.99   0.00   0.00    0.00   0.00       2.00      0.00       1.00    0.00     0.00           0.00          0.00   0.00    0.00    0.00        0.00         2.00
-max           0.00        2.00    2.00      2.00   2.00   2.00    0.00   0.00       2.00      2.00       2.00    2.00     2.00           2.00          0.00   2.00    2.00    0.00        0.00         2.00
+90.0%         0.00        0.00    0.00      1.02   0.00   0.00    0.00   0.00       1.80      0.00       0.00    0.00     0.28           0.00          0.00   0.00    0.00    0.00        0.00         2.00
+max           0.00        2.00    2.00      2.00   2.00   0.70    0.00   0.00       2.00      2.00       2.00    2.00     2.00           0.00          0.00   2.00    1.27    0.00        0.00         2.00
 Data: stat_SolutionQualitydata000.txt
 
 Category: Solution Quality
 Attribute: Gap
 Filter: time >= 10.0 by at least one solver and no fail for all solvers
              AOA.0  Pajarito.0  aecp.1  antigone  baron  bbb.3  bhyb.2  boa.1  couenne.1  dicopt.1  juniper.0  knitro  lindo.1  mtaurbnbcpx.0  mtaurqgcpx.0  sbb.1  scip.1  shot.1  virt. best  virt. worst
-count        39.00       39.00   39.00     39.00  39.00  39.00   39.00  39.00      39.00     39.00      39.00   39.00    39.00          39.00         39.00  39.00   39.00   39.00       39.00        39.00
-arith. mean   0.00        0.05    0.15      0.35   0.05   0.07    0.00   0.00       0.40      0.05       0.31    0.21     0.14           0.05          0.00   0.07    0.14    0.00        0.00         1.02
-arith. std.   0.00        0.32    0.54      0.63   0.32   0.33    0.00   0.00       0.77      0.32       0.73    0.61     0.47           0.32          0.00   0.33    0.48    0.00        0.00         0.93
+count        35.00       35.00   35.00     35.00  35.00  35.00   35.00  35.00      35.00     35.00      35.00   35.00    35.00          35.00         35.00  35.00   35.00   35.00       35.00        35.00
+arith. mean   0.00        0.06    0.11      0.39   0.06   0.04    0.00   0.00       0.45      0.06       0.29    0.23     0.17           0.00          0.00   0.08    0.05    0.00        0.00         1.14
+arith. std.   0.00        0.34    0.47      0.69   0.34   0.14    0.00   0.00       0.77      0.34       0.71    0.65     0.47           0.00          0.00   0.35    0.22    0.00        0.00         0.88
 min           0.00        0.00    0.00      0.00   0.00   0.00    0.00   0.00       0.00      0.00       0.00    0.00     0.00           0.00          0.00   0.00    0.00    0.00        0.00         0.00
 10.0%         0.00        0.00    0.00      0.00   0.00   0.00    0.00   0.00       0.00      0.00       0.00    0.00     0.00           0.00          0.00   0.00    0.00    0.00        0.00         0.00
-25.0%         0.00        0.00    0.00      0.00   0.00   0.00    0.00   0.00       0.00      0.00       0.00    0.00     0.00           0.00          0.00   0.00    0.00    0.00        0.00         0.00
-50.0%         0.00        0.00    0.00      0.00   0.00   0.00    0.00   0.00       0.00      0.00       0.00    0.00     0.00           0.00          0.00   0.00    0.00    0.00        0.00         0.93
-75.0%         0.00        0.00    0.00      0.32   0.00   0.00    0.00   0.00       0.20      0.00       0.00    0.00     0.00           0.00          0.00   0.00    0.00    0.00        0.00         2.00
-90.0%         0.00        0.00    0.00      1.38   0.00   0.01    0.00   0.00       2.00      0.00       2.00    0.40     0.08           0.00          0.00   0.00    0.07    0.00        0.00         2.00
-max           0.00        2.00    2.00      2.00   2.00   2.00    0.00   0.00       2.00      2.00       2.00    2.00     2.00           2.00          0.00   2.00    2.00    0.00        0.00         2.00
+25.0%         0.00        0.00    0.00      0.00   0.00   0.00    0.00   0.00       0.00      0.00       0.00    0.00     0.00           0.00          0.00   0.00    0.00    0.00        0.00         0.03
+50.0%         0.00        0.00    0.00      0.00   0.00   0.00    0.00   0.00       0.00      0.00       0.00    0.00     0.00           0.00          0.00   0.00    0.00    0.00        0.00         1.04
+75.0%         0.00        0.00    0.00      0.61   0.00   0.00    0.00   0.00       0.60      0.00       0.00    0.00     0.00           0.00          0.00   0.00    0.00    0.00        0.00         2.00
+90.0%         0.00        0.00    0.00      1.73   0.00   0.03    0.00   0.00       2.00      0.00       2.00    1.20     0.42           0.00          0.00   0.00    0.00    0.00        0.00         2.00
+max           0.00        2.00    2.00      2.00   2.00   0.70    0.00   0.00       2.00      2.00       2.00    2.00     2.00           0.00          0.00   2.00    1.27    0.00        0.00         2.00
 Data: stat_SolutionQualitydata001.txt
 
 Category: Solution Quality
@@ -39,53 +39,53 @@ Category: Solution Quality
 Attribute: Gap
 Filter: gap <= 0.1002% and not failed
        AOA.0  Pajarito.0  aecp.1  antigone  baron  bbb.3  bhyb.2  boa.1  couenne.1  dicopt.1  juniper.0  knitro  lindo.1  mtaurbnbcpx.0  mtaurqgcpx.0  sbb.1  scip.1  shot.1  virt. best  virt. worst
-count    334         192     273       241    320    255     244    315        102       319        204     249      192            288           315    238     306     344         356           28
+count    334         211     273       241    320    255     244    315        102       319        204     249      192            288           315    238     306     344         356           25
 Data: stat_SolutionQualitydata003.txt
 
 Category: Solution Quality
 Attribute: Gap
 Filter: gap <= 1.0% and not failed
        AOA.0  Pajarito.0  aecp.1  antigone  baron  bbb.3  bhyb.2  boa.1  couenne.1  dicopt.1  juniper.0  knitro  lindo.1  mtaurbnbcpx.0  mtaurqgcpx.0  sbb.1  scip.1  shot.1  virt. best  virt. worst
-count    335         192     317       266    336    265     257    316        102       325        204     261      197            293           317    251     311     348         357           29
+count    335         211     317       266    336    265     257    316        102       325        204     261      197            293           317    251     311     348         357           25
 Data: stat_SolutionQualitydata004.txt
 
 Category: Solution Quality
 Attribute: Gap
 Filter: gap <= 10.0% and not failed
        AOA.0  Pajarito.0  aecp.1  antigone  baron  bbb.3  bhyb.2  boa.1  couenne.1  dicopt.1  juniper.0  knitro  lindo.1  mtaurbnbcpx.0  mtaurqgcpx.0  sbb.1  scip.1  shot.1  virt. best  virt. worst
-count    338         192     329       281    348    275     272    316        106       329        204     266      199            296           326    255     321     351         359           30
+count    338         211     329       281    348    275     272    316        106       329        204     266      199            296           326    255     321     351         359           26
 Data: stat_SolutionQualitydata005.txt
 
 Category: Solution Quality
 Attribute: PrimalGap
 Filter: no fail by all solver and known optimal value
              AOA.0  Pajarito.0  aecp.1  antigone  baron  bbb.3  bhyb.2  boa.1  couenne.1  dicopt.1  juniper.0  knitro  lindo.1  mtaurbnbcpx.0  mtaurqgcpx.0  sbb.1  scip.1  shot.1  virt. best  virt. worst
-count        56.00       56.00   56.00     56.00  56.00  56.00   56.00  56.00      56.00     56.00      56.00   56.00    56.00          56.00         56.00  56.00   56.00   56.00       56.00        56.00
-arith. mean   0.00        0.04    0.00      0.00   0.04   0.04    0.00   0.00       0.16      0.04       0.25    0.14     0.02           0.04          0.00   0.02    0.01    0.00        0.00         0.47
-arith. std.   0.00        0.27    0.01      0.01   0.27   0.27    0.00   0.00       0.52      0.27       0.67    0.52     0.14           0.27          0.00   0.16    0.04    0.00        0.00         0.85
+count        53.00       53.00   53.00     53.00  53.00  53.00   53.00  53.00      53.00     53.00      53.00   53.00    53.00          53.00         53.00  53.00   53.00   53.00       53.00        53.00
+arith. mean   0.00        0.08    0.00      0.00   0.00   0.01    0.00   0.00       0.17      0.04       0.26    0.15     0.01           0.00          0.00   0.02    0.00    0.00        0.00         0.50
+arith. std.   0.00        0.38    0.01      0.01   0.00   0.04    0.00   0.00       0.53      0.27       0.68    0.53     0.06           0.00          0.00   0.11    0.00    0.00        0.00         0.86
 min           0.00        0.00    0.00      0.00   0.00   0.00    0.00   0.00       0.00      0.00       0.00    0.00     0.00           0.00          0.00   0.00    0.00    0.00        0.00         0.00
 10.0%         0.00        0.00    0.00      0.00   0.00   0.00    0.00   0.00       0.00      0.00       0.00    0.00     0.00           0.00          0.00   0.00    0.00    0.00        0.00         0.00
 25.0%         0.00        0.00    0.00      0.00   0.00   0.00    0.00   0.00       0.00      0.00       0.00    0.00     0.00           0.00          0.00   0.00    0.00    0.00        0.00         0.00
 50.0%         0.00        0.00    0.00      0.00   0.00   0.00    0.00   0.00       0.00      0.00       0.00    0.00     0.00           0.00          0.00   0.00    0.00    0.00        0.00         0.00
-75.0%         0.00        0.00    0.00      0.00   0.00   0.00    0.00   0.00       0.00      0.00       0.00    0.00     0.00           0.00          0.00   0.00    0.00    0.00        0.00         0.06
-90.0%         0.00        0.00    0.00      0.00   0.00   0.00    0.00   0.00       0.15      0.00       2.00    0.00     0.00           0.00          0.00   0.00    0.00    0.00        0.00         2.00
-max           0.00        2.00    0.05      0.06   2.00   2.00    0.00   0.00       2.00      2.00       2.00    2.00     1.07           2.00          0.00   1.16    0.26    0.00        0.00         2.00
+75.0%         0.00        0.00    0.00      0.00   0.00   0.00    0.00   0.00       0.00      0.00       0.00    0.00     0.00           0.00          0.00   0.00    0.00    0.00        0.00         0.29
+90.0%         0.00        0.00    0.00      0.00   0.00   0.00    0.00   0.00       0.26      0.00       2.00    0.00     0.00           0.00          0.00   0.00    0.00    0.00        0.00         2.00
+max           0.00        2.00    0.05      0.06   0.00   0.32    0.00   0.00       2.00      2.00       2.00    2.00     0.45           0.00          0.00   0.83    0.03    0.00        0.00         2.00
 Data: stat_SolutionQualitydata006.txt
 
 Category: Solution Quality
 Attribute: PrimalGap
 Filter: time >= 10.0 by at least one solver and no fail for all solvers and known optimal value
              AOA.0  Pajarito.0  aecp.1  antigone  baron  bbb.3  bhyb.2  boa.1  couenne.1  dicopt.1  juniper.0  knitro  lindo.1  mtaurbnbcpx.0  mtaurqgcpx.0  sbb.1  scip.1  shot.1  virt. best  virt. worst
-count        39.00       39.00   39.00     39.00  39.00  39.00   39.00  39.00      39.00     39.00      39.00   39.00    39.00          39.00         39.00  39.00   39.00   39.00       39.00        39.00
-arith. mean   0.00        0.05    0.00      0.00   0.05   0.05    0.00   0.00       0.23      0.05       0.36    0.21     0.03           0.05          0.00   0.03    0.01    0.00        0.00         0.67
-arith. std.   0.00        0.32    0.01      0.01   0.32   0.32    0.00   0.00       0.62      0.32       0.78    0.61     0.17           0.32          0.00   0.19    0.04    0.00        0.00         0.95
+count        35.00       35.00   35.00     35.00  35.00  35.00   35.00  35.00      35.00     35.00      35.00   35.00    35.00          35.00         35.00  35.00   35.00   35.00       35.00        35.00
+arith. mean   0.00        0.11    0.00      0.00   0.00   0.01    0.00   0.00       0.25      0.06       0.40    0.23     0.02           0.00          0.00   0.03    0.00    0.00        0.00         0.76
+arith. std.   0.00        0.47    0.01      0.01   0.00   0.05    0.00   0.00       0.64      0.34       0.81    0.65     0.08           0.00          0.00   0.14    0.00    0.00        0.00         0.97
 min           0.00        0.00    0.00      0.00   0.00   0.00    0.00   0.00       0.00      0.00       0.00    0.00     0.00           0.00          0.00   0.00    0.00    0.00        0.00         0.00
 10.0%         0.00        0.00    0.00      0.00   0.00   0.00    0.00   0.00       0.00      0.00       0.00    0.00     0.00           0.00          0.00   0.00    0.00    0.00        0.00         0.00
 25.0%         0.00        0.00    0.00      0.00   0.00   0.00    0.00   0.00       0.00      0.00       0.00    0.00     0.00           0.00          0.00   0.00    0.00    0.00        0.00         0.00
-50.0%         0.00        0.00    0.00      0.00   0.00   0.00    0.00   0.00       0.00      0.00       0.00    0.00     0.00           0.00          0.00   0.00    0.00    0.00        0.00         0.00
-75.0%         0.00        0.00    0.00      0.00   0.00   0.00    0.00   0.00       0.00      0.00       0.00    0.00     0.00           0.00          0.00   0.00    0.00    0.00        0.00         2.00
-90.0%         0.00        0.00    0.00      0.00   0.00   0.00    0.00   0.00       0.99      0.00       2.00    0.40     0.00           0.00          0.00   0.00    0.00    0.00        0.00         2.00
-max           0.00        2.00    0.05      0.06   2.00   2.00    0.00   0.00       2.00      2.00       2.00    2.00     1.07           2.00          0.00   1.16    0.26    0.00        0.00         2.00
+50.0%         0.00        0.00    0.00      0.00   0.00   0.00    0.00   0.00       0.00      0.00       0.00    0.00     0.00           0.00          0.00   0.00    0.00    0.00        0.00         0.02
+75.0%         0.00        0.00    0.00      0.00   0.00   0.00    0.00   0.00       0.04      0.00       0.00    0.00     0.00           0.00          0.00   0.00    0.00    0.00        0.00         2.00
+90.0%         0.00        0.00    0.00      0.00   0.00   0.00    0.00   0.00       1.32      0.00       2.00    1.20     0.00           0.00          0.00   0.00    0.00    0.00        0.00         2.00
+max           0.00        2.00    0.05      0.06   0.00   0.32    0.00   0.00       2.00      2.00       2.00    2.00     0.45           0.00          0.00   0.83    0.03    0.00        0.00         2.00
 Data: stat_SolutionQualitydata007.txt
 
 Category: Solution Quality
@@ -97,133 +97,133 @@ Category: Solution Quality
 Attribute: PrimalGap
 Filter: within 0.1002% of known optimal value and not failed
        AOA.0  Pajarito.0  aecp.1  antigone  baron  bbb.3  bhyb.2  boa.1  couenne.1  dicopt.1  juniper.0  knitro  lindo.1  mtaurbnbcpx.0  mtaurqgcpx.0  sbb.1  scip.1  shot.1  virt. best  virt. worst
-count    341         196     333       297    349    273     264    323        117       339        204     260      209            292           328    255     330     349         357           36
+count    341         213     333       297    349    273     264    323        117       339        204     260      209            292           328    255     330     349         357           32
 Data: stat_SolutionQualitydata009.txt
 
 Category: Solution Quality
 Attribute: PrimalGap
 Filter: within 1.0% of known optimal value and not failed
        AOA.0  Pajarito.0  aecp.1  antigone  baron  bbb.3  bhyb.2  boa.1  couenne.1  dicopt.1  juniper.0  knitro  lindo.1  mtaurbnbcpx.0  mtaurqgcpx.0  sbb.1  scip.1  shot.1  virt. best  virt. worst
-count    342         196     337       308    352    282     286    323        128       339        204     263      210            297           334    258     340     351         357           39
+count    342         213     337       308    352    282     286    323        128       339        204     263      210            297           334    258     340     351         357           35
 Data: stat_SolutionQualitydata010.txt
 
 Category: Solution Quality
 Attribute: PrimalGap
 Filter: within 10.0% of known optimal value and not failed
        AOA.0  Pajarito.0  aecp.1  antigone  baron  bbb.3  bhyb.2  boa.1  couenne.1  dicopt.1  juniper.0  knitro  lindo.1  mtaurbnbcpx.0  mtaurqgcpx.0  sbb.1  scip.1  shot.1  virt. best  virt. worst
-count    347         196     342       328    355    298     305    325        162       344        204     271      218            307           341    261     349     356         358           43
+count    347         213     342       328    355    298     305    325        162       344        204     271      218            307           341    261     349     356         358           38
 Data: stat_SolutionQualitydata011.txt
 
 Category: Solution Quality
 Attribute: DualGap
 Filter: no fail by all solver and known optimal value
              AOA.0  Pajarito.0  aecp.1  antigone  baron  bbb.3  bhyb.2  boa.1  couenne.1  dicopt.1  juniper.0  knitro  lindo.1  mtaurbnbcpx.0  mtaurqgcpx.0  sbb.1  scip.1  shot.1  virt. best  virt. worst
-count        56.00       56.00   56.00     56.00  56.00  56.00   56.00  56.00      56.00     56.00      56.00   56.00    56.00          56.00         56.00  56.00   56.00   56.00       56.00        56.00
-arith. mean   0.00        0.00    0.11      0.24   0.04   0.02    0.00   0.00       0.12      0.11       0.05    0.03     0.09           0.04          0.00   0.04    0.10    0.00        0.00         0.50
-arith. std.   0.00        0.02    0.45      0.55   0.27   0.07    0.00   0.00       0.43      0.45       0.27    0.13     0.39           0.27          0.00   0.19    0.41    0.00        0.00         0.77
+count        53.00       53.00   53.00     53.00  53.00  53.00   53.00  53.00      53.00     53.00      53.00   53.00    53.00          53.00         53.00  53.00   53.00   53.00       53.00        53.00
+arith. mean   0.00        0.04    0.08      0.26   0.04   0.02    0.00   0.00       0.12      0.11       0.09    0.03     0.09           0.00          0.00   0.04    0.03    0.00        0.00         0.51
+arith. std.   0.00        0.27    0.38      0.58   0.27   0.07    0.00   0.00       0.40      0.47       0.39    0.13     0.33           0.00          0.00   0.18    0.17    0.00        0.00         0.75
 min           0.00        0.00    0.00      0.00   0.00   0.00    0.00   0.00       0.00      0.00       0.00    0.00     0.00           0.00          0.00   0.00    0.00    0.00        0.00         0.00
 10.0%         0.00        0.00    0.00      0.00   0.00   0.00    0.00   0.00       0.00      0.00       0.00    0.00     0.00           0.00          0.00   0.00    0.00    0.00        0.00         0.00
 25.0%         0.00        0.00    0.00      0.00   0.00   0.00    0.00   0.00       0.00      0.00       0.00    0.00     0.00           0.00          0.00   0.00    0.00    0.00        0.00         0.00
 50.0%         0.00        0.00    0.00      0.00   0.00   0.00    0.00   0.00       0.00      0.00       0.00    0.00     0.00           0.00          0.00   0.00    0.00    0.00        0.00         0.00
 75.0%         0.00        0.00    0.00      0.00   0.00   0.00    0.00   0.00       0.00      0.00       0.00    0.00     0.00           0.00          0.00   0.00    0.00    0.00        0.00         0.90
-90.0%         0.00        0.00    0.00      0.99   0.00   0.00    0.00   0.00       0.18      0.00       0.00    0.00     0.00           0.00          0.00   0.00    0.00    0.00        0.00         2.00
-max           0.00        0.16    2.00      2.00   2.00   0.43    0.00   0.00       2.00      2.00       2.00    0.89     2.00           2.00          0.00   1.36    2.00    0.00        0.00         2.00
+90.0%         0.00        0.00    0.00      1.02   0.00   0.00    0.00   0.00       0.37      0.00       0.01    0.00     0.28           0.00          0.00   0.00    0.00    0.00        0.00         2.00
+max           0.00        2.00    2.00      2.00   2.00   0.43    0.00   0.00       2.00      2.00       2.00    0.88     2.00           0.00          0.00   1.17    1.21    0.00        0.00         2.00
 Data: stat_SolutionQualitydata012.txt
 
 Category: Solution Quality
 Attribute: DualGap
 Filter: time >= 10.0 by at least one solver and no fail for all solvers and known optimal value
              AOA.0  Pajarito.0  aecp.1  antigone  baron  bbb.3  bhyb.2  boa.1  couenne.1  dicopt.1  juniper.0  knitro  lindo.1  mtaurbnbcpx.0  mtaurqgcpx.0  sbb.1  scip.1  shot.1  virt. best  virt. worst
-count        39.00       39.00   39.00     39.00  39.00  39.00   39.00  39.00      39.00     39.00      39.00   39.00    39.00          39.00         39.00  39.00   39.00   39.00       39.00        39.00
-arith. mean   0.00        0.00    0.15      0.34   0.05   0.02    0.00   0.00       0.18      0.05       0.07    0.04     0.14           0.05          0.00   0.05    0.14    0.00        0.00         0.62
-arith. std.   0.00        0.03    0.54      0.63   0.32   0.08    0.00   0.00       0.51      0.32       0.32    0.16     0.47           0.32          0.00   0.23    0.48    0.00        0.00         0.79
+count        35.00       35.00   35.00     35.00  35.00  35.00   35.00  35.00      35.00     35.00      35.00   35.00    35.00          35.00         35.00  35.00   35.00   35.00       35.00        35.00
+arith. mean   0.00        0.06    0.11      0.39   0.06   0.03    0.00   0.00       0.18      0.06       0.13    0.04     0.14           0.00          0.00   0.06    0.04    0.00        0.00         0.66
+arith. std.   0.00        0.34    0.47      0.68   0.34   0.09    0.00   0.00       0.49      0.34       0.47    0.16     0.40           0.00          0.00   0.21    0.21    0.00        0.00         0.76
 min           0.00        0.00    0.00      0.00   0.00   0.00    0.00   0.00       0.00      0.00       0.00    0.00     0.00           0.00          0.00   0.00    0.00    0.00        0.00         0.00
 10.0%         0.00        0.00    0.00      0.00   0.00   0.00    0.00   0.00       0.00      0.00       0.00    0.00     0.00           0.00          0.00   0.00    0.00    0.00        0.00         0.00
 25.0%         0.00        0.00    0.00      0.00   0.00   0.00    0.00   0.00       0.00      0.00       0.00    0.00     0.00           0.00          0.00   0.00    0.00    0.00        0.00         0.00
-50.0%         0.00        0.00    0.00      0.00   0.00   0.00    0.00   0.00       0.00      0.00       0.00    0.00     0.00           0.00          0.00   0.00    0.00    0.00        0.00         0.30
-75.0%         0.00        0.00    0.00      0.32   0.00   0.00    0.00   0.00       0.00      0.00       0.00    0.00     0.00           0.00          0.00   0.00    0.00    0.00        0.00         0.99
-90.0%         0.00        0.00    0.00      1.27   0.00   0.01    0.00   0.00       0.41      0.00       0.05    0.01     0.08           0.00          0.00   0.00    0.07    0.00        0.00         2.00
-max           0.00        0.16    2.00      2.00   2.00   0.43    0.00   0.00       2.00      2.00       2.00    0.89     2.00           2.00          0.00   1.36    2.00    0.00        0.00         2.00
+50.0%         0.00        0.00    0.00      0.00   0.00   0.00    0.00   0.00       0.00      0.00       0.00    0.00     0.00           0.00          0.00   0.00    0.00    0.00        0.00         0.38
+75.0%         0.00        0.00    0.00      0.60   0.00   0.00    0.00   0.00       0.00      0.00       0.00    0.00     0.00           0.00          0.00   0.00    0.00    0.00        0.00         0.99
+90.0%         0.00        0.00    0.00      1.68   0.00   0.02    0.00   0.00       0.56      0.00       0.20    0.02     0.42           0.00          0.00   0.00    0.00    0.00        0.00         2.00
+max           0.00        2.00    2.00      2.00   2.00   0.43    0.00   0.00       2.00      2.00       2.00    0.88     2.00           0.00          0.00   1.17    1.21    0.00        0.00         2.00
 Data: stat_SolutionQualitydata013.txt
 
 Category: Solution Quality
 Attribute: DualGap
 Filter: dual gap <= 0.1002% and not failed
        AOA.0  Pajarito.0  aecp.1  antigone  baron  bbb.3  bhyb.2  boa.1  couenne.1  dicopt.1  juniper.0  knitro  lindo.1  mtaurbnbcpx.0  mtaurqgcpx.0  sbb.1  scip.1  shot.1  virt. best  virt. worst
-count    333         196     274       241    316    260     249    316        114       318        209     250      191            292           315    236     305     341         352           32
+count    333         213     274       241    316    260     249    316        114       318        209     250      191            292           315    236     305     341         352           29
 Data: stat_SolutionQualitydata014.txt
 
 Category: Solution Quality
 Attribute: DualGap
 Filter: dual gap <= 1.0% and not failed
        AOA.0  Pajarito.0  aecp.1  antigone  baron  bbb.3  bhyb.2  boa.1  couenne.1  dicopt.1  juniper.0  knitro  lindo.1  mtaurbnbcpx.0  mtaurqgcpx.0  sbb.1  scip.1  shot.1  virt. best  virt. worst
-count    334         199     317       268    334    268     264    316        114       324        215     262      195            292           318    250     311     345         353           33
+count    334         215     317       268    334    268     264    316        114       324        215     262      195            292           318    250     311     345         353           29
 Data: stat_SolutionQualitydata015.txt
 
 Category: Solution Quality
 Attribute: DualGap
 Filter: dual gap <= 10.0% and not failed
        AOA.0  Pajarito.0  aecp.1  antigone  baron  bbb.3  bhyb.2  boa.1  couenne.1  dicopt.1  juniper.0  knitro  lindo.1  mtaurbnbcpx.0  mtaurqgcpx.0  sbb.1  scip.1  shot.1  virt. best  virt. worst
-count    336         205     326       281    343    275     274    316        122       331        221     271      199            296           327    256     319     347         356           34
+count    336         218     326       281    343    275     274    316        122       331        221     271      199            296           327    256     319     347         356           30
 Data: stat_SolutionQualitydata016.txt
 
 Category: Solution Quality
 Attribute: PrimalBound
 Filter: no fail by all solver
        AOA.0  Pajarito.0  aecp.1  antigone  baron  bbb.3  bhyb.2  boa.1  couenne.1  dicopt.1  juniper.0  knitro  lindo.1  mtaurbnbcpx.0  mtaurqgcpx.0  sbb.1  scip.1  shot.1  virt. best  virt. worst
-count     56          56      56        56     56     56      56     56         56        56         56      56       56             56            56     56      56      56          56           56
+count     53          53      53        53     53     53      53     53         53        53         53      53       53             53            53     53      53      53          53           53
 Data: stat_SolutionQualitydata017.txt
 
 Relative to virt. best :
         AOA.0  Pajarito.0  aecp.1  antigone  baron  bbb.3  bhyb.2  boa.1  couenne.1  dicopt.1  juniper.0  knitro  lindo.1  mtaurbnbcpx.0  mtaurqgcpx.0  sbb.1  scip.1  shot.1  virt. worst
-count      56          56      56        56     56     56      56     56         56        56         56      56       56             56            56     56      56      56           56
+count      53          53      53        53     53     53      53     53         53        53         53      53       53             53            53     53      53      53           53
 better      0           0       0         0      0      0       0      0          0         0          0       0        0              0             0      0       0       0            0
-close      56          55      56        56     55     55      56     56         50        55         50      52       55             55            56     55      55      56           43
-worse       0           1       0         0      1      1       0      0          6         1          6       4        1              1             0      1       1       0           13
+close      53          52      53        53     53     52      53     53         48        52         48      49       52             53            53     52      53      53           41
+worse       0           1       0         0      0      1       0      0          5         1          5       4        1              0             0      1       0       0           12
 Data: stat_SolutionQualityratio017_virt.best.txt
 
 Category: Solution Quality
 Attribute: PrimalBound
 Filter: time >= 10.0 by at least one solver and no fail for all solvers
        AOA.0  Pajarito.0  aecp.1  antigone  baron  bbb.3  bhyb.2  boa.1  couenne.1  dicopt.1  juniper.0  knitro  lindo.1  mtaurbnbcpx.0  mtaurqgcpx.0  sbb.1  scip.1  shot.1  virt. best  virt. worst
-count     39          39      39        39     39     39      39     39         39        39         39      39       39             39            39     39      39      39          39           39
+count     35          35      35        35     35     35      35     35         35        35         35      35       35             35            35     35      35      35          35           35
 Data: stat_SolutionQualitydata018.txt
 
 Relative to virt. best :
         AOA.0  Pajarito.0  aecp.1  antigone  baron  bbb.3  bhyb.2  boa.1  couenne.1  dicopt.1  juniper.0  knitro  lindo.1  mtaurbnbcpx.0  mtaurqgcpx.0  sbb.1  scip.1  shot.1  virt. worst
-count      39          39      39        39     39     39      39     39         39        39         39      39       39             39            39     39      39      39           39
+count      35          35      35        35     35     35      35     35         35        35         35      35       35             35            35     35      35      35           35
 better      0           0       0         0      0      0       0      0          0         0          0       0        0              0             0      0       0       0            0
-close      39          38      39        39     38     38      39     39         33        38         33      35       38             38            39     38      38      39           26
-worse       0           1       0         0      1      1       0      0          6         1          6       4        1              1             0      1       1       0           13
+close      35          34      35        35     35     34      35     35         30        34         30      31       34             35            35     34      35      35           23
+worse       0           1       0         0      0      1       0      0          5         1          5       4        1              0             0      1       0       0           12
 Data: stat_SolutionQualityratio018_virt.best.txt
 
 Category: Solution Quality
 Attribute: DualBound
 Filter: no fail by all solver
        AOA.0  Pajarito.0  aecp.1  antigone  baron  bbb.3  bhyb.2  boa.1  couenne.1  dicopt.1  juniper.0  knitro  lindo.1  mtaurbnbcpx.0  mtaurqgcpx.0  sbb.1  scip.1  shot.1  virt. best  virt. worst
-count     56          56      56        56     56     56      56     56         56        56         56      56       56             55            56     56      56      56          56           55
+count     53          53      53        53     53     53      53     53         53        53         53      53       53             53            53     53      53      53          53           53
 Data: stat_SolutionQualitydata019.txt
 
 Relative to virt. best :
         AOA.0  Pajarito.0  aecp.1  antigone  baron  bbb.3  bhyb.2  boa.1  couenne.1  dicopt.1  juniper.0  knitro  lindo.1  mtaurbnbcpx.0  mtaurqgcpx.0  sbb.1  scip.1  shot.1  virt. worst
-count      56          56      56        56     56     56      56     56         56        56         56      56       56             55            56     56      56      56           55
+count      53          53      53        53     53     53      53     53         53        53         53      53       53             53            53     53      53      53           53
 better      0           0       0         0      0      0       0      0          0         0          0       0        0              0             0      0       0       0            0
-close      56          55      53        45     55     53      56     56         50        53         53      53       52             55            56     53      52      56           34
-worse       0           1       3        11      1      3       0      0          6         3          3       3        4              0             0      3       4       0           21
+close      53          53      51        44     53     50      53     53         46        50         50      50       47             53            53     50      51      53           31
+worse       0           0       2         9      0      3       0      0          7         3          3       3        6              0             0      3       2       0           22
 Data: stat_SolutionQualityratio019_virt.best.txt
 
 Category: Solution Quality
 Attribute: DualBound
 Filter: time >= 10.0 by at least one solver and no fail for all solvers
        AOA.0  Pajarito.0  aecp.1  antigone  baron  bbb.3  bhyb.2  boa.1  couenne.1  dicopt.1  juniper.0  knitro  lindo.1  mtaurbnbcpx.0  mtaurqgcpx.0  sbb.1  scip.1  shot.1  virt. best  virt. worst
-count     39          39      39        39     39     39      39     39         39        39         39      39       39             38            39     39      39      39          39           38
+count     35          35      35        35     35     35      35     35         35        35         35      35       35             35            35     35      35      35          35           35
 Data: stat_SolutionQualitydata020.txt
 
 Relative to virt. best :
         AOA.0  Pajarito.0  aecp.1  antigone  baron  bbb.3  bhyb.2  boa.1  couenne.1  dicopt.1  juniper.0  knitro  lindo.1  mtaurbnbcpx.0  mtaurqgcpx.0  sbb.1  scip.1  shot.1  virt. worst
-count      39          39      39        39     39     39      39     39         39        39         39      39       39             38            39     39      39      39           38
+count      35          35      35        35     35     35      35     35         35        35         35      35       35             35            35     35      35      35           35
 better      0           0       0         0      0      0       0      0          0         0          0       0        0              0             0      0       0       0            0
-close      39          38      36        28     38     36      39     39         33        38         36      36       35             38            39     36      35      39           19
-worse       0           1       3        11      1      3       0      0          6         1          3       3        4              0             0      3       4       0           19
+close      35          35      33        26     35     32      35     35         28        34         32      32       29             35            35     32      33      35           15
+worse       0           0       2         9      0      3       0      0          7         1          3       3        6              0             0      3       2       0           20
 Data: stat_SolutionQualityratio020_virt.best.txt
 

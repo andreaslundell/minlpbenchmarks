@@ -7,17 +7,17 @@ NumberOfNonlinearNonZeros   133   222.97      662.613        1        20
 NumberOfVariables           133  228.323      667.992        3        31   
 KnownPrimalBound            132      inf          NaN   -29605  0.262707   
 KnownDualBound              133      inf          NaN   -29605  0.263234   
-JulianDate                 2193    38025      14070.3        0   43203.9   
-TerminationStatus          2325  0.36086      1.31394        0         0   
-PrimalBound                2318      inf          NaN   -29605  0.111305   
-DualBound                  2317      NaN          NaN     -inf         0   
-SolverTime                 2318  127.177      290.259        0  0.180798   
+JulianDate                 2194  38027.3      14067.5        0   43203.9   
+TerminationStatus          2326  0.27945      1.10217        0         0   
+PrimalBound                2319      inf          NaN   -29605  0.111305   
+DualBound                  2318      NaN          NaN     -inf         0   
+SolverTime                 2319  127.417      289.606        0     0.186   
 NumberOfIterations         2070   463692  4.45442e+06        0         0   
 NumberOfDomainViolations   1946  67.7148      2913.54        0         0   
 NumberOfNodes              1685  20608.8       148783        0         0   
 Fail                       2394      NaN          NaN      NaN       NaN   
 FailReason                 2394      NaN          NaN      NaN       NaN   
-Gap                        2324      inf          NaN -1.15107         0   
+Gap                        2325      inf          NaN -1.15107         0   
 PrimalGap                  2358      inf          NaN  -6.7476         0   
 DualGap                    2358      inf          NaN -24.8761         0   
 
@@ -32,14 +32,14 @@ KnownPrimalBound               9.79714      131.462          inf
 KnownDualBound                 9.79714      130.629          inf  
 JulianDate                     43222.9        43249        43254  
 TerminationStatus                    0            0            8  
-PrimalBound                    9.79941      156.604          inf  
-DualBound                      6.19715      88.1049          inf  
-SolverTime                     1.13495      18.6045      969.239  
+PrimalBound                    9.79714      156.604          inf  
+DualBound                      6.19713      88.1049          inf  
+SolverTime                        1.15       23.514      969.239  
 NumberOfIterations                   8      1062.75  1.42353e+08  
 NumberOfDomainViolations             0            0       128513  
 NumberOfNodes                       14          186  3.39635e+06  
 Fail                               NaN          NaN          NaN  
 FailReason                         NaN          NaN          NaN  
-Gap                                  0  0.000999983          inf  
-PrimalGap                            0  0.000224829          inf  
-DualGap                    1.74162e-08        0.001          inf  
+Gap                                  0  0.000976927          inf  
+PrimalGap                            0  0.000129602          inf  
+DualGap                    6.24033e-09        0.001          inf  

@@ -10,7 +10,7 @@ ccabstol                       0.001
 ignoredualbounds               None
 tracefile                      []
 timerelimpr                    0.1
-mintime                        1.0
+mintime                        0.01
 gaptol                         0.001002
 writehtml                      filter/html/RELGAP_LO/
 evalgap                        [0.01, 0.1]
@@ -28,7 +28,7 @@ nocheckinstanceattr            True
 zerogaptol                     1e-09
 instances                      None
 extendedprofiles               False
-numpts                         5000
+numpts                         9000
 setup                          None
 filtertime                     10.0
 ccopttol                       inf
