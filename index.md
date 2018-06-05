@@ -1,4 +1,3 @@
-s
 ## Current benchmarks
 
 ### Paper 'A Review and Comparison of Solvers for Convex MINLP'
