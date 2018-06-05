@@ -1,37 +1,12 @@
-## Welcome to GitHub Pages
+## Current benchmarks
 
-You can use the [editor on GitHub](https://github.com/andreaslundell/minlpbenchmark/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+### Paper 'A Review and Comparison of Solvers for Convex MINLP'
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The PAVER reports used in the paper: "A Review and Comparison of Solvers for Convex MINLP" by J. Kronqvist, D.E. Bernal, A. Lundell and I.E. Grossmann is available here.
+sss
+1. All solvers and [all](https://andreaslundell.github.io/minlpbenchmarks/2018-06-ConvexMINLP/all/html/) 366 convex instances in MINLPLib. 
+2. Problems with a [high](https://andreaslundell.github.io/minlpbenchmarks/2018-06-ConvexMINLP/filter/html/RELGAP_HI)/[low](https://andreaslundell.github.io/minlpbenchmarks/2018-06-ConvexMINLP/filter/html/RELGAP_LO) integer relaxation gap.
+3. Problems with a [high](https://andreaslundell.github.io/minlpbenchmarks/2018-06-ConvexMINLP/filter/html/DVARS_HI)/[low](https://andreaslundell.github.io/minlpbenchmarks/2018-06-ConvexMINLP/filter/html/DVARS_LO) level of discrete variables.
+4. Problems with a [high](https://andreaslundell.github.io/minlpbenchmarks/2018-06-ConvexMINLP/filter/html/NLVARS_HI)/[low](https://andreaslundell.github.io/minlpbenchmarks/2018-06-ConvexMINLP/filter/html/NLVARS_LO) level of nonlinearity.
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/andreaslundell/minlpbenchmark/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+The reports can also be downloaded from the [repository](https://github.com/andreaslundell/minlpbenchmarks/).
