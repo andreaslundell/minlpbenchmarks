@@ -1,0 +1,229 @@
+Category: Solution Quality
+Attribute: Gap
+Filter: no fail by all solver
+             aecp.1  aoa.0  baron  boa.1  dicopt.1  minotaur.0  sbb.1  scip.1  shot.1  virt. best  virt. worst
+count        253.00 253.00 253.00 253.00    253.00      253.00 253.00  253.00  253.00      253.00       253.00
+arith. mean    0.10   0.03   0.02   0.03      0.08        0.04   0.20    0.14    0.01        0.00         0.42
+arith. std.    0.44   0.23   0.19   0.23      0.37        0.25   0.57    0.47    0.13        0.00         0.79
+min            0.00   0.00   0.00   0.00      0.00        0.00   0.00    0.00    0.00        0.00         0.00
+10.0%          0.00   0.00   0.00   0.00      0.00        0.00   0.00    0.00    0.00        0.00         0.00
+25.0%          0.00   0.00   0.00   0.00      0.00        0.00   0.00    0.00    0.00        0.00         0.00
+50.0%          0.00   0.00   0.00   0.00      0.00        0.00   0.00    0.00    0.00        0.00         0.00
+75.0%          0.00   0.00   0.00   0.00      0.00        0.00   0.00    0.00    0.00        0.00         0.02
+90.0%          0.00   0.00   0.00   0.00      0.00        0.00   0.74    0.08    0.00        0.00         2.00
+max            2.00   2.00   2.00   2.00      2.00        2.00   2.00    2.00    2.00        0.00         2.00
+Data: stat_SolutionQualitydata000.txt
+
+Category: Solution Quality
+Attribute: Gap
+Filter: time >= 10.0 by at least one solver and no fail for all solvers
+             aecp.1  aoa.0  baron  boa.1  dicopt.1  minotaur.0  sbb.1  scip.1  shot.1  virt. best  virt. worst
+count        183.00 183.00 183.00 183.00    183.00      183.00 183.00  183.00  183.00      183.00       183.00
+arith. mean    0.14   0.05   0.03   0.04      0.08        0.05   0.28    0.19    0.01        0.00         0.55
+arith. std.    0.52   0.26   0.22   0.27      0.36        0.30   0.65    0.54    0.15        0.00         0.86
+min            0.00   0.00   0.00   0.00      0.00        0.00   0.00    0.00    0.00        0.00         0.00
+10.0%          0.00   0.00   0.00   0.00      0.00        0.00   0.00    0.00    0.00        0.00         0.00
+25.0%          0.00   0.00   0.00   0.00      0.00        0.00   0.00    0.00    0.00        0.00         0.00
+50.0%          0.00   0.00   0.00   0.00      0.00        0.00   0.00    0.00    0.00        0.00         0.00
+75.0%          0.00   0.00   0.00   0.00      0.00        0.00   0.00    0.00    0.00        0.00         1.49
+90.0%          0.00   0.00   0.00   0.00      0.00        0.00   2.00    0.69    0.00        0.00         2.00
+max            2.00   2.00   2.00   2.00      2.00        2.00   2.00    2.00    2.00        0.00         2.00
+Data: stat_SolutionQualitydata001.txt
+
+Category: Solution Quality
+Attribute: Gap
+Filter: no fail
+Absolute performance profile: stat_SolutionQualityprofileabs002.txt
+
+Category: Solution Quality
+Attribute: Gap
+Filter: gap <= 0.1002% and not failed
+       aecp.1  aoa.0  baron  boa.1  dicopt.1  minotaur.0  sbb.1  scip.1  shot.1  virt. best  virt. worst
+count     273    334    320    315       319         315    238     306     343         356          152
+Data: stat_SolutionQualitydata003.txt
+
+Category: Solution Quality
+Attribute: Gap
+Filter: gap <= 1.0% and not failed
+       aecp.1  aoa.0  baron  boa.1  dicopt.1  minotaur.0  sbb.1  scip.1  shot.1  virt. best  virt. worst
+count     317    335    336    316       325         317    251     311     344         356          186
+Data: stat_SolutionQualitydata004.txt
+
+Category: Solution Quality
+Attribute: Gap
+Filter: gap <= 10.0% and not failed
+       aecp.1  aoa.0  baron  boa.1  dicopt.1  minotaur.0  sbb.1  scip.1  shot.1  virt. best  virt. worst
+count     329    338    348    316       329         326    255     321     349         358          190
+Data: stat_SolutionQualitydata005.txt
+
+Category: Solution Quality
+Attribute: PrimalGap
+Filter: no fail by all solver and known optimal value
+             aecp.1  aoa.0  baron  boa.1  dicopt.1  minotaur.0  sbb.1  scip.1  shot.1  virt. best  virt. worst
+count        252.00 252.00 252.00 252.00    252.00      252.00 252.00  252.00  252.00      252.00       252.00
+arith. mean    0.01   0.01   0.00   0.00      0.01        0.00   0.09    0.01    0.00        0.00         0.12
+arith. std.    0.13   0.13   0.00   0.01      0.14        0.01   0.32    0.06    0.07        0.00         0.37
+min            0.00   0.00   0.00   0.00      0.00        0.00   0.00    0.00    0.00        0.00         0.00
+10.0%          0.00   0.00   0.00   0.00      0.00        0.00   0.00    0.00    0.00        0.00         0.00
+25.0%          0.00   0.00   0.00   0.00      0.00        0.00   0.00    0.00    0.00        0.00         0.00
+50.0%          0.00   0.00   0.00   0.00      0.00        0.00   0.00    0.00    0.00        0.00         0.00
+75.0%          0.00   0.00   0.00   0.00      0.00        0.00   0.00    0.00    0.00        0.00         0.00
+90.0%          0.00   0.00   0.00   0.00      0.00        0.00   0.14    0.00    0.00        0.00         0.37
+max            2.00   2.00   0.00   0.21      2.00        0.09   2.00    0.63    1.05        0.00         2.00
+Data: stat_SolutionQualitydata006.txt
+
+Category: Solution Quality
+Attribute: PrimalGap
+Filter: time >= 10.0 by at least one solver and no fail for all solvers and known optimal value
+             aecp.1  aoa.0  baron  boa.1  dicopt.1  minotaur.0  sbb.1  scip.1  shot.1  virt. best  virt. worst
+count        182.00 182.00 182.00 182.00    182.00      182.00 182.00  182.00  182.00      182.00       182.00
+arith. mean    0.02   0.01   0.00   0.00      0.02        0.00   0.12    0.01    0.01        0.00         0.17
+arith. std.    0.16   0.15   0.00   0.02      0.16        0.01   0.37    0.07    0.08        0.00         0.43
+min            0.00   0.00   0.00   0.00      0.00        0.00   0.00    0.00    0.00        0.00         0.00
+10.0%          0.00   0.00   0.00   0.00      0.00        0.00   0.00    0.00    0.00        0.00         0.00
+25.0%          0.00   0.00   0.00   0.00      0.00        0.00   0.00    0.00    0.00        0.00         0.00
+50.0%          0.00   0.00   0.00   0.00      0.00        0.00   0.00    0.00    0.00        0.00         0.00
+75.0%          0.00   0.00   0.00   0.00      0.00        0.00   0.00    0.00    0.00        0.00         0.00
+90.0%          0.00   0.00   0.00   0.00      0.00        0.00   0.41    0.00    0.00        0.00         0.59
+max            2.00   2.00   0.00   0.21      2.00        0.09   2.00    0.63    1.05        0.00         2.00
+Data: stat_SolutionQualitydata007.txt
+
+Category: Solution Quality
+Attribute: PrimalGap
+Filter: no fail
+Absolute performance profile: stat_SolutionQualityprofileabs008.txt
+
+Category: Solution Quality
+Attribute: PrimalGap
+Filter: within 0.1002% of known optimal value and not failed
+       aecp.1  aoa.0  baron  boa.1  dicopt.1  minotaur.0  sbb.1  scip.1  shot.1  virt. best  virt. worst
+count     333    341    349    323       339         328    255     330     350         356          203
+Data: stat_SolutionQualitydata009.txt
+
+Category: Solution Quality
+Attribute: PrimalGap
+Filter: within 1.0% of known optimal value and not failed
+       aecp.1  aoa.0  baron  boa.1  dicopt.1  minotaur.0  sbb.1  scip.1  shot.1  virt. best  virt. worst
+count     337    342    352    323       339         334    258     340     351         357          210
+Data: stat_SolutionQualitydata010.txt
+
+Category: Solution Quality
+Attribute: PrimalGap
+Filter: within 10.0% of known optimal value and not failed
+       aecp.1  aoa.0  baron  boa.1  dicopt.1  minotaur.0  sbb.1  scip.1  shot.1  virt. best  virt. worst
+count     342    347    355    325       344         341    261     349     355         358          217
+Data: stat_SolutionQualitydata011.txt
+
+Category: Solution Quality
+Attribute: DualGap
+Filter: no fail by all solver and known optimal value
+             aecp.1  aoa.0  baron  boa.1  dicopt.1  minotaur.0  sbb.1  scip.1  shot.1  virt. best  virt. worst
+count        252.00 252.00 252.00 252.00    252.00      252.00 252.00  252.00  252.00      252.00       252.00
+arith. mean    0.10   0.02   0.02   0.02      0.07        0.03   0.16    0.12    0.01        0.00         0.38
+arith. std.    0.43   0.17   0.19   0.17      0.33        0.22   0.47    0.43    0.13        0.00         0.73
+min            0.00   0.00   0.00   0.00      0.00        0.00   0.00    0.00    0.00        0.00         0.00
+10.0%          0.00   0.00   0.00   0.00      0.00        0.00   0.00    0.00    0.00        0.00         0.00
+25.0%          0.00   0.00   0.00   0.00      0.00        0.00   0.00    0.00    0.00        0.00         0.00
+50.0%          0.00   0.00   0.00   0.00      0.00        0.00   0.00    0.00    0.00        0.00         0.00
+75.0%          0.00   0.00   0.00   0.00      0.00        0.00   0.00    0.00    0.00        0.00         0.02
+90.0%          0.00   0.00   0.00   0.00      0.00        0.00   0.39    0.00    0.00        0.00         2.00
+max            2.00   1.65   2.00   1.77      2.00        2.00   2.00    2.00    2.00        0.00         2.00
+Data: stat_SolutionQualitydata012.txt
+
+Category: Solution Quality
+Attribute: DualGap
+Filter: time >= 10.0 by at least one solver and no fail for all solvers and known optimal value
+             aecp.1  aoa.0  baron  boa.1  dicopt.1  minotaur.0  sbb.1  scip.1  shot.1  virt. best  virt. worst
+count        182.00 182.00 182.00 182.00    182.00      182.00 182.00  182.00  182.00      182.00       182.00
+arith. mean    0.13   0.03   0.03   0.03      0.06        0.04   0.22    0.17    0.01        0.00         0.49
+arith. std.    0.50   0.20   0.22   0.20      0.29        0.26   0.55    0.49    0.15        0.00         0.79
+min            0.00   0.00   0.00   0.00      0.00        0.00   0.00    0.00    0.00        0.00         0.00
+10.0%          0.00   0.00   0.00   0.00      0.00        0.00   0.00    0.00    0.00        0.00         0.00
+25.0%          0.00   0.00   0.00   0.00      0.00        0.00   0.00    0.00    0.00        0.00         0.00
+50.0%          0.00   0.00   0.00   0.00      0.00        0.00   0.00    0.00    0.00        0.00         0.00
+75.0%          0.00   0.00   0.00   0.00      0.00        0.00   0.00    0.00    0.00        0.00         0.97
+90.0%          0.00   0.00   0.00   0.00      0.00        0.00   1.17    0.51    0.00        0.00         2.00
+max            2.00   1.65   2.00   1.77      2.00        2.00   2.00    2.00    2.00        0.00         2.00
+Data: stat_SolutionQualitydata013.txt
+
+Category: Solution Quality
+Attribute: DualGap
+Filter: dual gap <= 0.1002% and not failed
+       aecp.1  aoa.0  baron  boa.1  dicopt.1  minotaur.0  sbb.1  scip.1  shot.1  virt. best  virt. worst
+count     274    333    316    316       318         315    236     305     341         351          152
+Data: stat_SolutionQualitydata014.txt
+
+Category: Solution Quality
+Attribute: DualGap
+Filter: dual gap <= 1.0% and not failed
+       aecp.1  aoa.0  baron  boa.1  dicopt.1  minotaur.0  sbb.1  scip.1  shot.1  virt. best  virt. worst
+count     317    334    334    316       324         318    250     311     342         352          186
+Data: stat_SolutionQualitydata015.txt
+
+Category: Solution Quality
+Attribute: DualGap
+Filter: dual gap <= 10.0% and not failed
+       aecp.1  aoa.0  baron  boa.1  dicopt.1  minotaur.0  sbb.1  scip.1  shot.1  virt. best  virt. worst
+count     326    336    343    316       331         327    256     319     348         355          191
+Data: stat_SolutionQualitydata016.txt
+
+Category: Solution Quality
+Attribute: PrimalBound
+Filter: no fail by all solver
+       aecp.1  aoa.0  baron  boa.1  dicopt.1  minotaur.0  sbb.1  scip.1  shot.1  virt. best  virt. worst
+count     253    253    253    253       253         253    253     253     253         253          253
+Data: stat_SolutionQualitydata017.txt
+
+Relative to virt. best :
+        aecp.1  aoa.0  baron  boa.1  dicopt.1  minotaur.0  sbb.1  scip.1  shot.1  virt. worst
+count      253    253    253    253       253         253    253     253     253          253
+better       0      0      0      0         0           0      0       0       0            0
+close      249    252    253    251       247         253    224     246     252          217
+worse        4      1      0      2         6           0     29       7       1           36
+Data: stat_SolutionQualityratio017_virt.best.txt
+
+Category: Solution Quality
+Attribute: PrimalBound
+Filter: time >= 10.0 by at least one solver and no fail for all solvers
+       aecp.1  aoa.0  baron  boa.1  dicopt.1  minotaur.0  sbb.1  scip.1  shot.1  virt. best  virt. worst
+count     183    183    183    183       183         183    183     183     183         183          183
+Data: stat_SolutionQualitydata018.txt
+
+Relative to virt. best :
+        aecp.1  aoa.0  baron  boa.1  dicopt.1  minotaur.0  sbb.1  scip.1  shot.1  virt. worst
+count      183    183    183    183       183         183    183     183     183          183
+better       0      0      0      0         0           0      0       0       0            0
+close      179    182    183    181       177         183    154     176     182          147
+worse        4      1      0      2         6           0     29       7       1           36
+Data: stat_SolutionQualityratio018_virt.best.txt
+
+Category: Solution Quality
+Attribute: DualBound
+Filter: no fail by all solver
+       aecp.1  aoa.0  baron  boa.1  dicopt.1  minotaur.0  sbb.1  scip.1  shot.1  virt. best  virt. worst
+count     253    253    253    253       253         253    253     253     253         253          253
+Data: stat_SolutionQualitydata019.txt
+
+Relative to virt. best :
+        aecp.1  aoa.0  baron  boa.1  dicopt.1  minotaur.0  sbb.1  scip.1  shot.1  virt. worst
+count      253    253    253    253       253         253    253     253     253          253
+better       0      0      0      0         0           0      0       0       0            0
+close      240    247    250    246       240         246    221     228     252          192
+worse       13      6      3      7        13           7     32      25       1           61
+Data: stat_SolutionQualityratio019_virt.best.txt
+
+Category: Solution Quality
+Attribute: DualBound
+Filter: time >= 10.0 by at least one solver and no fail for all solvers
+       aecp.1  aoa.0  baron  boa.1  dicopt.1  minotaur.0  sbb.1  scip.1  shot.1  virt. best  virt. worst
+count     183    183    183    183       183         183    183     183     183         183          183
+Data: stat_SolutionQualitydata020.txt
+
+Relative to virt. best :
+        aecp.1  aoa.0  baron  boa.1  dicopt.1  minotaur.0  sbb.1  scip.1  shot.1  virt. worst
+count      183    183    183    183       183         183    183     183     183          183
+better       0      0      0      0         0           0      0       0       0            0
+close      170    177    180    176       173         176    151     158     182          125
+worse       13      6      3      7        10           7     32      25       1           58
+Data: stat_SolutionQualityratio020_virt.best.txt
+

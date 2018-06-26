@@ -1,0 +1,7 @@
+             aecp.1  aoa.0  baron  boa.1  dicopt.1  minotaur.0  sbb.1  scip.1  shot.1  virt. best  virt. worst
+ball_mk4_05     8.0      -      -      -         -           -      -       -       -         8.0            -
+clay0304m         -      -      -      -       8.0           -      -       -       -         8.0            -
+fo9_ar25_1        -      -      -    7.0         -           -      -       -       -         7.0            -
+ibs2              -      -      -      -         -           -      -       -     7.0         7.0            -
+st_miqp2          -      -      -    7.0         -           -      -       -       -         7.0            -
+st_test4          -      -      -    7.0         -           -      -       -       -         7.0            -

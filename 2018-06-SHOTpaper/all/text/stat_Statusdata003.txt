@@ -1,0 +1,5 @@
+                        aecp.1  aoa.0  baron  boa.1  dicopt.1  minotaur.0  sbb.1  scip.1  shot.1  virt. best  virt. worst
+portfol_classical200_2       -      -      -      -         -           -    5.0       -       -         5.0            -
+rsyn0820m02m                 -      -      -      -         -           -    5.0       -       -         5.0            -
+watercontamination0202       -      -    5.0      -         -           -      -       -       -         5.0            -
+watercontamination0303       -      -    5.0      -         -           -      -       -       -         5.0            -

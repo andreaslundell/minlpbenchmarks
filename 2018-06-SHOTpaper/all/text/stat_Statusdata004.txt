@@ -1,0 +1,2 @@
+            aecp.1  aoa.0  baron  boa.1  dicopt.1  minotaur.0  sbb.1  scip.1  shot.1  virt. best  virt. worst
+meanvarxsc       6      -      6      6         6           -      -       -       -         6.0            -

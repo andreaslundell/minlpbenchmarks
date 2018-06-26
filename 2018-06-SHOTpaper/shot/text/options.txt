@@ -1,0 +1,34 @@
+solufile                       []
+writetext                      shot/text/
+ccreltol                       0.001
+timeshift                      10.0
+nodeshift                      100
+refsolver                      []
+nosortsolver                   False
+file                           ['results/SHOT_cpx_s.trc', 'results/SHOT_cpx_m.trc', 'results/SHOT_grb_s.trc', 'results/SHOT_grb_m.trc', 'results/SHOT_cpx_s_nomiqp.trc', 'results/SHOT_grb_s_nomiqp.trc', 'results/SHOT_cpx_s_t1.trc', 'results/SHOT_cpx_m_t1.trc', 'results/SHOT_grb_s_t1.trc', 'results/SHOT_grb_m_t1.trc', 'results/SHOT_cpx_s_ecp.trc', 'results/SHOT_cpx_m_ecp.trc', 'results/SHOT_cpx_m_ecp_nonlp.trc', 'results/SHOT_cpx_m_opt_sp.trc', 'results/SHOT_cpx_m_opt_nosp.trc', '/home/aton3/alundell/Research/minlplib2/minlplib.solu']
+ccabstol                       0.001
+ignoredualbounds               None
+tracefile                      []
+timerelimpr                    0.1
+mintime                        0.01
+gaptol                         0.001002
+writehtml                      shot/html/
+evalgap                        [0.01, 0.1]
+figformat                      png
+filternodes                    None
+failnodes                      None
+novirt                         False
+failtime                       900.0
+bw                             False
+optfileisrunname               False
+eval                           []
+boundrelimpr                   0.1
+ccfeastol                      2e-06
+nocheckinstanceattr            True
+zerogaptol                     1e-09
+instances                      None
+extendedprofiles               False
+numpts                         9000
+setup                          None
+filtertime                     10.0
+ccopttol                       inf

@@ -1,0 +1,42 @@
+Category: Status
+Attribute: Fail
+Filter: instance or solve run marked as failed
+       aecp.1  aoa.0  baron  boa.1  dicopt.1  minotaur.0  sbb.1  scip.1  shot.1  virt. best  virt. worst
+count       6     11      1     37         3          16     64       0       3         113            0
+Data: stat_Statusdata000.txt
+
+Category: Status
+Attribute: TerminationStatus
+Filter: normal termination
+       aecp.1  aoa.0  baron  boa.1  dicopt.1  minotaur.0  sbb.1  scip.1  shot.1  virt. best  virt. worst
+count     313    341    343    322       323         323    259     315     346         357          212
+Data: stat_Statusdata001.txt
+
+Category: Status
+Attribute: TerminationStatus
+Filter: exceeded some limit
+       aecp.1  aoa.0  baron  boa.1  dicopt.1  minotaur.0  sbb.1  scip.1  shot.1  virt. best  virt. worst
+count      51     22     20     12        41          39     46      51      18         107            0
+Data: stat_Statusdata002.txt
+
+Category: Status
+Attribute: TerminationStatus
+Filter: interrupted by user
+       aecp.1  aoa.0  baron  boa.1  dicopt.1  minotaur.0  sbb.1  scip.1  shot.1  virt. best  virt. worst
+count       0      0      2      0         0           0      2       0       0           4            0
+Data: stat_Statusdata003.txt
+
+Category: Status
+Attribute: TerminationStatus
+Filter: capability problem
+       aecp.1  aoa.0  baron  boa.1  dicopt.1  minotaur.0  sbb.1  scip.1  shot.1  virt. best  virt. worst
+count       1      0      1      1         1           0      0       0       0           1            0
+Data: stat_Statusdata004.txt
+
+Category: Status
+Attribute: TerminationStatus
+Filter: error or other problem
+       aecp.1  aoa.0  baron  boa.1  dicopt.1  minotaur.0  sbb.1  scip.1  shot.1  virt. best  virt. worst
+count       1      0      0      3         1           0      0       0       1           6            0
+Data: stat_Statusdata005.txt
+
