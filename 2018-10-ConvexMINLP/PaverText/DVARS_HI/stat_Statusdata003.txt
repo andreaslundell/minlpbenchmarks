@@ -1,0 +1,18 @@
+                  dicopt  muriqui  shot  baron  aoa  knitro  alphaecp  knitrobb  scip  bbb  sbb  mtaurbnb  juniper  lindo  boa  mtaurqg  pavito  antigone  couenne  bhyb  virt. best  virt. worst
+ball_mk2_30            -      8.0     -      -    -       -         -         -     -    -    -         -        -      -    -        -       -         -        -     -         8.0            -
+ball_mk3_10            -        -     -      -    -     7.0       8.0       7.0     -    -    -         -        -      -    -        -       -         -        -     -         7.0            -
+ball_mk3_20            -        -     -      -    -       -         -       8.0     -    -    -         -        -      -    -        -       -         -        -     -         8.0            -
+ball_mk3_30            -        -     -      -    -       -         -       8.0     -    -    -         -        -      -    -        -       -         -        -     -         8.0            -
+ball_mk4_05            -        -     -      -    -     7.0       8.0       7.0     -    -    -         -        -      -    -        -       -         -        -     -         7.0            -
+ball_mk4_10          8.0        -     -      -    -     8.0         -         -     -    -    -         -        -      -    -        -       -         -        -     -         8.0            -
+ball_mk4_15            -        -     -      -    -     8.0         -         -     -    -    -         -        -      -    -        -       -         -        -     -         8.0            -
+cvxnonsep_pcon20       -        -     -      -    -       -       8.0         -     -    -    -         -        -      -    -        -       -         -        -     -         8.0            -
+cvxnonsep_pcon30       -        -     -      -    -       -       8.0         -     -    -    -         -        -      -    -        -       -         -        -     -         8.0            -
+cvxnonsep_psig20       -      8.0     -      -    -       -         -         -     -    -    -         -        -      -    -        -       -         -        -     -         8.0            -
+cvxnonsep_psig30       -      8.0     -      -    -       -         -         -     -    -    -         -        -      -    -        -       -         -        -     -         8.0            -
+cvxnonsep_psig40       -      8.0     -      -    -       -         -         -     -    -    -         -        -      -    -        -       -         -        -     -         8.0            -
+nvs10                  -        -     -      -    -       -         -         -     -    -    -         -        -    7.0    -        -       -         -        -     -         7.0            -
+slay07m                -        -     -      -    -       -       8.0         -     -    -    -         -        -      -    -        -       -         -        -     -         8.0            -
+st_miqp2               -        -     -      -    -       -         -         -     -    -    -         -        -      -  7.0        -       -         -        -   7.0         7.0            -
+st_test4               -        -     -      -    -       -         -         -     -    -    -         -        -      -  7.0        -       -         -        -   7.0         7.0            -
+stockcycle             -        -     -      -    -     8.0         -         -     -    -    -         -        -      -    -        -       -         -        -     -         8.0            -

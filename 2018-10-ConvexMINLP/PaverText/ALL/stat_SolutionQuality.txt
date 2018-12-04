@@ -1,0 +1,229 @@
+Category: Solution Quality
+Attribute: Gap
+Filter: no fail by all solver
+             dicopt  muriqui   shot  baron    aoa  knitro  alphaecp  knitrobb   scip    bbb    sbb  mtaurbnb  juniper  lindo    boa  mtaurqg  pavito  antigone  couenne   bhyb  virt. best  virt. worst
+count        114.00   114.00 114.00 114.00 114.00  114.00    114.00    114.00 114.00 114.00 114.00    114.00   114.00 114.00 114.00   114.00  114.00    114.00   114.00 114.00      114.00       114.00
+arith. mean    0.08     0.02   0.02   0.03   0.03    0.49      0.06      0.48   0.06   0.32   0.41      0.23     0.37   0.37   0.03     0.04    0.05      0.10     0.37   0.05        0.02         0.69
+arith. std.    0.37     0.19   0.19   0.19   0.19    0.85      0.30      0.85   0.27   0.67   0.77      0.58     0.71   0.72   0.19     0.20    0.27      0.37     0.67   0.26        0.19         0.91
+min            0.00     0.00   0.00   0.00   0.00    0.00      0.00      0.00   0.00   0.00   0.00      0.00     0.00   0.00   0.00     0.00    0.00      0.00     0.00   0.00        0.00         0.00
+10.0%          0.00     0.00   0.00   0.00   0.00    0.00      0.00      0.00   0.00   0.00   0.00      0.00     0.00   0.00   0.00     0.00    0.00      0.00     0.00   0.00        0.00         0.00
+25.0%          0.00     0.00   0.00   0.00   0.00    0.00      0.00      0.00   0.00   0.00   0.00      0.00     0.00   0.00   0.00     0.00    0.00      0.00     0.00   0.00        0.00         0.00
+50.0%          0.00     0.00   0.00   0.00   0.00    0.00      0.00      0.00   0.00   0.00   0.00      0.00     0.00   0.00   0.00     0.00    0.00      0.00     0.00   0.00        0.00         0.05
+75.0%          0.00     0.00   0.00   0.00   0.00    0.34      0.00      0.13   0.00   0.00   0.09      0.00     0.05   0.12   0.00     0.00    0.00      0.00     0.42   0.00        0.00         2.00
+90.0%          0.00     0.00   0.00   0.00   0.00    2.00      0.02      2.00   0.11   2.00   2.00      0.71     1.98   2.00   0.02     0.03    0.00      0.11     1.95   0.05        0.00         2.00
+max            2.00     2.00   2.00   2.00   2.00    2.00      2.00      2.00   2.00   2.00   2.00      2.00     2.00   2.00   2.00     2.00    2.00      2.00     2.00   2.00        2.00         2.00
+Data: stat_SolutionQualitydata000.txt
+
+Category: Solution Quality
+Attribute: Gap
+Filter: time >= 10.0 by at least one solver and no fail for all solvers
+             dicopt  muriqui  shot  baron   aoa  knitro  alphaecp  knitrobb  scip   bbb   sbb  mtaurbnb  juniper  lindo   boa  mtaurqg  pavito  antigone  couenne  bhyb  virt. best  virt. worst
+count         96.00    96.00 96.00  96.00 96.00   96.00     96.00     96.00 96.00 96.00 96.00     96.00    96.00  96.00 96.00    96.00   96.00     96.00    96.00 96.00       96.00        96.00
+arith. mean    0.09     0.03  0.03   0.03  0.03    0.58      0.07      0.57  0.07  0.37  0.48      0.27     0.44   0.44  0.04     0.04    0.05      0.12     0.43  0.06        0.02         0.81
+arith. std.    0.40     0.21  0.21   0.21  0.21    0.89      0.33      0.90  0.30  0.71  0.82      0.62     0.76   0.77  0.21     0.22    0.29      0.40     0.72  0.29        0.20         0.94
+min            0.00     0.00  0.00   0.00  0.00    0.00      0.00      0.00  0.00  0.00  0.00      0.00     0.00   0.00  0.00     0.00    0.00      0.00     0.00  0.00        0.00         0.00
+10.0%          0.00     0.00  0.00   0.00  0.00    0.00      0.00      0.00  0.00  0.00  0.00      0.00     0.00   0.00  0.00     0.00    0.00      0.00     0.00  0.00        0.00         0.00
+25.0%          0.00     0.00  0.00   0.00  0.00    0.00      0.00      0.00  0.00  0.00  0.00      0.00     0.00   0.00  0.00     0.00    0.00      0.00     0.00  0.00        0.00         0.00
+50.0%          0.00     0.00  0.00   0.00  0.00    0.00      0.00      0.00  0.00  0.00  0.00      0.00     0.00   0.00  0.00     0.00    0.00      0.00     0.01  0.00        0.00         0.07
+75.0%          0.00     0.00  0.00   0.00  0.00    2.00      0.00      2.00  0.00  0.19  0.51      0.00     0.79   0.44  0.00     0.00    0.00      0.00     0.60  0.00        0.00         2.00
+90.0%          0.01     0.00  0.00   0.00  0.00    2.00      0.03      2.00  0.15  2.00  2.00      1.63     2.00   2.00  0.05     0.04    0.02      0.12     2.00  0.10        0.00         2.00
+max            2.00     2.00  2.00   2.00  2.00    2.00      2.00      2.00  2.00  2.00  2.00      2.00     2.00   2.00  2.00     2.00    2.00      2.00     2.00  2.00        2.00         2.00
+Data: stat_SolutionQualitydata001.txt
+
+Category: Solution Quality
+Attribute: Gap
+Filter: no fail
+Absolute performance profile: stat_SolutionQualityprofileabs002.txt
+
+Category: Solution Quality
+Attribute: Gap
+Filter: gap <= 0.1002% and not failed
+       dicopt  muriqui  shot  baron  aoa  knitro  alphaecp  knitrobb  scip  bbb  sbb  mtaurbnb  juniper  lindo  boa  mtaurqg  pavito  antigone  couenne  bhyb  virt. best  virt. worst
+count     292      301   312    306  310     198       276       223   295  233  223       258      189    163  292      284     273       236      155   228         326           39
+Data: stat_SolutionQualitydata003.txt
+
+Category: Solution Quality
+Attribute: Gap
+Filter: gap <= 1.0% and not failed
+       dicopt  muriqui  shot  baron  aoa  knitro  alphaecp  knitrobb  scip  bbb  sbb  mtaurbnb  juniper  lindo  boa  mtaurqg  pavito  antigone  couenne  bhyb  virt. best  virt. worst
+count     298      301   315    308  310     206       282       230   296  241  223       263      191    167  294      286     276       252      156   235         327           47
+Data: stat_SolutionQualitydata004.txt
+
+Category: Solution Quality
+Attribute: Gap
+Filter: gap <= 10.0% and not failed
+       dicopt  muriqui  shot  baron  aoa  knitro  alphaecp  knitrobb  scip  bbb  sbb  mtaurbnb  juniper  lindo  boa  mtaurqg  pavito  antigone  couenne  bhyb  virt. best  virt. worst
+count     302      306   319    315  313     212       293       236   302  249  226       266      199    170  300      295     285       260      177   251         330           66
+Data: stat_SolutionQualitydata005.txt
+
+Category: Solution Quality
+Attribute: PrimalGap
+Filter: no fail by all solver and known optimal value
+             dicopt  muriqui   shot  baron    aoa  knitro  alphaecp  knitrobb   scip    bbb    sbb  mtaurbnb  juniper  lindo    boa  mtaurqg  pavito  antigone  couenne   bhyb  virt. best  virt. worst
+count        113.00   113.00 113.00 113.00 113.00  113.00    113.00    113.00 113.00 113.00 113.00    113.00   113.00 113.00 113.00   113.00  113.00    113.00   113.00 113.00      113.00       113.00
+arith. mean    0.01     0.00   0.00   0.00   0.00    0.44      0.01      0.46   0.00   0.23   0.21      0.18     0.24   0.20   0.00     0.01    0.02      0.01     0.09   0.00        0.00         0.54
+arith. std.    0.06     0.00   0.00   0.01   0.01    0.83      0.06      0.84   0.01   0.62   0.53      0.54     0.54   0.55   0.00     0.03    0.19      0.06     0.31   0.02        0.00         0.86
+min            0.00     0.00   0.00   0.00   0.00    0.00      0.00      0.00   0.00   0.00   0.00      0.00     0.00   0.00   0.00     0.00    0.00      0.00     0.00   0.00        0.00         0.00
+10.0%          0.00     0.00   0.00   0.00   0.00    0.00      0.00      0.00   0.00   0.00   0.00      0.00     0.00   0.00   0.00     0.00    0.00      0.00     0.00   0.00        0.00         0.00
+25.0%          0.00     0.00   0.00   0.00   0.00    0.00      0.00      0.00   0.00   0.00   0.00      0.00     0.00   0.00   0.00     0.00    0.00      0.00     0.00   0.00        0.00         0.00
+50.0%          0.00     0.00   0.00   0.00   0.00    0.00      0.00      0.00   0.00   0.00   0.00      0.00     0.00   0.00   0.00     0.00    0.00      0.00     0.00   0.00        0.00         0.00
+75.0%          0.00     0.00   0.00   0.00   0.00    0.03      0.00      0.00   0.00   0.00   0.00      0.00     0.00   0.00   0.00     0.00    0.00      0.00     0.00   0.00        0.00         1.56
+90.0%          0.00     0.00   0.00   0.00   0.00    2.00      0.00      2.00   0.00   1.71   0.69      0.20     0.99   0.78   0.00     0.00    0.00      0.00     0.24   0.00        0.00         2.00
+max            0.59     0.03   0.03   0.07   0.05    2.00      0.63      2.00   0.08   2.00   2.00      2.00     2.00   2.00   0.04     0.30    2.00      0.57     2.00   0.12        0.00         2.00
+Data: stat_SolutionQualitydata006.txt
+
+Category: Solution Quality
+Attribute: PrimalGap
+Filter: time >= 10.0 by at least one solver and no fail for all solvers and known optimal value
+             dicopt  muriqui  shot  baron   aoa  knitro  alphaecp  knitrobb  scip   bbb   sbb  mtaurbnb  juniper  lindo   boa  mtaurqg  pavito  antigone  couenne  bhyb  virt. best  virt. worst
+count         95.00    95.00 95.00  95.00 95.00   95.00     95.00     95.00 95.00 95.00 95.00     95.00    95.00  95.00 95.00    95.00   95.00     95.00    95.00 95.00       95.00        95.00
+arith. mean    0.01     0.00  0.00   0.00  0.00    0.53      0.01      0.55  0.00  0.28  0.25      0.21     0.28   0.24  0.00     0.01    0.02      0.01     0.10  0.00        0.00         0.64
+arith. std.    0.06     0.00  0.00   0.01  0.01    0.88      0.07      0.90  0.01  0.66  0.56      0.59     0.58   0.59  0.00     0.04    0.21      0.07     0.34  0.02        0.00         0.90
+min            0.00     0.00  0.00   0.00  0.00    0.00      0.00      0.00  0.00  0.00  0.00      0.00     0.00   0.00  0.00     0.00    0.00      0.00     0.00  0.00        0.00         0.00
+10.0%          0.00     0.00  0.00   0.00  0.00    0.00      0.00      0.00  0.00  0.00  0.00      0.00     0.00   0.00  0.00     0.00    0.00      0.00     0.00  0.00        0.00         0.00
+25.0%          0.00     0.00  0.00   0.00  0.00    0.00      0.00      0.00  0.00  0.00  0.00      0.00     0.00   0.00  0.00     0.00    0.00      0.00     0.00  0.00        0.00         0.00
+50.0%          0.00     0.00  0.00   0.00  0.00    0.00      0.00      0.00  0.00  0.00  0.00      0.00     0.00   0.00  0.00     0.00    0.00      0.00     0.00  0.00        0.00         0.01
+75.0%          0.00     0.00  0.00   0.00  0.00    1.78      0.00      2.00  0.00  0.00  0.03      0.00     0.34   0.00  0.00     0.00    0.00      0.00     0.00  0.00        0.00         2.00
+90.0%          0.00     0.00  0.00   0.00  0.00    2.00      0.00      2.00  0.00  2.00  0.89      0.51     1.10   1.21  0.00     0.00    0.00      0.00     0.23  0.00        0.00         2.00
+max            0.59     0.03  0.03   0.07  0.05    2.00      0.63      2.00  0.08  2.00  2.00      2.00     2.00   2.00  0.04     0.30    2.00      0.57     2.00  0.12        0.00         2.00
+Data: stat_SolutionQualitydata007.txt
+
+Category: Solution Quality
+Attribute: PrimalGap
+Filter: no fail
+Absolute performance profile: stat_SolutionQualityprofileabs008.txt
+
+Category: Solution Quality
+Attribute: PrimalGap
+Filter: within 0.1002% of known optimal value and not failed
+       dicopt  muriqui  shot  baron  aoa  knitro  alphaecp  knitrobb  scip  bbb  sbb  mtaurbnb  juniper  lindo  boa  mtaurqg  pavito  antigone  couenne  bhyb  virt. best  virt. worst
+count     308      309   317    315  318     219       300       231   303  250  224       261      191    181  309      298     289       275      173   243         327           53
+Data: stat_SolutionQualitydata009.txt
+
+Category: Solution Quality
+Attribute: PrimalGap
+Filter: within 1.0% of known optimal value and not failed
+       dicopt  muriqui  shot  baron  aoa  knitro  alphaecp  knitrobb  scip  bbb  sbb  mtaurbnb  juniper  lindo  boa  mtaurqg  pavito  antigone  couenne  bhyb  virt. best  virt. worst
+count     309      312   320    317  319     220       303       232   311  260  227       267      197    183  311      305     291       284      201   265         328           67
+Data: stat_SolutionQualitydata010.txt
+
+Category: Solution Quality
+Attribute: PrimalGap
+Filter: within 10.0% of known optimal value and not failed
+       dicopt  muriqui  shot  baron  aoa  knitro  alphaecp  knitrobb  scip  bbb  sbb  mtaurbnb  juniper  lindo  boa  mtaurqg  pavito  antigone  couenne  bhyb  virt. best  virt. worst
+count     316      319   325    324  325     230       309       241   318  280  234       277      207    191  318      310     300       303      241   292         328           74
+Data: stat_SolutionQualitydata011.txt
+
+Category: Solution Quality
+Attribute: DualGap
+Filter: no fail by all solver and known optimal value
+             dicopt  muriqui   shot  baron    aoa  knitro  alphaecp  knitrobb   scip    bbb    sbb  mtaurbnb  juniper  lindo    boa  mtaurqg  pavito  antigone  couenne   bhyb  virt. best  virt. worst
+count        113.00   113.00 113.00 113.00 113.00  113.00    113.00    113.00 113.00 113.00 113.00    113.00   113.00 113.00 113.00   113.00  113.00    113.00   113.00 113.00      113.00       113.00
+arith. mean    0.06     0.01   0.00   0.01   0.01    0.29      0.03      0.22   0.04   0.11   0.30      0.19     0.14   0.31   0.01     0.01    0.01      0.07     0.31   0.03        0.00         0.51
+arith. std.    0.32     0.03   0.04   0.03   0.04    0.58      0.20      0.49   0.20   0.22   0.62      0.54     0.36   0.63   0.04     0.05    0.04      0.29     0.60   0.19        0.01         0.79
+min            0.00     0.00   0.00   0.00   0.00    0.00      0.00      0.00   0.00   0.00   0.00      0.00     0.00   0.00   0.00     0.00    0.00      0.00     0.00   0.00        0.00         0.00
+10.0%          0.00     0.00   0.00   0.00   0.00    0.00      0.00      0.00   0.00   0.00   0.00      0.00     0.00   0.00   0.00     0.00    0.00      0.00     0.00   0.00        0.00         0.00
+25.0%          0.00     0.00   0.00   0.00   0.00    0.00      0.00      0.00   0.00   0.00   0.00      0.00     0.00   0.00   0.00     0.00    0.00      0.00     0.00   0.00        0.00         0.00
+50.0%          0.00     0.00   0.00   0.00   0.00    0.00      0.00      0.00   0.00   0.00   0.00      0.00     0.00   0.00   0.00     0.00    0.00      0.00     0.00   0.00        0.00         0.03
+75.0%          0.00     0.00   0.00   0.00   0.00    0.13      0.00      0.00   0.00   0.00   0.01      0.00     0.03   0.08   0.00     0.00    0.00      0.00     0.12   0.00        0.00         0.82
+90.0%          0.00     0.00   0.00   0.00   0.00    1.32      0.01      1.01   0.07   0.42   1.38      0.43     0.47   1.41   0.00     0.02    0.00      0.11     1.31   0.03        0.00         2.00
+max            2.00     0.21   0.37   0.26   0.33    2.00      2.00      2.00   2.00   0.97   2.00      2.00     2.00   2.00   0.21     0.39    0.36      2.00     2.00   1.94        0.10         2.00
+Data: stat_SolutionQualitydata012.txt
+
+Category: Solution Quality
+Attribute: DualGap
+Filter: time >= 10.0 by at least one solver and no fail for all solvers and known optimal value
+             dicopt  muriqui  shot  baron   aoa  knitro  alphaecp  knitrobb  scip   bbb   sbb  mtaurbnb  juniper  lindo   boa  mtaurqg  pavito  antigone  couenne  bhyb  virt. best  virt. worst
+count         95.00    95.00 95.00  95.00 95.00   95.00     95.00     95.00 95.00 95.00 95.00     95.00    95.00  95.00 95.00    95.00   95.00     95.00    95.00 95.00       95.00        95.00
+arith. mean    0.07     0.01  0.01   0.01  0.01    0.35      0.04      0.26  0.05  0.13  0.36      0.23     0.17   0.36  0.01     0.02    0.01      0.08     0.36  0.03        0.00         0.61
+arith. std.    0.35     0.03  0.04   0.03  0.04    0.62      0.22      0.52  0.22  0.24  0.66      0.59     0.38   0.67  0.04     0.05    0.05      0.32     0.64  0.20        0.01         0.83
+min            0.00     0.00  0.00   0.00  0.00    0.00      0.00      0.00  0.00  0.00  0.00      0.00     0.00   0.00  0.00     0.00    0.00      0.00     0.00  0.00        0.00         0.00
+10.0%          0.00     0.00  0.00   0.00  0.00    0.00      0.00      0.00  0.00  0.00  0.00      0.00     0.00   0.00  0.00     0.00    0.00      0.00     0.00  0.00        0.00         0.00
+25.0%          0.00     0.00  0.00   0.00  0.00    0.00      0.00      0.00  0.00  0.00  0.00      0.00     0.00   0.00  0.00     0.00    0.00      0.00     0.00  0.00        0.00         0.00
+50.0%          0.00     0.00  0.00   0.00  0.00    0.00      0.00      0.00  0.00  0.00  0.00      0.00     0.00   0.00  0.00     0.00    0.00      0.00     0.00  0.00        0.00         0.06
+75.0%          0.00     0.00  0.00   0.00  0.00    0.46      0.00      0.15  0.00  0.17  0.30      0.00     0.18   0.39  0.00     0.00    0.00      0.00     0.47  0.00        0.00         1.31
+90.0%          0.00     0.00  0.00   0.00  0.00    1.44      0.03      1.04  0.13  0.49  1.46      0.45     0.56   1.66  0.04     0.03    0.00      0.12     1.69  0.05        0.00         2.00
+max            2.00     0.21  0.37   0.26  0.33    2.00      2.00      2.00  2.00  0.97  2.00      2.00     2.00   2.00  0.21     0.39    0.36      2.00     2.00  1.94        0.10         2.00
+Data: stat_SolutionQualitydata013.txt
+
+Category: Solution Quality
+Attribute: DualGap
+Filter: dual gap <= 0.1002% and not failed
+       dicopt  muriqui  shot  baron  aoa  knitro  alphaecp  knitrobb  scip  bbb  sbb  mtaurbnb  juniper  lindo  boa  mtaurqg  pavito  antigone  couenne  bhyb  virt. best  virt. worst
+count     291      302   311    305  309     198       275       226   294  238  221       262      193    161  293      284     276       235      156   233         322           41
+Data: stat_SolutionQualitydata014.txt
+
+Category: Solution Quality
+Attribute: DualGap
+Filter: dual gap <= 1.0% and not failed
+       dicopt  muriqui  shot  baron  aoa  knitro  alphaecp  knitrobb  scip  bbb  sbb  mtaurbnb  juniper  lindo  boa  mtaurqg  pavito  antigone  couenne  bhyb  virt. best  virt. worst
+count     297      302   314    306  309     210       281       233   295  241  223       263      195    165  296      288     280       252      158   242         322           50
+Data: stat_SolutionQualitydata015.txt
+
+Category: Solution Quality
+Attribute: DualGap
+Filter: dual gap <= 10.0% and not failed
+       dicopt  muriqui  shot  baron  aoa  knitro  alphaecp  knitrobb  scip  bbb  sbb  mtaurbnb  juniper  lindo  boa  mtaurqg  pavito  antigone  couenne  bhyb  virt. best  virt. worst
+count     302      304   315    313  310     217       290       241   300  248  227       266      207    170  300      296     284       259      180   253         325           72
+Data: stat_SolutionQualitydata016.txt
+
+Category: Solution Quality
+Attribute: PrimalBound
+Filter: no fail by all solver
+       dicopt  muriqui  shot  baron  aoa  knitro  alphaecp  knitrobb  scip  bbb  sbb  mtaurbnb  juniper  lindo  boa  mtaurqg  pavito  antigone  couenne  bhyb  virt. best  virt. worst
+count     114      114   114    114  114     114       114       114   114  114  114       114      114    114  114      114     114       114      114   114         114          114
+Data: stat_SolutionQualitydata017.txt
+
+Relative to virt. best :
+        dicopt  muriqui  shot  baron  aoa  knitro  alphaecp  knitrobb  scip  bbb  sbb  mtaurbnb  juniper  lindo  boa  mtaurqg  pavito  antigone  couenne  bhyb  virt. worst
+count      114      114   114    114  114     114       114       114   114  114  114       114      114    114  114      114     114       114      114   114          114
+better       0        0     0      0    0       0         0         0     0    0    0         0        0      0    0        0       0         0        0     0            0
+close      112      113   113    113  113      88       113        86   113   93   90        98       88     95  113      112     111       111       99   111           78
+worse        1        0     0      0    0      25         0        27     0   20   23        15       25     18    0        1       2         2       14     2           35
+Data: stat_SolutionQualityratio017_virt.best.txt
+
+Category: Solution Quality
+Attribute: PrimalBound
+Filter: time >= 10.0 by at least one solver and no fail for all solvers
+       dicopt  muriqui  shot  baron  aoa  knitro  alphaecp  knitrobb  scip  bbb  sbb  mtaurbnb  juniper  lindo  boa  mtaurqg  pavito  antigone  couenne  bhyb  virt. best  virt. worst
+count      96       96    96     96   96      96        96        96    96   96   96        96       96     96   96       96      96        96       96    96          96           96
+Data: stat_SolutionQualitydata018.txt
+
+Relative to virt. best :
+        dicopt  muriqui  shot  baron  aoa  knitro  alphaecp  knitrobb  scip  bbb  sbb  mtaurbnb  juniper  lindo  boa  mtaurqg  pavito  antigone  couenne  bhyb  virt. worst
+count       96       96    96     96   96      96        96        96    96   96   96        96       96     96   96       96      96        96       96    96           96
+better       0        0     0      0    0       0         0         0     0    0    0         0        0      0    0        0       0         0        0     0            0
+close       94       95    95     95   95      70        95        68    95   75   72        80       70     77   95       94      93        93       83    93           62
+worse        1        0     0      0    0      25         0        27     0   20   23        15       25     18    0        1       2         2       12     2           33
+Data: stat_SolutionQualityratio018_virt.best.txt
+
+Category: Solution Quality
+Attribute: DualBound
+Filter: no fail by all solver
+       dicopt  muriqui  shot  baron  aoa  knitro  alphaecp  knitrobb  scip  bbb  sbb  mtaurbnb  juniper  lindo  boa  mtaurqg  pavito  antigone  couenne  bhyb  virt. best  virt. worst
+count     114      114   114    114  114     114       114       114   114  114  114       104      114    114  114      113     114       114      114   114         114          104
+Data: stat_SolutionQualitydata019.txt
+
+Relative to virt. best :
+        dicopt  muriqui  shot  baron  aoa  knitro  alphaecp  knitrobb  scip  bbb  sbb  mtaurbnb  juniper  lindo  boa  mtaurqg  pavito  antigone  couenne  bhyb  virt. worst
+count      114      114   114    114  114     114       114       114   114  114  114       104      114    114  114      113     114       114      114   114          104
+better       0        0     0      0    0       0         0         0     0    0    0         0        0      0    0        0       0         0        0     0            0
+close      109      111   113    112  111      87       109        90   104   90   87        95       88     87  109      109     110       103       85   108           73
+worse        5        3     1      2    3      27         5        24    10   24   27         9       26     27    5        4       4        11       29     6           31
+Data: stat_SolutionQualityratio019_virt.best.txt
+
+Category: Solution Quality
+Attribute: DualBound
+Filter: time >= 10.0 by at least one solver and no fail for all solvers
+       dicopt  muriqui  shot  baron  aoa  knitro  alphaecp  knitrobb  scip  bbb  sbb  mtaurbnb  juniper  lindo  boa  mtaurqg  pavito  antigone  couenne  bhyb  virt. best  virt. worst
+count      96       96    96     96   96      96        96        96    96   96   96        86       96     96   96       95      96        96       96    96          96           86
+Data: stat_SolutionQualitydata020.txt
+
+Relative to virt. best :
+        dicopt  muriqui  shot  baron  aoa  knitro  alphaecp  knitrobb  scip  bbb  sbb  mtaurbnb  juniper  lindo  boa  mtaurqg  pavito  antigone  couenne  bhyb  virt. worst
+count       96       96    96     96   96      96        96        96    96   96   96        86       96     96   96       95      96        96       96    96           86
+better       0        0     0      0    0       0         0         0     0    0    0         0        0      0    0        0       0         0        0     0            0
+close       91       93    95     94   93      69        91        72    86   72   69        77       70     69   91       91      92        85       67    90           55
+worse        5        3     1      2    3      27         5        24    10   24   27         9       26     27    5        4       4        11       29     6           31
+Data: stat_SolutionQualityratio020_virt.best.txt
+

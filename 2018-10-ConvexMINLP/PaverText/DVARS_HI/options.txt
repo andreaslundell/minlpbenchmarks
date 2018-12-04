@@ -1,0 +1,34 @@
+solufile                       []
+writetext                      reports_text/reportDVARS_HI/
+ccreltol                       0.001
+timeshift                      10.0
+nodeshift                      100
+refsolver                      []
+nosortsolver                   True
+file                           ['trc/alphaecpDVARS_HI.trc', 'trc/aoaDVARS_HI.trc', 'trc/antigoneDVARS_HI.trc', 'trc/baronDVARS_HI.trc', 'trc/bbbDVARS_HI.trc', 'trc/bhybDVARS_HI.trc', 'trc/boaDVARS_HI.trc', 'trc/couenneDVARS_HI.trc', 'trc/dicoptDVARS_HI.trc', 'trc/knitroDVARS_HI.trc', 'trc/knitrobbDVARS_HI.trc', 'trc/juniperDVARS_HI.trc', 'trc/lindoDVARS_HI.trc', 'trc/mtaurbnbDVARS_HI.trc', 'trc/mtaurqgDVARS_HI.trc', 'trc/muriquiDVARS_HI.trc', 'trc/pavitoDVARS_HI.trc', 'trc/sbbDVARS_HI.trc', 'trc/scipDVARS_HI.trc', 'trc/shotDVARS_HI.trc', '/home/aton3/alundell/Research/minlplib2/minlplib.solu']
+ccabstol                       0.001
+ignoredualbounds               None
+tracefile                      []
+timerelimpr                    0.1
+mintime                        0.01
+gaptol                         0.001002
+writehtml                      reports_html/reportDVARS_HI/
+evalgap                        [0.01, 0.1]
+figformat                      png
+filternodes                    None
+failnodes                      None
+novirt                         False
+failtime                       900.0
+bw                             False
+optfileisrunname               True
+eval                           []
+boundrelimpr                   0.1
+ccfeastol                      2e-06
+nocheckinstanceattr            True
+zerogaptol                     1e-09
+instances                      None
+extendedprofiles               False
+numpts                         9000
+setup                          None
+filtertime                     10.0
+ccopttol                       inf

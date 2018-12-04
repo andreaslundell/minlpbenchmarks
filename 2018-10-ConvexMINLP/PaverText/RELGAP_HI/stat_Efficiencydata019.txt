@@ -1,0 +1,6 @@
+           dicopt  muriqui  shot  baron  aoa  knitro  alphaecp  knitrobb  scip    bbb    sbb  mtaurbnb  juniper  lindo  boa  mtaurqg  pavito  antigone  couenne  bhyb  virt. best  virt. worst
+clay0203m       -        -    59     73    -     417         -       245    15    249    322         1        -     47    1        1       -         7      315    40         1.0            -
+clay0204m       -        -   144      9    -    1235         -      1695   445   1501   2561         1        -    829    1        1       -         1     1023   672         1.0            -
+clay0305m       -        -  4252     11    -   69904         -     17228  6021  18689  34883         1        -  11216    1        1       -         2    15701  7001         1.0            -
+m3              -        -    42      1    -      51         -        55    11     69     52         1        -     36    1        1       -         1       22    18         1.0            -
+syn20m          -        -     1      1    -     842         -       727     1    596    694         1        -     46    1        1       -         3     1026    24         1.0            -
