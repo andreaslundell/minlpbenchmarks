@@ -10,7 +10,7 @@ The PAVER reports used in the paper: "A Review and Comparison of Solvers for Con
 3. Problems with a [high](https://andreaslundell.github.io/minlpbenchmarks/2018-10-ConvexMINLP/PaverReports/DVARS_HI)/[low](https://andreaslundell.github.io/minlpbenchmarks/2018-10-ConvexMINLP/PaverReports/DVARS_LO) level of discrete variables.
 4. Problems with a [high](https://andreaslundell.github.io/minlpbenchmarks/2018-10-ConvexMINLP/PaverReports/NLVARS_HI)/[low](https://andreaslundell.github.io/minlpbenchmarks/2018-10-ConvexMINLP/PaverReports/NLVARS_LO) level of nonlinearity.
 
-The reports can also be downloaded from the [repository](https://github.com/andreaslundell/minlpbenchmarks/tree/gh-pages/2018-10-ConvexMINLP).
+The reports can also be downloaded from the [repository](https://github.com/andreaslundell/minlpbenchmarks/tree/gh-pages/2018-10-ConvexMINLP). The logs can be downloaded [here](https://github.com/andreaslundell/minlpbenchmarks/releases/tag/v1.0).
 
 ### The Supporting Hyperplane Optimization Toolkit
 #### A Polyhedral Outer Approximation Based Convex MINLP Solver Utilizing a Single Branching Tree Approach
