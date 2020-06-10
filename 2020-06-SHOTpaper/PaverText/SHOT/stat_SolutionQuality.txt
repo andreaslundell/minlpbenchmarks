@@ -1,0 +1,229 @@
+Category: Solution Quality
+Attribute: Gap
+Filter: no fail by all solver
+             Scb2804m  Scp2804m  Scp2804nq  Scp2804nqm  Scp2804nqme  Scp2804nqmopt  Scp2804nqmoptsp  Scp2804nqmsp  Scp2804nref  Scp2804s  Scp2804st1  Scp2804st4  Sgb2804s  virt. best  virt. worst
+count          379.00    379.00     379.00      379.00       379.00         379.00           379.00        379.00       379.00    379.00      379.00      379.00    379.00      379.00       379.00
+arith. mean      0.15      0.04       0.10        0.08         0.08           0.10             0.16          0.09         0.13      0.04        0.04        0.05      0.07        0.03         0.32
+arith. std.      0.50      0.28       0.42        0.36         0.37           0.41             0.55          0.39         0.46      0.28        0.26        0.30      0.37        0.22         0.71
+min              0.00      0.00       0.00        0.00         0.00           0.00             0.00          0.00         0.00      0.00        0.00        0.00      0.00        0.00         0.00
+10.0%            0.00      0.00       0.00        0.00         0.00           0.00             0.00          0.00         0.00      0.00        0.00        0.00      0.00        0.00         0.00
+25.0%            0.00      0.00       0.00        0.00         0.00           0.00             0.00          0.00         0.00      0.00        0.00        0.00      0.00        0.00         0.00
+50.0%            0.00      0.00       0.00        0.00         0.00           0.00             0.00          0.00         0.00      0.00        0.00        0.00      0.00        0.00         0.00
+75.0%            0.00      0.00       0.00        0.00         0.00           0.00             0.00          0.00         0.00      0.00        0.00        0.00      0.00        0.00         0.00
+90.0%            0.12      0.00       0.00        0.00         0.00           0.00             0.01          0.00         0.06      0.00        0.00        0.00      0.00        0.00         2.00
+max              2.00      2.00       2.00        2.00         2.00           2.00             2.00          2.00         2.00      2.00        2.00        2.00      2.00        2.00         2.00
+Data: stat_SolutionQualitydata000.txt
+
+Category: Solution Quality
+Attribute: Gap
+Filter: time >= 10.0 by at least one solver and no fail for all solvers
+             Scb2804m  Scp2804m  Scp2804nq  Scp2804nqm  Scp2804nqme  Scp2804nqmopt  Scp2804nqmoptsp  Scp2804nqmsp  Scp2804nref  Scp2804s  Scp2804st1  Scp2804st4  Sgb2804s  virt. best  virt. worst
+count          154.00    154.00     154.00      154.00       154.00         154.00           154.00        154.00       154.00    154.00      154.00      154.00    154.00      154.00       154.00
+arith. mean      0.31      0.11       0.20        0.17         0.19           0.19             0.35          0.19         0.29      0.11        0.10        0.12      0.15        0.07         0.64
+arith. std.      0.69      0.44       0.58        0.50         0.54           0.55             0.76          0.53         0.64      0.44        0.40        0.46      0.50        0.33         0.90
+min              0.00      0.00       0.00        0.00         0.00           0.00             0.00          0.00         0.00      0.00        0.00        0.00      0.00        0.00         0.00
+10.0%            0.00      0.00       0.00        0.00         0.00           0.00             0.00          0.00         0.00      0.00        0.00        0.00      0.00        0.00         0.00
+25.0%            0.00      0.00       0.00        0.00         0.00           0.00             0.00          0.00         0.00      0.00        0.00        0.00      0.00        0.00         0.00
+50.0%            0.00      0.00       0.00        0.00         0.00           0.00             0.00          0.00         0.00      0.00        0.00        0.00      0.00        0.00         0.00
+75.0%            0.08      0.00       0.00        0.00         0.00           0.00             0.00          0.00         0.01      0.00        0.00        0.00      0.00        0.00         2.00
+90.0%            2.00      0.01       0.67        0.46         0.71           0.36             2.00          0.67         1.64      0.01        0.01        0.02      0.05        0.00         2.00
+max              2.00      2.00       2.00        2.00         2.00           2.00             2.00          2.00         2.00      2.00        2.00        2.00      2.00        2.00         2.00
+Data: stat_SolutionQualitydata001.txt
+
+Category: Solution Quality
+Attribute: Gap
+Filter: no fail
+Absolute performance profile: stat_SolutionQualityprofileabs002.txt
+
+Category: Solution Quality
+Attribute: Gap
+Filter: gap <= 0.102% and not failed
+       Scb2804m  Scp2804m  Scp2804nq  Scp2804nqm  Scp2804nqme  Scp2804nqmopt  Scp2804nqmoptsp  Scp2804nqmsp  Scp2804nref  Scp2804s  Scp2804st1  Scp2804st4  Sgb2804s  virt. best  virt. worst
+count       329       379        363         366          365            365              357           365          344       379         371         377       372         394          274
+Data: stat_SolutionQualitydata003.txt
+
+Category: Solution Quality
+Attribute: Gap
+Filter: gap <= 1.0% and not failed
+       Scb2804m  Scp2804m  Scp2804nq  Scp2804nqm  Scp2804nqme  Scp2804nqmopt  Scp2804nqmoptsp  Scp2804nqmsp  Scp2804nref  Scp2804s  Scp2804st1  Scp2804st4  Sgb2804s  virt. best  virt. worst
+count       330       389        369         372          371            368              363           369          351       389         383         384       378         396          288
+Data: stat_SolutionQualitydata004.txt
+
+Category: Solution Quality
+Attribute: Gap
+Filter: gap <= 10.0% and not failed
+       Scb2804m  Scp2804m  Scp2804nq  Scp2804nqm  Scp2804nqme  Scp2804nqmopt  Scp2804nqmoptsp  Scp2804nqmsp  Scp2804nref  Scp2804s  Scp2804st1  Scp2804st4  Sgb2804s  virt. best  virt. worst
+count       341       393        375         376          376            372              366           374          357       392         395         392       386         398          303
+Data: stat_SolutionQualitydata005.txt
+
+Category: Solution Quality
+Attribute: PrimalGap
+Filter: no fail by all solver and known optimal value
+             Scb2804m  Scp2804m  Scp2804nq  Scp2804nqm  Scp2804nqme  Scp2804nqmopt  Scp2804nqmoptsp  Scp2804nqmsp  Scp2804nref  Scp2804s  Scp2804st1  Scp2804st4  Sgb2804s  virt. best  virt. worst
+count          300.00    300.00     300.00      300.00       300.00         300.00           300.00        300.00       300.00    300.00      300.00      300.00    300.00      300.00       300.00
+arith. mean      0.05      0.00       0.02        0.01         0.03           0.04             0.09          0.02         0.04      0.00        0.00        0.00      0.03        0.00         0.15
+arith. std.      0.28      0.00       0.21        0.08         0.21           0.28             0.41          0.15         0.24      0.00        0.01        0.02      0.23        0.00         0.52
+min              0.00      0.00       0.00        0.00         0.00           0.00             0.00          0.00         0.00      0.00        0.00        0.00      0.00        0.00         0.00
+10.0%            0.00      0.00       0.00        0.00         0.00           0.00             0.00          0.00         0.00      0.00        0.00        0.00      0.00        0.00         0.00
+25.0%            0.00      0.00       0.00        0.00         0.00           0.00             0.00          0.00         0.00      0.00        0.00        0.00      0.00        0.00         0.00
+50.0%            0.00      0.00       0.00        0.00         0.00           0.00             0.00          0.00         0.00      0.00        0.00        0.00      0.00        0.00         0.00
+75.0%            0.00      0.00       0.00        0.00         0.00           0.00             0.00          0.00         0.00      0.00        0.00        0.00      0.00        0.00         0.00
+90.0%            0.00      0.00       0.00        0.00         0.00           0.00             0.00          0.00         0.00      0.00        0.00        0.00      0.00        0.00         0.06
+max              2.00      0.03       2.00        1.03         2.00           2.00             2.00          2.00         2.00      0.00        0.09        0.36      2.00        0.00         2.00
+Data: stat_SolutionQualitydata006.txt
+
+Category: Solution Quality
+Attribute: PrimalGap
+Filter: time >= 10.0 by at least one solver and no fail for all solvers and known optimal value
+             Scb2804m  Scp2804m  Scp2804nq  Scp2804nqm  Scp2804nqme  Scp2804nqmopt  Scp2804nqmoptsp  Scp2804nqmsp  Scp2804nref  Scp2804s  Scp2804st1  Scp2804st4  Sgb2804s  virt. best  virt. worst
+count          107.00    107.00     107.00      107.00       107.00         107.00           107.00        107.00       107.00    107.00      107.00      107.00    107.00      107.00       107.00
+arith. mean      0.11      0.00       0.02        0.02         0.06           0.05             0.17          0.05         0.09      0.00        0.00        0.00      0.02        0.00         0.26
+arith. std.      0.45      0.00       0.19        0.13         0.30           0.27             0.56          0.24         0.35      0.00        0.00        0.00      0.19        0.00         0.65
+min              0.00      0.00       0.00        0.00         0.00           0.00             0.00          0.00         0.00      0.00        0.00        0.00      0.00        0.00         0.00
+10.0%            0.00      0.00       0.00        0.00         0.00           0.00             0.00          0.00         0.00      0.00        0.00        0.00      0.00        0.00         0.00
+25.0%            0.00      0.00       0.00        0.00         0.00           0.00             0.00          0.00         0.00      0.00        0.00        0.00      0.00        0.00         0.00
+50.0%            0.00      0.00       0.00        0.00         0.00           0.00             0.00          0.00         0.00      0.00        0.00        0.00      0.00        0.00         0.00
+75.0%            0.00      0.00       0.00        0.00         0.00           0.00             0.00          0.00         0.00      0.00        0.00        0.00      0.00        0.00         0.00
+90.0%            0.00      0.00       0.00        0.00         0.00           0.00             0.01          0.00         0.09      0.00        0.00        0.00      0.00        0.00         2.00
+max              2.00      0.03       2.00        1.03         2.00           2.00             2.00          2.00         2.00      0.00        0.00        0.00      2.00        0.00         2.00
+Data: stat_SolutionQualitydata007.txt
+
+Category: Solution Quality
+Attribute: PrimalGap
+Filter: no fail
+Absolute performance profile: stat_SolutionQualityprofileabs008.txt
+
+Category: Solution Quality
+Attribute: PrimalGap
+Filter: within 0.102% of known optimal value and not failed
+       Scb2804m  Scp2804m  Scp2804nq  Scp2804nqm  Scp2804nqme  Scp2804nqmopt  Scp2804nqmoptsp  Scp2804nqmsp  Scp2804nref  Scp2804s  Scp2804st1  Scp2804st4  Sgb2804s  virt. best  virt. worst
+count       292       312        306         309          304            305              303           306          292       314         311         313       313         318          261
+Data: stat_SolutionQualitydata009.txt
+
+Category: Solution Quality
+Attribute: PrimalGap
+Filter: within 1.0% of known optimal value and not failed
+       Scb2804m  Scp2804m  Scp2804nq  Scp2804nqm  Scp2804nqme  Scp2804nqmopt  Scp2804nqmoptsp  Scp2804nqmsp  Scp2804nref  Scp2804s  Scp2804st1  Scp2804st4  Sgb2804s  virt. best  virt. worst
+count       293       313        308         310          305            306              303           307          293       316         315         315       313         318          262
+Data: stat_SolutionQualitydata010.txt
+
+Category: Solution Quality
+Attribute: PrimalGap
+Filter: within 10.0% of known optimal value and not failed
+       Scb2804m  Scp2804m  Scp2804nq  Scp2804nqm  Scp2804nqme  Scp2804nqmopt  Scp2804nqmoptsp  Scp2804nqmsp  Scp2804nref  Scp2804s  Scp2804st1  Scp2804st4  Sgb2804s  virt. best  virt. worst
+count       294       315        312         312          307            308              305           309          299       316         316         315       314         318          271
+Data: stat_SolutionQualitydata011.txt
+
+Category: Solution Quality
+Attribute: DualGap
+Filter: no fail by all solver and known optimal value
+             Scb2804m  Scp2804m  Scp2804nq  Scp2804nqm  Scp2804nqme  Scp2804nqmopt  Scp2804nqmoptsp  Scp2804nqmsp  Scp2804nref  Scp2804s  Scp2804st1  Scp2804st4  Sgb2804s  virt. best  virt. worst
+count          300.00    300.00     300.00      300.00       300.00         300.00           300.00        300.00       300.00    300.00      300.00      300.00    300.00      300.00       300.00
+arith. mean      0.05      0.00       0.03        0.02         0.03           0.03             0.03          0.04         0.08      0.00        0.00        0.00      0.01        0.00         0.15
+arith. std.      0.29      0.01       0.26        0.21         0.20           0.23             0.23          0.26         0.37      0.00        0.00        0.00      0.16        0.00         0.49
+min              0.00      0.00       0.00        0.00         0.00           0.00             0.00          0.00         0.00      0.00        0.00        0.00      0.00        0.00         0.00
+10.0%            0.00      0.00       0.00        0.00         0.00           0.00             0.00          0.00         0.00      0.00        0.00        0.00      0.00        0.00         0.00
+25.0%            0.00      0.00       0.00        0.00         0.00           0.00             0.00          0.00         0.00      0.00        0.00        0.00      0.00        0.00         0.00
+50.0%            0.00      0.00       0.00        0.00         0.00           0.00             0.00          0.00         0.00      0.00        0.00        0.00      0.00        0.00         0.00
+75.0%            0.00      0.00       0.00        0.00         0.00           0.00             0.00          0.00         0.00      0.00        0.00        0.00      0.00        0.00         0.00
+90.0%            0.00      0.00       0.00        0.00         0.00           0.00             0.00          0.00         0.00      0.00        0.00        0.00      0.00        0.00         0.15
+max              2.00      0.13       2.00        2.00         2.00           2.00             2.00          2.00         2.00      0.02        0.04        0.02      2.00        0.00         2.00
+Data: stat_SolutionQualitydata012.txt
+
+Category: Solution Quality
+Attribute: DualGap
+Filter: time >= 10.0 by at least one solver and no fail for all solvers and known optimal value
+             Scb2804m  Scp2804m  Scp2804nq  Scp2804nqm  Scp2804nqme  Scp2804nqmopt  Scp2804nqmoptsp  Scp2804nqmsp  Scp2804nref  Scp2804s  Scp2804st1  Scp2804st4  Sgb2804s  virt. best  virt. worst
+count          107.00    107.00     107.00      107.00       107.00         107.00           107.00        107.00       107.00    107.00      107.00      107.00    107.00      107.00       107.00
+arith. mean      0.07      0.00       0.04        0.03         0.06           0.03             0.04          0.04         0.18      0.00        0.00        0.00      0.04        0.00         0.29
+arith. std.      0.33      0.02       0.27        0.21         0.30           0.20             0.20          0.27         0.51      0.00        0.00        0.00      0.27        0.00         0.62
+min              0.00      0.00       0.00        0.00         0.00           0.00             0.00          0.00         0.00      0.00        0.00        0.00      0.00        0.00         0.00
+10.0%            0.00      0.00       0.00        0.00         0.00           0.00             0.00          0.00         0.00      0.00        0.00        0.00      0.00        0.00         0.00
+25.0%            0.00      0.00       0.00        0.00         0.00           0.00             0.00          0.00         0.00      0.00        0.00        0.00      0.00        0.00         0.00
+50.0%            0.00      0.00       0.00        0.00         0.00           0.00             0.00          0.00         0.00      0.00        0.00        0.00      0.00        0.00         0.00
+75.0%            0.00      0.00       0.00        0.00         0.00           0.00             0.00          0.00         0.00      0.00        0.00        0.00      0.00        0.00         0.09
+90.0%            0.04      0.00       0.00        0.00         0.01           0.00             0.02          0.00         0.81      0.00        0.00        0.00      0.00        0.00         1.58
+max              2.00      0.13       2.00        2.00         2.00           2.00             2.00          2.00         2.00      0.02        0.01        0.02      2.00        0.00         2.00
+Data: stat_SolutionQualitydata013.txt
+
+Category: Solution Quality
+Attribute: DualGap
+Filter: dual gap <= 0.102% and not failed
+       Scb2804m  Scp2804m  Scp2804nq  Scp2804nqm  Scp2804nqme  Scp2804nqmopt  Scp2804nqmoptsp  Scp2804nqmsp  Scp2804nref  Scp2804s  Scp2804st1  Scp2804st4  Sgb2804s  virt. best  virt. worst
+count       277       308        303         302          302            302              300           300          283       311         308         310       306         318          234
+Data: stat_SolutionQualitydata014.txt
+
+Category: Solution Quality
+Attribute: DualGap
+Filter: dual gap <= 1.0% and not failed
+       Scb2804m  Scp2804m  Scp2804nq  Scp2804nqm  Scp2804nqme  Scp2804nqmopt  Scp2804nqmoptsp  Scp2804nqmsp  Scp2804nref  Scp2804s  Scp2804st1  Scp2804st4  Sgb2804s  virt. best  virt. worst
+count       279       312        306         304          303            304              302           301          287       315         314         313       312         318          245
+Data: stat_SolutionQualitydata015.txt
+
+Category: Solution Quality
+Attribute: DualGap
+Filter: dual gap <= 10.0% and not failed
+       Scb2804m  Scp2804m  Scp2804nq  Scp2804nqm  Scp2804nqme  Scp2804nqmopt  Scp2804nqmoptsp  Scp2804nqmsp  Scp2804nref  Scp2804s  Scp2804st1  Scp2804st4  Sgb2804s  virt. best  virt. worst
+count       292       314        310         310          310            310              307           309          296       316         316         316       315         318          266
+Data: stat_SolutionQualitydata016.txt
+
+Category: Solution Quality
+Attribute: PrimalBound
+Filter: no fail by all solver
+       Scb2804m  Scp2804m  Scp2804nq  Scp2804nqm  Scp2804nqme  Scp2804nqmopt  Scp2804nqmoptsp  Scp2804nqmsp  Scp2804nref  Scp2804s  Scp2804st1  Scp2804st4  Sgb2804s  virt. best  virt. worst
+count       379       379        379         379          379            379              379           379          379       379         379         379       379         379          379
+Data: stat_SolutionQualitydata017.txt
+
+Relative to virt. best :
+        Scb2804m  Scp2804m  Scp2804nq  Scp2804nqm  Scp2804nqme  Scp2804nqmopt  Scp2804nqmoptsp  Scp2804nqmsp  Scp2804nref  Scp2804s  Scp2804st1  Scp2804st4  Sgb2804s  virt. worst
+count        379       379        379         379          379            379              379           379          379       379         379         379       379          379
+better         0         0          0           0            0              0                0             0            0         0           0           0         0            0
+close        352       369        365         361          358            351              345           359          349       370         370         370       366          325
+worse         20         3          7          11           14             21               27            13           23         2           2           2         6           47
+Data: stat_SolutionQualityratio017_virt.best.txt
+
+Category: Solution Quality
+Attribute: PrimalBound
+Filter: time >= 10.0 by at least one solver and no fail for all solvers
+       Scb2804m  Scp2804m  Scp2804nq  Scp2804nqm  Scp2804nqme  Scp2804nqmopt  Scp2804nqmoptsp  Scp2804nqmsp  Scp2804nref  Scp2804s  Scp2804st1  Scp2804st4  Sgb2804s  virt. best  virt. worst
+count       154       154        154         154          154            154              154           154          154       154         154         154       154         154          154
+Data: stat_SolutionQualitydata018.txt
+
+Relative to virt. best :
+        Scb2804m  Scp2804m  Scp2804nq  Scp2804nqm  Scp2804nqme  Scp2804nqmopt  Scp2804nqmoptsp  Scp2804nqmsp  Scp2804nref  Scp2804s  Scp2804st1  Scp2804st4  Sgb2804s  virt. worst
+count        148       148        148         148          148            148              148           148          148       148         148         148       148          148
+better         0         0          0           0            0              0                0             0            0         0           0           0         0            0
+close        131       145        144         137          135            131              125           136          127       146         146         147       145          112
+worse         17         3          4          11           13             17               23            12           21         2           2           1         3           36
+Data: stat_SolutionQualityratio018_virt.best.txt
+
+Category: Solution Quality
+Attribute: DualBound
+Filter: no fail by all solver
+       Scb2804m  Scp2804m  Scp2804nq  Scp2804nqm  Scp2804nqme  Scp2804nqmopt  Scp2804nqmoptsp  Scp2804nqmsp  Scp2804nref  Scp2804s  Scp2804st1  Scp2804st4  Sgb2804s  virt. best  virt. worst
+count       379       379        379         379          379            379              379           379          379       379         379         379       379         379          379
+Data: stat_SolutionQualitydata019.txt
+
+Relative to virt. best :
+        Scb2804m  Scp2804m  Scp2804nq  Scp2804nqm  Scp2804nqme  Scp2804nqmopt  Scp2804nqmoptsp  Scp2804nqmsp  Scp2804nref  Scp2804s  Scp2804st1  Scp2804st4  Sgb2804s  virt. worst
+count        379       379        379         379          379            379              379           379          379       379         379         379       379          379
+better         0         0          0           0            0              0                0             0            0         0           0           0         0            0
+close        349       365        358         361          362            360              358           359          351       363         363         364       373          325
+worse         27         9         18          14           13             15               17            16           24        11          11          10         4           53
+Data: stat_SolutionQualityratio019_virt.best.txt
+
+Category: Solution Quality
+Attribute: DualBound
+Filter: time >= 10.0 by at least one solver and no fail for all solvers
+       Scb2804m  Scp2804m  Scp2804nq  Scp2804nqm  Scp2804nqme  Scp2804nqmopt  Scp2804nqmoptsp  Scp2804nqmsp  Scp2804nref  Scp2804s  Scp2804st1  Scp2804st4  Sgb2804s  virt. best  virt. worst
+count       154       154        154         154          154            154              154           154          154       154         154         154       154         154          154
+Data: stat_SolutionQualitydata020.txt
+
+Relative to virt. best :
+        Scb2804m  Scp2804m  Scp2804nq  Scp2804nqm  Scp2804nqme  Scp2804nqmopt  Scp2804nqmoptsp  Scp2804nqmsp  Scp2804nref  Scp2804s  Scp2804st1  Scp2804st4  Sgb2804s  virt. worst
+count        152       150        152         151          151            151              151           151          151       150         150         150       150          151
+better         0         0          0           0            0              0                0             0            0         0           0           0         0            0
+close        129       141        137         139          139            139              137           138          130       139         139         140       149          109
+worse         23         9         15          12           12             12               14            13           21        11          11          10         4           45
+Data: stat_SolutionQualityratio020_virt.best.txt
+

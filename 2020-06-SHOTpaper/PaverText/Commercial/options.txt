@@ -1,0 +1,34 @@
+solufile                       []
+writetext                      reports_text/reportcommALL/
+ccreltol                       0.001
+timeshift                      10.0
+nodeshift                      100
+refsolver                      []
+nosortsolver                   False
+file                           ['trc/Scp2804sALL.trc', 'trc/aecpALL.trc', 'trc/aoaALL.trc', 'trc/baronALL.trc', 'trc/dicoptALL.trc', 'trc/sbbALL.trc', 'solu.solu']
+ccabstol                       1e-07
+ignoredualbounds               None
+tracefile                      []
+timerelimpr                    0.1
+mintime                        0.005
+gaptol                         0.00102
+writehtml                      reports_html/reportcommALL/
+evalgap                        [0.01, 0.1]
+figformat                      png
+filternodes                    None
+failnodes                      None
+novirt                         False
+failtime                       910.0
+bw                             False
+optfileisrunname               True
+eval                           []
+boundrelimpr                   0.1
+ccfeastol                      2e-06
+nocheckinstanceattr            True
+zerogaptol                     1e-09
+instances                      None
+extendedprofiles               False
+numpts                         9000
+setup                          None
+filtertime                     10.0
+ccopttol                       inf

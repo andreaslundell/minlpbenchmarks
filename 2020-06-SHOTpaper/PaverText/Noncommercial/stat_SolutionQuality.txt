@@ -1,0 +1,229 @@
+Category: Solution Quality
+Attribute: Gap
+Filter: no fail by all solver
+             Scb2804m  boaos   scip  virt. best  virt. worst
+count          326.00 326.00 326.00      326.00       326.00
+arith. mean      0.10   0.36   0.07        0.04         0.41
+arith. std.      0.40   0.77   0.34        0.25         0.81
+min              0.00   0.00   0.00        0.00         0.00
+10.0%            0.00   0.00   0.00        0.00         0.00
+25.0%            0.00   0.00   0.00        0.00         0.00
+50.0%            0.00   0.00   0.00        0.00         0.00
+75.0%            0.00   0.00   0.00        0.00         0.00
+90.0%            0.04   2.00   0.00        0.00         2.00
+max              2.00   2.00   2.00        2.00         2.00
+Data: stat_SolutionQualitydata000.txt
+
+Category: Solution Quality
+Attribute: Gap
+Filter: time >= 10.0 by at least one solver and no fail for all solvers
+             Scb2804m  boaos   scip  virt. best  virt. worst
+count          151.00 151.00 151.00      151.00       151.00
+arith. mean      0.15   0.77   0.14        0.09         0.83
+arith. std.      0.49   0.97   0.46        0.37         0.98
+min              0.00   0.00   0.00        0.00         0.00
+10.0%            0.00   0.00   0.00        0.00         0.00
+25.0%            0.00   0.00   0.00        0.00         0.00
+50.0%            0.00   0.00   0.00        0.00         0.00
+75.0%            0.00   2.00   0.00        0.00         2.00
+90.0%            0.19   2.00   0.36        0.10         2.00
+max              2.00   2.00   2.00        2.00         2.00
+Data: stat_SolutionQualitydata001.txt
+
+Category: Solution Quality
+Attribute: Gap
+Filter: no fail
+Absolute performance profile: stat_SolutionQualityprofileabs002.txt
+
+Category: Solution Quality
+Attribute: Gap
+Filter: gap <= 0.102% and not failed
+       Scb2804m  boaos  scip  virt. best  virt. worst
+count       329    273   356         374          250
+Data: stat_SolutionQualitydata003.txt
+
+Category: Solution Quality
+Attribute: Gap
+Filter: gap <= 1.0% and not failed
+       Scb2804m  boaos  scip  virt. best  virt. worst
+count       330    273   360         376          251
+Data: stat_SolutionQualitydata004.txt
+
+Category: Solution Quality
+Attribute: Gap
+Filter: gap <= 10.0% and not failed
+       Scb2804m  boaos  scip  virt. best  virt. worst
+count       341    274   365         382          256
+Data: stat_SolutionQualitydata005.txt
+
+Category: Solution Quality
+Attribute: PrimalGap
+Filter: no fail by all solver and known optimal value
+             Scb2804m  boaos   scip  virt. best  virt. worst
+count          265.00 265.00 265.00      265.00       265.00
+arith. mean      0.01   0.28   0.01        0.00         0.29
+arith. std.      0.13   0.69   0.10        0.00         0.70
+min              0.00   0.00   0.00        0.00         0.00
+10.0%            0.00   0.00   0.00        0.00         0.00
+25.0%            0.00   0.00   0.00        0.00         0.00
+50.0%            0.00   0.00   0.00        0.00         0.00
+75.0%            0.00   0.00   0.00        0.00         0.00
+90.0%            0.00   2.00   0.00        0.00         2.00
+max              1.56   2.00   1.59        0.00         2.00
+Data: stat_SolutionQualitydata006.txt
+
+Category: Solution Quality
+Attribute: PrimalGap
+Filter: time >= 10.0 by at least one solver and no fail for all solvers and known optimal value
+             Scb2804m  boaos   scip  virt. best  virt. worst
+count          120.00 120.00 120.00      120.00       120.00
+arith. mean      0.01   0.62   0.02        0.00         0.63
+arith. std.      0.14   0.93   0.15        0.00         0.93
+min              0.00   0.00   0.00        0.00         0.00
+10.0%            0.00   0.00   0.00        0.00         0.00
+25.0%            0.00   0.00   0.00        0.00         0.00
+50.0%            0.00   0.00   0.00        0.00         0.00
+75.0%            0.00   2.00   0.00        0.00         2.00
+90.0%            0.00   2.00   0.00        0.00         2.00
+max              1.56   2.00   1.59        0.00         2.00
+Data: stat_SolutionQualitydata007.txt
+
+Category: Solution Quality
+Attribute: PrimalGap
+Filter: no fail
+Absolute performance profile: stat_SolutionQualityprofileabs008.txt
+
+Category: Solution Quality
+Attribute: PrimalGap
+Filter: within 0.102% of known optimal value and not failed
+       Scb2804m  boaos  scip  virt. best  virt. worst
+count       292    233   305         316          221
+Data: stat_SolutionQualitydata009.txt
+
+Category: Solution Quality
+Attribute: PrimalGap
+Filter: within 1.0% of known optimal value and not failed
+       Scb2804m  boaos  scip  virt. best  virt. worst
+count       293    233   305         316          222
+Data: stat_SolutionQualitydata010.txt
+
+Category: Solution Quality
+Attribute: PrimalGap
+Filter: within 10.0% of known optimal value and not failed
+       Scb2804m  boaos  scip  virt. best  virt. worst
+count       294    233   310         316          223
+Data: stat_SolutionQualitydata011.txt
+
+Category: Solution Quality
+Attribute: DualGap
+Filter: no fail by all solver and known optimal value
+             Scb2804m  boaos   scip  virt. best  virt. worst
+count          265.00 265.00 265.00      265.00       265.00
+arith. mean      0.06   0.29   0.03        0.00         0.35
+arith. std.      0.33   0.70   0.22        0.01         0.75
+min              0.00   0.00   0.00        0.00         0.00
+10.0%            0.00   0.00   0.00        0.00         0.00
+25.0%            0.00   0.00   0.00        0.00         0.00
+50.0%            0.00   0.00   0.00        0.00         0.00
+75.0%            0.00   0.00   0.00        0.00         0.00
+90.0%            0.00   2.00   0.00        0.00         2.00
+max              2.00   2.00   2.00        0.10         2.00
+Data: stat_SolutionQualitydata012.txt
+
+Category: Solution Quality
+Attribute: DualGap
+Filter: time >= 10.0 by at least one solver and no fail for all solvers and known optimal value
+             Scb2804m  boaos   scip  virt. best  virt. worst
+count          120.00 120.00 120.00      120.00       120.00
+arith. mean      0.07   0.63   0.05        0.00         0.69
+arith. std.      0.36   0.93   0.26        0.01         0.95
+min              0.00   0.00   0.00        0.00         0.00
+10.0%            0.00   0.00   0.00        0.00         0.00
+25.0%            0.00   0.00   0.00        0.00         0.00
+50.0%            0.00   0.00   0.00        0.00         0.00
+75.0%            0.00   2.00   0.00        0.00         2.00
+90.0%            0.01   2.00   0.00        0.00         2.00
+max              2.00   2.00   2.00        0.10         2.00
+Data: stat_SolutionQualitydata013.txt
+
+Category: Solution Quality
+Attribute: DualGap
+Filter: dual gap <= 0.102% and not failed
+       Scb2804m  boaos  scip  virt. best  virt. worst
+count       277    229   296         313          208
+Data: stat_SolutionQualitydata014.txt
+
+Category: Solution Quality
+Attribute: DualGap
+Filter: dual gap <= 1.0% and not failed
+       Scb2804m  boaos  scip  virt. best  virt. worst
+count       279    229   297         313          209
+Data: stat_SolutionQualitydata015.txt
+
+Category: Solution Quality
+Attribute: DualGap
+Filter: dual gap <= 10.0% and not failed
+       Scb2804m  boaos  scip  virt. best  virt. worst
+count       292    231   300         315          216
+Data: stat_SolutionQualitydata016.txt
+
+Category: Solution Quality
+Attribute: PrimalBound
+Filter: no fail by all solver
+       Scb2804m  boaos  scip  virt. best  virt. worst
+count       326    326   326         326          326
+Data: stat_SolutionQualitydata017.txt
+
+Relative to virt. best :
+        Scb2804m  boaos  scip  virt. worst
+count        326    326   326          326
+better         0      0     0            0
+close        313    267   315          263
+worse          5     51     3           55
+Data: stat_SolutionQualityratio017_virt.best.txt
+
+Category: Solution Quality
+Attribute: PrimalBound
+Filter: time >= 10.0 by at least one solver and no fail for all solvers
+       Scb2804m  boaos  scip  virt. best  virt. worst
+count       151    151   151         151          151
+Data: stat_SolutionQualitydata018.txt
+
+Relative to virt. best :
+        Scb2804m  boaos  scip  virt. worst
+count        143    143   143          143
+better         0      0     0            0
+close        141     92   140           91
+worse          2     51     3           52
+Data: stat_SolutionQualityratio018_virt.best.txt
+
+Category: Solution Quality
+Attribute: DualBound
+Filter: no fail by all solver
+       Scb2804m  boaos  scip  virt. best  virt. worst
+count       326    326   326         326          326
+Data: stat_SolutionQualitydata019.txt
+
+Relative to virt. best :
+        Scb2804m  boaos  scip  virt. worst
+count        326    326   326          326
+better         0      0     0            0
+close        309    274   310          261
+worse         14     52    12           65
+Data: stat_SolutionQualityratio019_virt.best.txt
+
+Category: Solution Quality
+Attribute: DualBound
+Filter: time >= 10.0 by at least one solver and no fail for all solvers
+       Scb2804m  boaos  scip  virt. best  virt. worst
+count       151    151   151         151          151
+Data: stat_SolutionQualitydata020.txt
+
+Relative to virt. best :
+        Scb2804m  boaos  scip  virt. worst
+count        148    151   147          151
+better         0      0     0            0
+close        139     99   136           92
+worse          9     52    11           59
+Data: stat_SolutionQualityratio020_virt.best.txt
+

@@ -1,0 +1,6 @@
+                        Scb2804m  boaos  scip  virt. best  virt. worst
+portfol_classical050_1         -      7     -         7.0            -
+portfol_classical200_2         -      7     -         7.0            -
+portfol_roundlot               -      7     -         7.0            -
+st_miqp2                       -      7     -         7.0            -
+st_test4                       -      7     -         7.0            -

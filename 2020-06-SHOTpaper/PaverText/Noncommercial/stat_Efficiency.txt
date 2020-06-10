@@ -1,0 +1,607 @@
+Category: Efficiency
+Attribute: SolverTime
+Filter: all instances
+               Scb2804m  boaos   scip  virt. best  virt. worst
+count            405.00 405.00 405.00      405.00       405.00
+arith. mean      157.23 323.98 124.85       81.93       349.24
+arith. std.      309.20 416.29 290.29      227.11       425.26
+geom. mean         5.77  10.85   2.40        1.34        22.95
+geom. std.        22.22  59.35  27.89       27.02        30.16
+sh.geom. mean     24.50  60.82  16.28       11.43        71.65
+sh.geom. std.      5.10   7.37   4.58        3.73         7.29
+min                0.04   0.01   0.01        0.01         0.04
+10.0%              0.14   0.03   0.05        0.02         0.17
+25.0%              0.33   0.32   0.19        0.11         1.14
+50.0%              4.30  12.58   1.57        1.17        25.96
+75.0%             65.95 903.58  24.30       12.40       904.26
+90.0%            865.18 910.00 900.00      226.37       910.00
+max              910.00 910.00 910.00      910.00       910.00
+Data: stat_Efficiencydata000.txt
+
+Relative to virt. best :
+             Scb2804m     boaos    scip  virt. worst
+count          405.00    405.00  405.00       405.00
+arith. mean    980.99   2703.67   77.29      3085.81
+arith. std.  12787.51  20413.88  607.07     22141.36
+min              1.00      1.00    1.00         1.00
+10.0%            1.00      1.00    1.00         2.13
+25.0%            1.40      1.00    1.00         3.70
+50.0%            3.50      2.67    1.00         8.57
+75.0%            7.49     43.58    1.80        48.70
+90.0%           13.79    295.41    5.25       411.42
+max         182000.00 182000.00 5992.52    182000.00
+better           0.00      0.00    0.00         0.00
+close          124.00    144.00  299.00        44.00
+worse          281.00    261.00  106.00       361.00
+Data: stat_Efficiencyratio000_virt.best.txt
+
+Category: Efficiency
+Attribute: SolverTime
+Filter: no fail by all solver
+               Scb2804m  boaos   scip  virt. best  virt. worst
+count            326.00 326.00 326.00      326.00       326.00
+arith. mean       88.85 200.22  90.55       63.62       213.36
+arith. std.      232.37 349.89 249.81      200.78       360.35
+geom. mean         2.75   4.08   1.36        0.76         9.41
+geom. std.        16.21  49.94  22.76       22.94        24.91
+sh.geom. mean     13.02  30.78  10.72        7.94        35.40
+sh.geom. std.      3.85   5.92   3.92        3.35         5.87
+min                0.04   0.01   0.01        0.01         0.04
+10.0%              0.12   0.02   0.05        0.02         0.16
+25.0%              0.29   0.14   0.12        0.10         0.60
+50.0%              1.83   3.16   0.97        0.55         7.35
+75.0%             13.20 122.88   5.34        3.13       144.20
+90.0%            348.40 903.54 255.45      106.88       903.54
+max              910.00 910.00 901.13      900.00       910.00
+Data: stat_Efficiencydata001.txt
+
+Relative to virt. best :
+             Scb2804m     boaos    scip  virt. worst
+count          326.00    326.00  326.00       326.00
+arith. mean     13.32   1759.29   76.70      1790.96
+arith. std.    122.39  17210.47  599.08     17212.63
+min              1.00      1.00    1.00         1.00
+10.0%            1.00      1.00    1.00         2.17
+25.0%            1.88      1.00    1.00         3.57
+50.0%            3.55      1.88    1.00         6.85
+75.0%            6.50     14.85    1.88        23.49
+90.0%           10.94    181.83    5.12       184.76
+max           2132.97 180005.20 5992.52    180005.20
+better           0.00      0.00    0.00         0.00
+close           90.00    134.00  243.00        35.00
+worse          236.00    192.00   83.00       291.00
+Data: stat_Efficiencyratio001_virt.best.txt
+
+Category: Efficiency
+Attribute: SolverTime
+Filter: time >= 10.0 by at least one solver and no fail for all solvers
+               Scb2804m  boaos   scip  virt. best  virt. worst
+count            151.00 151.00 151.00      151.00       151.00
+arith. mean      189.83 431.06 194.70      136.77       458.38
+arith. std.      312.83 406.59 338.93      278.05       410.80
+geom. mean        16.18 146.96  10.16        5.79       188.39
+geom. std.        16.84   6.83  23.37       21.44         5.16
+sh.geom. mean     41.32 177.83  34.80       23.44       208.24
+sh.geom. std.      5.16   4.80   5.52        4.75         4.31
+min                0.05   0.42   0.01        0.01        10.26
+10.0%              0.31   7.45   0.11        0.11        14.08
+25.0%              1.52  48.30   1.54        0.47        56.56
+50.0%             14.72 210.47   7.88        4.47       298.70
+75.0%            169.02 902.90 182.50       70.03       902.90
+90.0%            813.96 906.08 900.00      732.76       906.14
+max              910.00 910.00 901.13      900.00       910.00
+Data: stat_Efficiencydata002.txt
+
+Relative to virt. best :
+             Scb2804m     boaos    scip  virt. worst
+count          151.00    151.00  151.00       151.00
+arith. mean     21.95   3796.28  162.52      3858.83
+arith. std.    179.69  25179.08  873.95     25177.56
+min              1.00      1.00    1.00         1.00
+10.0%            1.00      1.11    1.00         1.23
+25.0%            1.00      2.75    1.00         5.79
+50.0%            2.45     23.52    1.00        26.45
+75.0%            5.29    144.08    1.00       156.75
+90.0%            9.18    727.76    2.26       789.28
+max           2132.97 180005.20 5992.52    180005.20
+better           0.00      0.00    0.00         0.00
+close           48.00     15.00  121.00        11.00
+worse          103.00    136.00   30.00       140.00
+Data: stat_Efficiencyratio002_virt.best.txt
+
+Category: Efficiency
+Attribute: SolverTime
+Filter: gap <= 0.102% and no fail for all solvers
+               Scb2804m  boaos   scip  virt. best  virt. worst
+count            250.00 250.00 250.00      250.00       250.00
+arith. mean        5.53  37.45   2.78        1.31        39.31
+arith. std.       13.26 106.02  14.32        2.54       105.64
+geom. mean         1.09   1.09   0.42        0.26         2.97
+geom. std.         6.54  26.03   7.26        7.99        12.74
+sh.geom. mean      3.42   9.54   1.59        1.12        11.47
+sh.geom. std.      1.56   2.88   1.35        1.19         2.84
+min                0.04   0.01   0.01        0.01         0.04
+10.0%              0.08   0.01   0.04        0.01         0.13
+25.0%              0.24   0.07   0.10        0.06         0.33
+50.0%              1.13   1.33   0.52        0.25         2.77
+75.0%              4.50  11.30   1.82        1.37        17.09
+90.0%             13.49  93.41   4.77        3.15        93.41
+max              121.85 821.38 208.26       17.79       821.38
+Data: stat_Efficiencydata003.txt
+
+Relative to virt. best :
+             Scb2804m   boaos   scip  virt. worst
+count          250.00  250.00 250.00       250.00
+arith. mean      5.65   66.46   5.42        72.50
+arith. std.      4.94  204.73  37.68       206.07
+min              1.00    1.00   1.00         1.23
+10.0%            1.38    1.00   1.00         2.67
+25.0%            2.46    1.00   1.00         3.78
+50.0%            4.14    1.57   1.00         6.78
+75.0%            7.26    6.46   1.99        17.09
+90.0%           11.57  155.13   4.42       161.07
+max             35.81 1241.73 579.40      1241.73
+better           0.00    0.00   0.00         0.00
+close           50.00  117.00 193.00        23.00
+worse          200.00  133.00  57.00       227.00
+Data: stat_Efficiencyratio003_virt.best.txt
+
+Category: Efficiency
+Attribute: SolverTime
+Filter: gap <= 1.0% and no fail for all solvers
+               Scb2804m  boaos   scip  virt. best  virt. worst
+count            251.00 251.00 251.00      251.00       251.00
+arith. mean        5.52  37.31   2.77        1.31        39.16
+arith. std.       13.23 105.83  14.29        2.53       105.45
+geom. mean         1.09   1.08   0.42        0.26         2.97
+geom. std.         6.51  25.86   7.23        7.96        12.68
+sh.geom. mean      3.41   9.50   1.59        1.11        11.42
+sh.geom. std.      1.56   2.87   1.35        1.19         2.83
+min                0.04   0.01   0.01        0.01         0.04
+10.0%              0.08   0.01   0.04        0.01         0.13
+25.0%              0.24   0.07   0.10        0.06         0.33
+50.0%              1.14   1.33   0.52        0.25         2.74
+75.0%              4.48  11.17   1.81        1.35        16.97
+90.0%             13.46  92.93   4.77        3.15        92.93
+max              121.85 821.38 208.26       17.79       821.38
+Data: stat_Efficiencydata004.txt
+
+Relative to virt. best :
+             Scb2804m   boaos   scip  virt. worst
+count          251.00  251.00 251.00       251.00
+arith. mean      5.63   66.20   5.40        72.22
+arith. std.      4.94  204.36  37.60       205.71
+min              1.00    1.00   1.00         1.23
+10.0%            1.39    1.00   1.00         2.65
+25.0%            2.47    1.00   1.00         3.77
+50.0%            4.14    1.55   1.00         6.74
+75.0%            7.23    6.29   1.99        17.09
+90.0%           11.56  154.73   4.40       158.78
+max             35.81 1241.73 579.40      1241.73
+better           0.00    0.00   0.00         0.00
+close           50.00  117.00 194.00        23.00
+worse          201.00  134.00  57.00       228.00
+Data: stat_Efficiencyratio004_virt.best.txt
+
+Category: Efficiency
+Attribute: SolverTime
+Filter: gap <= 10.0% and no fail for all solvers
+               Scb2804m  boaos   scip  virt. best  virt. worst
+count            256.00 256.00 256.00      256.00       256.00
+arith. mean        9.02  43.51  10.19        1.72        49.24
+arith. std.       57.48 122.33  80.64        7.15       139.76
+geom. mean         1.12   1.18   0.46        0.27         3.22
+geom. std.         6.82  27.09   8.20        8.10        13.42
+sh.geom. mean      3.65  10.33   2.10        1.21        12.46
+sh.geom. std.      1.67   3.03   1.66        1.25         3.03
+min                0.04   0.01   0.01        0.01         0.04
+10.0%              0.08   0.02   0.04        0.02         0.13
+25.0%              0.23   0.07   0.10        0.07         0.33
+50.0%              1.14   1.36   0.54        0.25         2.80
+75.0%              4.54  12.68   1.88        1.35        19.75
+90.0%             13.79 103.81   4.91        3.16       103.81
+max              900.90 897.93 900.00      108.44       900.90
+Data: stat_Efficiencydata005.txt
+
+Relative to virt. best :
+             Scb2804m   boaos    scip  virt. worst
+count          256.00  256.00  256.00       256.00
+arith. mean      5.65   85.81   51.74       117.49
+arith. std.      4.93  308.95  524.91       556.40
+min              1.00    1.00    1.00         1.23
+10.0%            1.26    1.00    1.00         2.66
+25.0%            2.44    1.00    1.00         3.79
+50.0%            4.14    1.60    1.00         7.07
+75.0%            7.33    7.86    2.06        17.57
+90.0%           11.58  170.22    4.97       181.83
+max             35.81 3234.61 5992.52      5992.52
+better           0.00    0.00    0.00         0.00
+close           52.00  118.00  196.00        23.00
+worse          204.00  138.00   60.00       233.00
+Data: stat_Efficiencyratio005_virt.best.txt
+
+Category: Efficiency
+Attribute: SolverTime
+Filter: within 0.102% of known optimal value and no fail for all solvers
+               Scb2804m  boaos   scip  virt. best  virt. worst
+count            221.00 221.00 221.00      221.00       221.00
+arith. mean       13.01  64.80  16.50        1.71        75.75
+arith. std.       85.98 167.31 107.04        7.49       195.10
+geom. mean         0.87   1.27   0.39        0.21         3.40
+geom. std.         7.35  36.48  10.05        8.71        17.67
+sh.geom. mean      3.41  13.50   2.45        1.14        15.69
+sh.geom. std.      1.81   3.56   1.89        1.27         3.64
+min                0.04   0.01   0.01        0.01         0.04
+10.0%              0.07   0.01   0.02        0.01         0.11
+25.0%              0.19   0.06   0.10        0.04         0.31
+50.0%              0.75   1.33   0.39        0.19         2.35
+75.0%              3.09  46.88   1.58        1.22        54.42
+90.0%             11.61 145.04   6.56        3.15       149.74
+max              900.47 900.03 900.01      105.32       900.47
+Data: stat_Efficiencydata006.txt
+
+Relative to virt. best :
+             Scb2804m     boaos    scip  virt. worst
+count          221.00    221.00  221.00       221.00
+arith. mean      8.39   2545.64   60.47      2581.97
+arith. std.     40.39  20867.38  564.74     20869.03
+min              1.00      1.00    1.00         1.23
+10.0%            1.20      1.00    1.00         2.69
+25.0%            2.37      1.00    1.00         4.02
+50.0%            4.02      1.73    1.00         8.53
+75.0%            7.64     35.47    2.53        35.81
+90.0%           11.60    291.14    5.48       321.54
+max            601.21 180005.20 5992.52    180005.20
+better           0.00      0.00    0.00         0.00
+close           56.00    104.00  167.00        24.00
+worse          165.00    117.00   54.00       197.00
+Data: stat_Efficiencyratio006_virt.best.txt
+
+Category: Efficiency
+Attribute: SolverTime
+Filter: within 1.0% of known optimal value and no fail for all solvers
+               Scb2804m  boaos   scip  virt. best  virt. worst
+count            222.00 222.00 222.00      222.00       222.00
+arith. mean       12.97  64.52  16.44        1.71        75.43
+arith. std.       85.78 166.99 106.80        7.47       194.71
+geom. mean         0.88   1.27   0.39        0.21         3.41
+geom. std.         7.34  36.19  10.05        8.71        17.56
+sh.geom. mean      3.42  13.43   2.46        1.15        15.63
+sh.geom. std.      1.80   3.55   1.89        1.27         3.63
+min                0.04   0.01   0.01        0.01         0.04
+10.0%              0.07   0.01   0.02        0.01         0.11
+25.0%              0.19   0.06   0.10        0.04         0.31
+50.0%              0.76   1.36   0.39        0.20         2.42
+75.0%              3.18  44.62   1.63        1.24        53.25
+90.0%             11.59 144.70   6.50        3.14       149.27
+max              900.47 900.03 900.01      105.32       900.47
+Data: stat_Efficiencydata007.txt
+
+Relative to virt. best :
+             Scb2804m     boaos    scip  virt. worst
+count          222.00    222.00  222.00       222.00
+arith. mean      8.36   2534.18   60.21      2570.36
+arith. std.     40.30  20820.82  563.47     20822.48
+min              1.00      1.00    1.00         1.23
+10.0%            1.21      1.00    1.00         2.69
+25.0%            2.38      1.00    1.00         4.01
+50.0%            4.02      1.71    1.00         8.36
+75.0%            7.64     34.36    2.57        35.73
+90.0%           11.59    289.89    5.47       318.50
+max            601.21 180005.20 5992.52    180005.20
+better           0.00      0.00    0.00         0.00
+close           56.00    105.00  167.00        24.00
+worse          166.00    117.00   55.00       198.00
+Data: stat_Efficiencyratio007_virt.best.txt
+
+Category: Efficiency
+Attribute: SolverTime
+Filter: within 10.0% of known optimal value and no fail for all solvers
+               Scb2804m  boaos   scip  virt. best  virt. worst
+count            223.00 223.00 223.00      223.00       223.00
+arith. mean       16.95  64.23  20.40        1.70        79.13
+arith. std.      104.19 166.67 121.88        7.45       201.97
+geom. mean         0.91   1.26   0.41        0.21         3.49
+geom. std.         7.71  35.92  10.59        8.67        17.88
+sh.geom. mean      3.67  13.34   2.70        1.14        16.04
+sh.geom. std.      1.92   3.54   2.00        1.27         3.70
+min                0.04   0.01   0.01        0.01         0.04
+10.0%              0.07   0.01   0.02        0.01         0.11
+25.0%              0.19   0.06   0.10        0.04         0.31
+50.0%              0.77   1.33   0.39        0.20         2.48
+75.0%              3.35  42.37   1.70        1.23        54.61
+90.0%             13.09 144.37   6.81        3.14       170.85
+max              900.47 900.03 900.01      105.32       900.47
+Data: stat_Efficiencydata008.txt
+
+Relative to virt. best :
+             Scb2804m     boaos    scip  virt. worst
+count          223.00    223.00  223.00       223.00
+arith. mean     17.89   2522.82   69.51      2568.40
+arith. std.    147.85  20774.56  579.08     20775.55
+min              1.00      1.00    1.00         1.23
+10.0%            1.21      1.00    1.00         2.69
+25.0%            2.38      1.00    1.00         4.01
+50.0%            4.02      1.69    1.00         8.53
+75.0%            7.66     33.26    2.60        36.10
+90.0%           11.62    288.64    6.08       339.06
+max           2132.97 180005.20 5992.52    180005.20
+better           0.00      0.00    0.00         0.00
+close           56.00    106.00  167.00        24.00
+worse          167.00    117.00   56.00       199.00
+Data: stat_Efficiencyratio008_virt.best.txt
+
+Category: Efficiency
+Attribute: SolverTime
+Filter: no fail
+Relative performance profile: stat_Efficiencyprofilerel009.txt
+Absolute performance profile: stat_Efficiencyprofileabs009.txt
+
+Category: Efficiency
+Attribute: SolverTime
+Filter: time >= 10.0 by at least one solver and no fail for all solvers
+Relative performance profile: stat_Efficiencyprofilerel010.txt
+Absolute performance profile: stat_Efficiencyprofileabs010.txt
+
+Category: Efficiency
+Attribute: SolverTime
+Filter: gap <= 0.102% and not failed
+Relative performance profile: stat_Efficiencyprofilerel011.txt
+Absolute performance profile: stat_Efficiencyprofileabs011.txt
+
+Category: Efficiency
+Attribute: SolverTime
+Filter: gap <= 1.0% and not failed
+Relative performance profile: stat_Efficiencyprofilerel012.txt
+Absolute performance profile: stat_Efficiencyprofileabs012.txt
+
+Category: Efficiency
+Attribute: SolverTime
+Filter: gap <= 10.0% and not failed
+Relative performance profile: stat_Efficiencyprofilerel013.txt
+Absolute performance profile: stat_Efficiencyprofileabs013.txt
+
+Category: Efficiency
+Attribute: SolverTime
+Filter: within 0.102% of known optimal value and not failed
+Relative performance profile: stat_Efficiencyprofilerel014.txt
+Absolute performance profile: stat_Efficiencyprofileabs014.txt
+
+Category: Efficiency
+Attribute: SolverTime
+Filter: within 1.0% of known optimal value and not failed
+Relative performance profile: stat_Efficiencyprofilerel015.txt
+Absolute performance profile: stat_Efficiencyprofileabs015.txt
+
+Category: Efficiency
+Attribute: SolverTime
+Filter: within 10.0% of known optimal value and not failed
+Relative performance profile: stat_Efficiencyprofilerel016.txt
+Absolute performance profile: stat_Efficiencyprofileabs016.txt
+
+Category: Efficiency
+Attribute: NumberOfNodes
+Filter: no fail by all solver
+                Scb2804m    boaos      scip  virt. best  virt. worst
+count             326.00   326.00    326.00      326.00       326.00
+arith. mean    110266.99    34.29  39952.10        1.20    111458.02
+arith. std.    488883.34   597.44 148553.73        3.60    488724.74
+geom. mean         44.37     1.04     31.87        1.01        77.15
+geom. std.         94.85     1.76     74.41        1.26        92.00
+sh.geom. mean     442.69     2.62    347.85        1.15       566.63
+sh.geom. std.      18.56     1.30     13.27        1.03        19.18
+min                 1.00     1.00      1.00        1.00         1.00
+10.0%               1.00     1.00      1.00        1.00         1.00
+25.0%               1.00     1.00      1.00        1.00         1.00
+50.0%               8.00     1.00      3.00        1.00        19.00
+75.0%             611.75     1.00    441.00        1.00      1066.00
+90.0%          247479.50     1.00  62683.00        1.00    247479.50
+max           5971568.00 10788.00 991765.00       66.00   5971568.00
+Data: stat_Efficiencydata017.txt
+
+Relative to virt. best :
+              Scb2804m    boaos      scip  virt. worst
+count           326.00   326.00    326.00       326.00
+arith. mean  109445.15    34.09  39941.34    110636.18
+arith. std.  488835.74   597.44 148556.50    488679.14
+min               1.00     1.00      1.00         1.00
+10.0%             1.00     1.00      1.00         1.00
+25.0%             1.00     1.00      1.00         1.00
+50.0%             8.00     1.00      3.00        19.00
+75.0%           611.75     1.00    375.25      1066.00
+90.0%        238452.00     1.00  62683.00    238452.00
+max         5971568.00 10788.00 991765.00   5971568.00
+better            0.00     0.00      0.00         0.00
+close           134.00   325.00    158.00       106.00
+worse           192.00     1.00    168.00       220.00
+Data: stat_Efficiencyratio017_virt.best.txt
+
+Category: Efficiency
+Attribute: NumberOfNodes
+Filter: time >= 10.0 by at least one solver and no fail for all solvers
+                Scb2804m    boaos      scip  virt. best  virt. worst
+count             151.00   151.00    151.00      151.00       151.00
+arith. mean    237997.58    72.87  86218.22        1.43    240558.44
+arith. std.    698034.99   877.81 209285.20        5.29    697321.42
+geom. mean        934.88     1.09    586.91        1.03      2098.58
+geom. std.        129.71     2.28     96.89        1.40        82.86
+sh.geom. mean    3093.40     4.52   2075.18        1.33      4626.42
+sh.geom. std.      33.57     1.46     22.24        1.04        29.37
+min                 1.00     1.00      1.00        1.00         1.00
+10.0%               1.00     1.00      1.00        1.00         1.00
+25.0%              15.50     1.00     15.50        1.00        75.50
+50.0%             744.00     1.00    601.00        1.00      1328.00
+75.0%          127846.50     1.00  40022.50        1.00    132550.50
+90.0%          776214.00     1.00 260698.00        1.00    776214.00
+max           5971568.00 10788.00 991765.00       66.00   5971568.00
+Data: stat_Efficiencydata018.txt
+
+Relative to virt. best :
+              Scb2804m    boaos      scip  virt. worst
+count           151.00   151.00    151.00       151.00
+arith. mean  236223.28    72.44  86194.99    238784.14
+arith. std.  698288.34   877.83 209294.63    697581.58
+min               1.00     1.00      1.00         1.00
+10.0%             1.00     1.00      1.00         1.00
+25.0%            15.50     1.00     15.50        75.50
+50.0%           744.00     1.00    592.00      1328.00
+75.0%        111064.00     1.00  40022.50    123862.00
+90.0%        776214.00     1.00 260698.00    776214.00
+max         5971568.00 10788.00 991765.00   5971568.00
+better            0.00     0.00      0.00         0.00
+close            27.00   150.00     35.00        16.00
+worse           124.00     1.00    116.00       135.00
+Data: stat_Efficiencyratio018_virt.best.txt
+
+Category: Efficiency
+Attribute: NumberOfNodes
+Filter: gap <= 0.102% and no fail for all solvers
+               Scb2804m  boaos     scip  virt. best  virt. worst
+count            250.00 250.00   250.00      250.00       250.00
+arith. mean      546.26   1.00   414.02        1.00       695.15
+arith. std.     2301.28   0.00  1814.82        0.00      2693.65
+geom. mean         9.04   1.00     5.99        1.00        13.19
+geom. std.        15.84   1.00    14.44        1.00        17.36
+sh.geom. mean     75.87   1.00    59.47        1.00        95.57
+sh.geom. std.      3.08   1.00     2.76        1.00         3.34
+min                1.00   1.00     1.00        1.00         1.00
+10.0%              1.00   1.00     1.00        1.00         1.00
+25.0%              1.00   1.00     1.00        1.00         1.00
+50.0%              2.00   1.00     1.00        1.00         6.00
+75.0%             39.50   1.00    46.50        1.00        96.25
+90.0%            773.80   1.00   507.40        1.00       999.50
+max            27706.00   1.00 20463.00        1.00     27706.00
+Data: stat_Efficiencydata019.txt
+
+Relative to virt. best :
+             Scb2804m  boaos     scip  virt. worst
+count          250.00 250.00   250.00       250.00
+arith. mean    546.26   1.00   414.02       695.15
+arith. std.   2301.28   0.00  1814.82      2693.65
+min              1.00   1.00     1.00         1.00
+10.0%            1.00   1.00     1.00         1.00
+25.0%            1.00   1.00     1.00         1.00
+50.0%            2.00   1.00     1.00         6.00
+75.0%           39.50   1.00    46.50        96.25
+90.0%          773.80   1.00   507.40       999.50
+max          27706.00   1.00 20463.00     27706.00
+better           0.00   0.00     0.00         0.00
+close          121.00 250.00   153.00       102.00
+worse          129.00   0.00    97.00       148.00
+Data: stat_Efficiencyratio019_virt.best.txt
+
+Category: Efficiency
+Attribute: NumberOfNodes
+Filter: gap <= 0.102% and not failed
+Relative performance profile: stat_Efficiencyprofilerel020.txt
+
+Category: Efficiency
+Attribute: NumberOfIterations
+Filter: no fail by all solver
+             Scb2804m     boaos        scip  virt. best  virt. worst
+count          326.00    326.00      326.00      326.00       326.00
+arith. mean      1.00   2099.46   691393.86        1.00    693305.65
+arith. std.      0.00  37583.56  2156442.09        0.00   2156152.73
+geom. mean       1.00      5.24     4222.08        1.00      4263.72
+geom. std.       1.00      5.09       40.57        1.00        40.70
+min              1.00      1.00        1.00        1.00         1.00
+10.0%            1.00      1.00       86.50        1.00        86.50
+25.0%            1.00      1.00      452.00        1.00       452.00
+50.0%            1.00      4.00     2564.50        1.00      2564.50
+75.0%            1.00     14.00    23750.50        1.00     23750.50
+90.0%            1.00     40.50  1692022.00        1.00   1692022.00
+max              1.00 678606.00 13572207.00        1.00  13572207.00
+Data: stat_Efficiencydata021.txt
+
+Relative to virt. best :
+             Scb2804m     boaos        scip  virt. worst
+count          326.00    326.00      326.00       326.00
+arith. mean      1.00   2099.46   691393.86    693305.65
+arith. std.      0.00  37583.56  2156442.09   2156152.73
+min              1.00      1.00        1.00         1.00
+10.0%            1.00      1.00       86.50        86.50
+25.0%            1.00      1.00      452.00       452.00
+50.0%            1.00      4.00     2564.50      2564.50
+75.0%            1.00     14.00    23750.50     23750.50
+90.0%            1.00     40.50  1692022.00   1692022.00
+max              1.00 678606.00 13572207.00  13572207.00
+better           0.00      0.00        0.00         0.00
+close          326.00    109.00       12.00        11.00
+worse            0.00    217.00      314.00       315.00
+Data: stat_Efficiencyratio021_virt.best.txt
+
+Category: Efficiency
+Attribute: NumberOfIterations
+Filter: time >= 10.0 by at least one solver and no fail for all solvers
+             Scb2804m     boaos        scip  virt. best  virt. worst
+count          151.00    151.00      151.00      151.00       151.00
+arith. mean      1.00   4517.95  1489836.52        1.00   1493963.95
+arith. std.      0.00  55222.27  2979932.59        0.00   2978363.70
+geom. mean       1.00      5.14    40267.52        1.00     40941.42
+geom. std.       1.00      6.85       42.78        1.00        43.07
+min              1.00      1.00        1.00        1.00         1.00
+10.0%            1.00      1.00      156.00        1.00       156.00
+25.0%            1.00      1.00     4876.00        1.00      4876.00
+50.0%            1.00      3.00    33141.00        1.00     33141.00
+75.0%            1.00     15.50  1183363.00        1.00   1183363.00
+90.0%            1.00     59.00  5976505.00        1.00   5976505.00
+max              1.00 678606.00 13572207.00        1.00  13572207.00
+Data: stat_Efficiencydata022.txt
+
+Relative to virt. best :
+             Scb2804m     boaos        scip  virt. worst
+count          151.00    151.00      151.00       151.00
+arith. mean      1.00   4517.95  1489836.52   1493963.95
+arith. std.      0.00  55222.27  2979932.59   2978363.70
+min              1.00      1.00        1.00         1.00
+10.0%            1.00      1.00      156.00       156.00
+25.0%            1.00      1.00     4876.00      4876.00
+50.0%            1.00      3.00    33141.00     33141.00
+75.0%            1.00     15.50  1183363.00   1183363.00
+90.0%            1.00     59.00  5976505.00   5976505.00
+max              1.00 678606.00 13572207.00  13572207.00
+better           0.00      0.00        0.00         0.00
+close          151.00     66.00        3.00         3.00
+worse            0.00     85.00      148.00       148.00
+Data: stat_Efficiencyratio022_virt.best.txt
+
+Category: Efficiency
+Attribute: NumberOfIterations
+Filter: gap <= 0.102% and no fail for all solvers
+             Scb2804m  boaos       scip  virt. best  virt. worst
+count          250.00 250.00     250.00      250.00       250.00
+arith. mean      1.00  17.12   16734.48        1.00     16734.48
+arith. std.      0.00  30.75  106382.49        0.00    106382.49
+geom. mean       1.00   6.85    1131.51        1.00      1134.66
+geom. std.       1.00   3.87      12.02        1.00        11.93
+min              1.00   1.00       1.00        1.00         1.00
+10.0%            1.00   1.00      74.00        1.00        74.00
+25.0%            1.00   2.25     296.50        1.00       296.50
+50.0%            1.00   8.00    1527.50        1.00      1527.50
+75.0%            1.00  17.00    5978.25        1.00      5978.25
+90.0%            1.00  40.10   18310.70        1.00     18310.70
+max              1.00 278.00 1316178.00        1.00   1316178.00
+Data: stat_Efficiencydata023.txt
+
+Relative to virt. best :
+             Scb2804m  boaos       scip  virt. worst
+count          250.00 250.00     250.00       250.00
+arith. mean      1.00  17.12   16734.48     16734.48
+arith. std.      0.00  30.75  106382.49    106382.49
+min              1.00   1.00       1.00         1.00
+10.0%            1.00   1.00      74.00        74.00
+25.0%            1.00   2.25     296.50       296.50
+50.0%            1.00   8.00    1527.50      1527.50
+75.0%            1.00  17.00    5978.25      5978.25
+90.0%            1.00  40.10   18310.70     18310.70
+max              1.00 278.00 1316178.00   1316178.00
+better           0.00   0.00       0.00         0.00
+close          250.00  47.00       9.00         8.00
+worse            0.00 203.00     241.00       242.00
+Data: stat_Efficiencyratio023_virt.best.txt
+
+Category: Efficiency
+Attribute: NumberOfIterations
+Filter: gap <= 0.102% and not failed
+Relative performance profile: stat_Efficiencyprofilerel024.txt
+

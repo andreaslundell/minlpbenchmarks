@@ -1,0 +1,2 @@
+            Scb2804m  boaos  scip  virt. best  virt. worst
+meanvarxsc         -      6     -         6.0            -

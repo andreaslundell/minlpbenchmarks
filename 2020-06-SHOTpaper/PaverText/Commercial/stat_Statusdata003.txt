@@ -1,0 +1,2 @@
+            Scp2804s  aecp  aoa  baron  dicopt  sbb  virt. best  virt. worst
+meanvarxsc         -     6    -      6       6    -         6.0            -
