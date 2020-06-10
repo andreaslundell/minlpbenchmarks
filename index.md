@@ -18,7 +18,7 @@ The reports can also be downloaded from the [repository](https://github.com/andr
 The PAVER reports used in the paper: "The Supporting Hyperplane Optimization Toolkit" by A. Lundell, J. Kronqvist and T. Westerlund are available here.
 
 1. [Commercial solvers](https://andreaslundell.github.io/minlpbenchmarks/2020-06-SHOTpaper/PaverReports/Commercial).
-1. [All MINLP solvers](https://andreaslundell.github.io/minlpbenchmarks/2020-06-SHOTpaper/PaverReports/Noncommercial).
+1. [Noncommercial solvers](https://andreaslundell.github.io/minlpbenchmarks/2020-06-SHOTpaper/PaverReports/Noncommercial).
 1. [Different SHOT strategies and subsolvers](https://andreaslundell.github.io/minlpbenchmarks/2020-06-SHOTpaper/PaverReports/SHOT).
 
 The reports can also be downloaded from the [repository](https://github.com/andreaslundell/minlpbenchmarks/tree/gh-pages/2020-06-SHOTpaper).
