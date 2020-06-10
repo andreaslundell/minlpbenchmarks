@@ -15,9 +15,10 @@ The reports can also be downloaded from the [repository](https://github.com/andr
 ### The Supporting Hyperplane Optimization Toolkit
 #### A Polyhedral Outer Approximation Based Convex MINLP Solver Utilizing a Single Branching Tree Approach
 
-The PAVER reports used in the paper: "The Supporting Hyperplane Optimization Toolkit - A Polyhedral Outer Approximation Based Convex MINLP Solver Utilizing a Single Branching Tree Approach" by A. Lundell, J. Kronqvist and T. Westerlund are available here.
+The PAVER reports used in the paper: "The Supporting Hyperplane Optimization Toolkit" by A. Lundell, J. Kronqvist and T. Westerlund are available here.
 
-1. [All MINLP solvers](https://andreaslundell.github.io/minlpbenchmarks/2018-06-SHOTpaper/all/html/).
-1. [Different SHOT strategies and subsolvers](https://andreaslundell.github.io/minlpbenchmarks/2018-06-SHOTpaper/shot/html/).
+1. [Commercial solvers](https://andreaslundell.github.io/minlpbenchmarks/2020-06-SHOTpaper/PaverReports/Commercial).
+1. [All MINLP solvers](https://andreaslundell.github.io/minlpbenchmarks/2020-06-SHOTpaper/PaverReports/Noncommercial).
+1. [Different SHOT strategies and subsolvers](https://andreaslundell.github.io/minlpbenchmarks/2020-06-SHOTpaper/PaverReports/SHOT).
 
-The reports can also be downloaded from the [repository](https://github.com/andreaslundell/minlpbenchmarks/tree/gh-pages/2018-06-SHOTpaper).
+The reports can also be downloaded from the [repository](https://github.com/andreaslundell/minlpbenchmarks/tree/gh-pages/2020-06-SHOTpaper).
