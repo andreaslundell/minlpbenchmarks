@@ -1,0 +1,497 @@
+Category: Efficiency
+Attribute: SolverTime
+Filter: all instances
+               SHOTcpx1910nrnc  SHOTcpx1910noref  SHOTcpx1910  SHOTcpx1910rcnoref  virt. best  virt. worst
+count                   323.00            323.00       323.00              323.00      323.00       323.00
+arith. mean             132.33            137.40       142.85              138.30       93.51       187.05
+arith. std.             301.54            314.86       307.53              311.73      261.30       347.94
+geom. mean                3.02              2.38         5.97                3.88        1.55         9.07
+geom. std.               24.10             24.57        18.55               19.91       20.16        19.34
+sh.geom. mean            17.29             15.67        22.08               17.89       10.86        29.58
+sh.geom. std.             4.62              4.73         4.65                4.66        3.83         5.32
+min                       0.04              0.04         0.05                0.04        0.04         0.07
+10.0%                     0.06              0.06         0.11                0.09        0.05         0.16
+25.0%                     0.16              0.15         0.51                0.33        0.10         0.67
+50.0%                     2.62              1.36         5.15                3.23        0.76         8.60
+75.0%                    15.26             12.84        30.35               16.17        9.95        67.68
+90.0%                   900.02            910.00       900.28              909.90      315.06       910.00
+max                     910.00            910.00       910.00              910.00      910.00       910.00
+Data: stat_Efficiencydata000.txt
+
+Relative to virt. best :
+             SHOTcpx1910nrnc  SHOTcpx1910noref  SHOTcpx1910  SHOTcpx1910rcnoref  virt. worst
+count                 323.00            323.00       323.00              323.00       323.00
+arith. mean           269.15            547.77       247.50              398.87       795.14
+arith. std.          1720.18           3147.31      1654.21             2702.43      3517.19
+min                     1.00              1.00         1.00                1.00         1.00
+10.0%                   1.00              1.00         1.01                1.00         1.05
+25.0%                   1.00              1.00         1.38                1.05         1.60
+50.0%                   1.00              1.00         2.14                1.45         2.37
+75.0%                   1.05              1.02         4.58                2.52         6.33
+90.0%                   8.94              1.30        20.27                7.49       203.30
+max                 15763.99          24863.93     15763.85            24863.93     24863.93
+better                  0.00              0.00         0.00                0.00         0.00
+close                 274.00            287.00       103.00              151.00        83.00
+worse                  49.00             36.00       220.00              172.00       240.00
+Data: stat_Efficiencyratio000_virt.best.txt
+
+Category: Efficiency
+Attribute: SolverTime
+Filter: no fail by all solver
+               SHOTcpx1910nrnc  SHOTcpx1910noref  SHOTcpx1910  SHOTcpx1910rcnoref  virt. best  virt. worst
+count                   293.00            293.00       293.00              293.00      293.00       293.00
+arith. mean              97.72             58.29       112.42               68.61       58.06       113.03
+arith. std.             259.24            204.24       272.34              216.84      203.89       272.58
+geom. mean                2.41              1.30         5.20                2.45        1.23         5.66
+geom. std.               19.89             14.93        15.74               13.37       15.15        14.84
+sh.geom. mean            13.36              7.79        18.33               10.42        7.67        18.68
+sh.geom. std.             3.91              3.01         4.07                3.24        3.01         4.06
+min                       0.04              0.04         0.05                0.05        0.04         0.07
+10.0%                     0.06              0.06         0.12                0.09        0.05         0.14
+25.0%                     0.15              0.13         0.52                0.31        0.11         0.57
+50.0%                     2.20              0.72         4.88                2.18        0.71         5.15
+75.0%                    12.81              9.08        20.91               13.13        8.65        20.95
+90.0%                   326.22             30.15       641.74               77.42       29.06       641.74
+max                     910.00            910.00       910.00              910.00      910.00       910.00
+Data: stat_Efficiencydata001.txt
+
+Relative to virt. best :
+             SHOTcpx1910nrnc  SHOTcpx1910noref  SHOTcpx1910  SHOTcpx1910rcnoref  virt. worst
+count                 293.00            293.00       293.00              293.00       293.00
+arith. mean           266.44              1.09       272.26                8.03       273.78
+arith. std.          1735.17              0.59      1735.19               53.54      1735.09
+min                     1.00              1.00         1.00                1.00         1.00
+10.0%                   1.00              1.00         1.09                1.00         1.09
+25.0%                   1.00              1.00         1.61                1.08         1.69
+50.0%                   1.00              1.00         2.23                1.47         2.35
+75.0%                   1.06              1.01         4.93                2.32         5.30
+90.0%                   4.83              1.07        21.05                5.62        31.62
+max                 15763.99             10.36     15763.85              813.38     15763.99
+better                  0.00              0.00         0.00                0.00         0.00
+close                 248.00            273.00        76.00              134.00        69.00
+worse                  45.00             20.00       217.00              159.00       224.00
+Data: stat_Efficiencyratio001_virt.best.txt
+
+Category: Efficiency
+Attribute: SolverTime
+Filter: time >= 10.0 by at least one solver and no fail for all solvers
+               SHOTcpx1910nrnc  SHOTcpx1910noref  SHOTcpx1910  SHOTcpx1910rcnoref  virt. best  virt. worst
+count                   129.00            129.00       129.00              129.00      129.00       129.00
+arith. mean             220.65            131.19       252.95              153.96      130.68       254.23
+arith. std.             355.11            292.56       365.56              306.83      292.11       365.51
+geom. mean               34.59              9.92        62.51               17.03        9.42        67.82
+geom. std.                8.40             12.00         6.23               10.88       12.52         5.26
+sh.geom. mean            51.46             23.42        77.34               33.27       22.99        79.04
+sh.geom. std.             4.89              4.15         4.37                4.25        4.16         4.31
+min                       0.09              0.06         0.10                0.06        0.06        10.01
+10.0%                     6.17              0.32        13.23                0.42        0.32        13.77
+25.0%                     9.13              2.31        17.43                8.47        2.31        17.43
+50.0%                    15.18             10.91        30.60               13.61       10.06        30.60
+75.0%                   253.10             19.96       354.93               57.77       19.68       354.93
+90.0%                   900.33            900.29       902.21              901.31      900.14       903.89
+max                     910.00            910.00       910.00              910.00      910.00       910.00
+Data: stat_Efficiencydata002.txt
+
+Relative to virt. best :
+             SHOTcpx1910nrnc  SHOTcpx1910noref  SHOTcpx1910  SHOTcpx1910rcnoref  virt. worst
+count                 129.00            129.00       129.00              129.00       129.00
+arith. mean           603.22              1.12       612.99               13.78       615.60
+arith. std.          2581.51              0.85      2580.60               80.06      2580.18
+min                     1.00              1.00         1.00                1.00         1.00
+10.0%                   1.00              1.00         1.00                1.00         1.01
+25.0%                   1.00              1.00         1.37                1.02         1.43
+50.0%                   1.00              1.00         1.96                1.23         1.97
+75.0%                   1.04              1.01        10.05                1.74        14.50
+90.0%                 665.31              1.07       842.88                5.06       842.88
+max                 15763.99             10.36     15763.85              813.38     15763.99
+better                  0.00              0.00         0.00                0.00         0.00
+close                 101.00            118.00        23.00               56.00        21.00
+worse                  28.00             11.00       106.00               73.00       108.00
+Data: stat_Efficiencyratio002_virt.best.txt
+
+Category: Efficiency
+Attribute: SolverTime
+Filter: gap <= 0.102% and no fail for all solvers
+               SHOTcpx1910nrnc  SHOTcpx1910noref  SHOTcpx1910  SHOTcpx1910rcnoref  virt. best  virt. worst
+count                    43.00             43.00        43.00               43.00       43.00        43.00
+arith. mean               7.95              7.97         9.97                8.04        7.88         9.99
+arith. std.               5.84              5.86         6.74                5.93        5.80         6.77
+geom. mean                4.91              4.92         6.57                5.02        4.87         6.58
+geom. std.                3.61              3.62         3.22                3.51        3.62         3.23
+sh.geom. mean             7.07              7.08         8.84                7.14        7.01         8.85
+sh.geom. std.             1.37              1.37         1.41                1.38        1.37         1.42
+min                       0.07              0.07         0.13                0.08        0.07         0.13
+10.0%                     0.90              0.91         1.69                0.93        0.90         1.69
+25.0%                     3.34              3.31         3.96                3.29        3.29         3.96
+50.0%                     7.52              7.46         9.52                7.41        7.41         9.52
+75.0%                    11.74             11.72        15.22               12.16       11.71        15.24
+90.0%                    14.81             14.90        18.56               14.69       14.69        18.56
+max                      25.71             25.63        26.67               26.21       25.63        26.67
+Data: stat_Efficiencydata003.txt
+
+Relative to virt. best :
+             SHOTcpx1910nrnc  SHOTcpx1910noref  SHOTcpx1910  SHOTcpx1910rcnoref  virt. worst
+count                  43.00             43.00        43.00               43.00        43.00
+arith. mean             1.01              1.01         1.43                1.03         1.43
+arith. std.             0.01              0.01         0.57                0.06         0.57
+min                     1.00              1.00         1.00                1.00         1.00
+10.0%                   1.00              1.00         1.05                1.00         1.06
+25.0%                   1.00              1.00         1.08                1.00         1.08
+50.0%                   1.01              1.01         1.19                1.01         1.19
+75.0%                   1.01              1.01         1.51                1.04         1.51
+90.0%                   1.03              1.03         1.97                1.07         1.97
+max                     1.06              1.06         3.27                1.25         3.27
+better                  0.00              0.00         0.00                0.00         0.00
+close                  43.00             43.00        18.00               42.00        18.00
+worse                   0.00              0.00        25.00                1.00        25.00
+Data: stat_Efficiencyratio003_virt.best.txt
+
+Category: Efficiency
+Attribute: SolverTime
+Filter: gap <= 1.0% and no fail for all solvers
+               SHOTcpx1910nrnc  SHOTcpx1910noref  SHOTcpx1910  SHOTcpx1910rcnoref  virt. best  virt. worst
+count                    43.00             43.00        43.00               43.00       43.00        43.00
+arith. mean               7.95              7.97         9.97                8.04        7.88         9.99
+arith. std.               5.84              5.86         6.74                5.93        5.80         6.77
+geom. mean                4.91              4.92         6.57                5.02        4.87         6.58
+geom. std.                3.61              3.62         3.22                3.51        3.62         3.23
+sh.geom. mean             7.07              7.08         8.84                7.14        7.01         8.85
+sh.geom. std.             1.37              1.37         1.41                1.38        1.37         1.42
+min                       0.07              0.07         0.13                0.08        0.07         0.13
+10.0%                     0.90              0.91         1.69                0.93        0.90         1.69
+25.0%                     3.34              3.31         3.96                3.29        3.29         3.96
+50.0%                     7.52              7.46         9.52                7.41        7.41         9.52
+75.0%                    11.74             11.72        15.22               12.16       11.71        15.24
+90.0%                    14.81             14.90        18.56               14.69       14.69        18.56
+max                      25.71             25.63        26.67               26.21       25.63        26.67
+Data: stat_Efficiencydata004.txt
+
+Relative to virt. best :
+             SHOTcpx1910nrnc  SHOTcpx1910noref  SHOTcpx1910  SHOTcpx1910rcnoref  virt. worst
+count                  43.00             43.00        43.00               43.00        43.00
+arith. mean             1.01              1.01         1.43                1.03         1.43
+arith. std.             0.01              0.01         0.57                0.06         0.57
+min                     1.00              1.00         1.00                1.00         1.00
+10.0%                   1.00              1.00         1.05                1.00         1.06
+25.0%                   1.00              1.00         1.08                1.00         1.08
+50.0%                   1.01              1.01         1.19                1.01         1.19
+75.0%                   1.01              1.01         1.51                1.04         1.51
+90.0%                   1.03              1.03         1.97                1.07         1.97
+max                     1.06              1.06         3.27                1.25         3.27
+better                  0.00              0.00         0.00                0.00         0.00
+close                  43.00             43.00        18.00               42.00        18.00
+worse                   0.00              0.00        25.00                1.00        25.00
+Data: stat_Efficiencyratio004_virt.best.txt
+
+Category: Efficiency
+Attribute: SolverTime
+Filter: gap <= 10.0% and no fail for all solvers
+               SHOTcpx1910nrnc  SHOTcpx1910noref  SHOTcpx1910  SHOTcpx1910rcnoref  virt. best  virt. worst
+count                    64.00             64.00        64.00               64.00       64.00        64.00
+arith. mean              24.69             24.72        28.14               26.27       24.54        28.71
+arith. std.             113.31            113.42       113.51              113.52      113.26       113.59
+geom. mean                4.64              4.88         7.04                6.21        4.55         8.22
+geom. std.                5.43              4.94         4.77                4.42        5.47         3.96
+sh.geom. mean             8.51              8.55        11.24                9.81        8.43        11.86
+sh.geom. std.             1.99              1.99         2.03                2.00        1.99         2.01
+min                       0.07              0.07         0.10                0.08        0.07         0.13
+10.0%                     0.47              0.57         1.28                0.87        0.46         1.97
+25.0%                     1.93              1.95         3.44                3.12        1.92         4.06
+50.0%                     7.51              7.45         8.91                8.33        7.36        10.05
+75.0%                    12.13             12.27        16.85               12.87       12.07        16.85
+90.0%                    16.74             16.84        24.94               19.91       16.72        24.95
+max                     902.78            903.77       903.15              903.85      902.78       903.85
+Data: stat_Efficiencydata005.txt
+
+Relative to virt. best :
+             SHOTcpx1910nrnc  SHOTcpx1910noref  SHOTcpx1910  SHOTcpx1910rcnoref  virt. worst
+count                  64.00             64.00        64.00               64.00        64.00
+arith. mean             1.02              1.20         1.79                6.37         6.93
+arith. std.             0.07              1.20         1.45               29.28        29.21
+min                     1.00              1.00         1.00                1.00         1.00
+10.0%                   1.00              1.00         1.05                1.00         1.06
+25.0%                   1.00              1.00         1.09                1.00         1.09
+50.0%                   1.00              1.00         1.35                1.03         1.36
+75.0%                   1.01              1.01         1.87                1.24         1.97
+90.0%                   1.03              1.04         3.17                1.98         3.33
+max                     1.50             10.36        11.25              193.48       193.48
+better                  0.00              0.00         0.00                0.00         0.00
+close                  62.00             61.00        23.00               47.00        21.00
+worse                   2.00              3.00        41.00               17.00        43.00
+Data: stat_Efficiencyratio005_virt.best.txt
+
+Category: Efficiency
+Attribute: SolverTime
+Filter: within 0.102% of known optimal value and no fail for all solvers
+               SHOTcpx1910nrnc  SHOTcpx1910noref  SHOTcpx1910  SHOTcpx1910rcnoref  virt. best  virt. worst
+count                    71.00             71.00        71.00               71.00       71.00        71.00
+arith. mean              15.59             15.59        30.45               18.54       15.51        30.46
+arith. std.              66.77             66.49       130.82               79.58       66.49       130.82
+geom. mean                2.12              2.10         3.45                2.56        2.08         3.46
+geom. std.                9.64              9.77         8.41                8.33        9.80         8.34
+sh.geom. mean             6.50              6.52         8.86                6.99        6.46         8.87
+sh.geom. std.             1.84              1.84         2.16                1.92        1.84         2.16
+min                       0.04              0.04         0.05                0.05        0.04         0.07
+10.0%                     0.06              0.06         0.13                0.10        0.06         0.13
+25.0%                     0.28              0.29         0.56                0.41        0.28         0.56
+50.0%                     5.48              5.62         7.69                5.48        5.48         7.69
+75.0%                    11.42             11.64        16.46               12.13       11.42        16.46
+90.0%                    15.18             15.19        20.60               15.87       15.11        20.91
+max                     557.41            554.98       909.00              648.38      554.98       909.00
+Data: stat_Efficiencydata006.txt
+
+Relative to virt. best :
+             SHOTcpx1910nrnc  SHOTcpx1910noref  SHOTcpx1910  SHOTcpx1910rcnoref  virt. worst
+count                  71.00             71.00        71.00               71.00        71.00
+arith. mean             1.02              1.01         1.89                1.33         1.90
+arith. std.             0.05              0.03         1.38                0.84         1.38
+min                     1.00              1.00         1.00                1.00         1.00
+10.0%                   1.00              1.00         1.07                1.00         1.07
+25.0%                   1.00              1.00         1.14                1.01         1.14
+50.0%                   1.00              1.00         1.53                1.06         1.60
+75.0%                   1.01              1.01         1.95                1.33         1.95
+90.0%                   1.04              1.03         2.94                1.83         2.94
+max                     1.41              1.26         9.64                7.50         9.64
+better                  0.00              0.00         0.00                0.00         0.00
+close                  71.00             71.00        26.00               53.00        26.00
+worse                   0.00              0.00        45.00               18.00        45.00
+Data: stat_Efficiencyratio006_virt.best.txt
+
+Category: Efficiency
+Attribute: SolverTime
+Filter: within 1.0% of known optimal value and no fail for all solvers
+               SHOTcpx1910nrnc  SHOTcpx1910noref  SHOTcpx1910  SHOTcpx1910rcnoref  virt. best  virt. worst
+count                    78.00             78.00        78.00               78.00       78.00        78.00
+arith. mean              14.96             14.95        28.90               17.96       14.88        28.91
+arith. std.              63.93             63.66       125.14               76.32       63.66       125.14
+geom. mean                1.84              1.82         3.07                2.27        1.80         3.08
+geom. std.               10.27             10.43         8.74                8.80       10.45         8.68
+sh.geom. mean             6.27              6.28         8.49                6.78        6.23         8.50
+sh.geom. std.             1.84              1.85         2.16                1.94        1.84         2.16
+min                       0.04              0.04         0.05                0.05        0.04         0.07
+10.0%                     0.06              0.06         0.13                0.09        0.06         0.13
+25.0%                     0.14              0.13         0.38                0.26        0.13         0.38
+50.0%                     4.43              4.46         6.29                4.56        4.42         6.29
+75.0%                    11.38             11.39        15.93               12.09       11.35        15.93
+90.0%                    15.85             15.89        20.69               16.36       15.80        20.92
+max                     557.41            554.98       909.00              648.38      554.98       909.00
+Data: stat_Efficiencydata007.txt
+
+Relative to virt. best :
+             SHOTcpx1910nrnc  SHOTcpx1910noref  SHOTcpx1910  SHOTcpx1910rcnoref  virt. worst
+count                  78.00             78.00        78.00               78.00        78.00
+arith. mean             1.02              1.01         1.94                1.36         1.94
+arith. std.             0.05              0.03         1.36                0.82         1.35
+min                     1.00              1.00         1.00                1.00         1.00
+10.0%                   1.00              1.00         1.07                1.00         1.07
+25.0%                   1.00              1.00         1.16                1.01         1.16
+50.0%                   1.00              1.00         1.63                1.07         1.68
+75.0%                   1.02              1.01         2.01                1.38         2.01
+90.0%                   1.04              1.03         2.95                1.99         2.95
+max                     1.41              1.26         9.64                7.50         9.64
+better                  0.00              0.00         0.00                0.00         0.00
+close                  78.00             78.00        28.00               59.00        28.00
+worse                   0.00              0.00        50.00               19.00        50.00
+Data: stat_Efficiencyratio007_virt.best.txt
+
+Category: Efficiency
+Attribute: SolverTime
+Filter: within 10.0% of known optimal value and no fail for all solvers
+               SHOTcpx1910nrnc  SHOTcpx1910noref  SHOTcpx1910  SHOTcpx1910rcnoref  virt. best  virt. worst
+count                    95.00             95.00        95.00               95.00       95.00        95.00
+arith. mean              40.04             21.84        52.46               24.97       21.77        52.77
+arith. std.             145.39            107.95       173.68              114.30      107.93       173.60
+geom. mean                2.04              1.43         3.59                2.04        1.36         3.99
+geom. std.               14.05             10.74        11.69                9.35       11.05        11.09
+sh.geom. mean             8.96              5.77        11.69                6.76        5.72        12.10
+sh.geom. std.             2.62              2.04         2.82                2.13        2.04         2.81
+min                       0.04              0.04         0.05                0.05        0.04         0.07
+10.0%                     0.06              0.05         0.12                0.08        0.05         0.12
+25.0%                     0.11              0.14         0.33                0.25        0.11         0.43
+50.0%                     3.90              2.27         6.57                3.12        2.27         7.69
+75.0%                    11.93             10.04        17.01               11.90       10.02        17.01
+90.0%                    41.90             15.16        53.23               17.12       15.06        53.23
+max                     900.33            900.64       909.00              901.16      900.33       909.00
+Data: stat_Efficiencydata008.txt
+
+Relative to virt. best :
+             SHOTcpx1910nrnc  SHOTcpx1910noref  SHOTcpx1910  SHOTcpx1910rcnoref  virt. worst
+count                  95.00             95.00        95.00               95.00        95.00
+arith. mean            44.38              1.13        47.10                5.17        50.57
+arith. std.           213.33              0.99       216.57               24.15       217.17
+min                     1.00              1.00         1.00                1.00         1.00
+10.0%                   1.00              1.00         1.07                1.00         1.07
+25.0%                   1.00              1.00         1.19                1.01         1.23
+50.0%                   1.01              1.00         1.77                1.11         1.80
+75.0%                   1.03              1.01         2.55                1.48         2.62
+90.0%                   1.18              1.03         8.94                2.32        13.82
+max                  1437.69             10.36      1464.08              193.48      1464.08
+better                  0.00              0.00         0.00                0.00         0.00
+close                  88.00             93.00        34.00               68.00        32.00
+worse                   7.00              2.00        61.00               27.00        63.00
+Data: stat_Efficiencyratio008_virt.best.txt
+
+Category: Efficiency
+Attribute: SolverTime
+Filter: no fail
+Relative performance profile: stat_Efficiencyprofilerel009.txt
+Absolute performance profile: stat_Efficiencyprofileabs009.txt
+
+Category: Efficiency
+Attribute: SolverTime
+Filter: time >= 10.0 by at least one solver and no fail for all solvers
+Relative performance profile: stat_Efficiencyprofilerel010.txt
+Absolute performance profile: stat_Efficiencyprofileabs010.txt
+
+Category: Efficiency
+Attribute: SolverTime
+Filter: gap <= 0.102% and not failed
+Relative performance profile: stat_Efficiencyprofilerel011.txt
+Absolute performance profile: stat_Efficiencyprofileabs011.txt
+
+Category: Efficiency
+Attribute: SolverTime
+Filter: gap <= 1.0% and not failed
+Relative performance profile: stat_Efficiencyprofilerel012.txt
+Absolute performance profile: stat_Efficiencyprofileabs012.txt
+
+Category: Efficiency
+Attribute: SolverTime
+Filter: gap <= 10.0% and not failed
+Relative performance profile: stat_Efficiencyprofilerel013.txt
+Absolute performance profile: stat_Efficiencyprofileabs013.txt
+
+Category: Efficiency
+Attribute: SolverTime
+Filter: within 0.102% of known optimal value and not failed
+Relative performance profile: stat_Efficiencyprofilerel014.txt
+Absolute performance profile: stat_Efficiencyprofileabs014.txt
+
+Category: Efficiency
+Attribute: SolverTime
+Filter: within 1.0% of known optimal value and not failed
+Relative performance profile: stat_Efficiencyprofilerel015.txt
+Absolute performance profile: stat_Efficiencyprofileabs015.txt
+
+Category: Efficiency
+Attribute: SolverTime
+Filter: within 10.0% of known optimal value and not failed
+Relative performance profile: stat_Efficiencyprofilerel016.txt
+Absolute performance profile: stat_Efficiencyprofileabs016.txt
+
+Category: Efficiency
+Attribute: NumberOfNodes
+Filter: no fail by all solver
+               SHOTcpx1910nrnc  SHOTcpx1910noref  SHOTcpx1910  SHOTcpx1910rcnoref  virt. best  virt. worst
+count                   293.00            293.00       293.00              293.00      293.00       293.00
+arith. mean          185696.20         168123.31    220603.39           205024.21   164685.27    227527.30
+arith. std.         2219569.39        2204868.06   2348451.52          2325699.82  2203872.86   2354530.39
+geom. mean               12.81              9.90        16.84               14.86        8.29        22.74
+geom. std.               64.87             52.92        83.52               76.81       46.54        98.85
+sh.geom. mean           225.71            180.61       294.50              267.08      156.86       366.04
+sh.geom. std.            11.25              9.69        13.52               12.68        8.83        15.42
+min                       1.00              1.00         1.00                1.00        1.00         1.00
+10.0%                     1.00              1.00         1.00                1.00        1.00         1.00
+25.0%                     1.00              1.00         1.00                1.00        1.00         1.00
+50.0%                     1.00              1.00         1.00                1.00        1.00         1.00
+75.0%                   142.00            104.00       388.00              263.00       35.00       682.00
+90.0%                 14658.60           8026.00     23956.80            16036.40     6494.20     62548.40
+max                37525808.00       37525808.00  39052797.00         38800662.00 37525808.00  39052797.00
+Data: stat_Efficiencydata017.txt
+
+Relative to virt. best :
+             SHOTcpx1910nrnc  SHOTcpx1910noref  SHOTcpx1910  SHOTcpx1910rcnoref  virt. worst
+count                 293.00            293.00       293.00              293.00       293.00
+arith. mean           734.15           1632.40       883.70             3157.88      3996.11
+arith. std.          8120.73          19477.90      8477.79            24460.97     25803.65
+min                     1.00              1.00         1.00                1.00         1.00
+10.0%                   1.00              1.00         1.00                1.00         1.00
+25.0%                   1.00              1.00         1.00                1.00         1.00
+50.0%                   1.00              1.00         1.00                1.00         1.00
+75.0%                   1.00              1.00         1.00                1.00         1.18
+90.0%                   1.02              1.00        11.46                5.13        37.00
+max                124401.00         259636.00    124401.00           258909.00    259636.00
+better                  0.00              0.00         0.00                0.00         0.00
+close                 267.00            282.00       231.00              239.00       216.00
+worse                  26.00             11.00        62.00               54.00        77.00
+Data: stat_Efficiencyratio017_virt.best.txt
+
+Category: Efficiency
+Attribute: NumberOfNodes
+Filter: time >= 10.0 by at least one solver and no fail for all solvers
+               SHOTcpx1910nrnc  SHOTcpx1910noref  SHOTcpx1910  SHOTcpx1910rcnoref  virt. best  virt. worst
+count                   129.00            129.00       129.00              129.00      129.00       129.00
+arith. mean          421479.48         381696.57    500284.21           465252.17   373888.48    515947.70
+arith. std.         3337431.75        3317836.21   3527145.15          3495293.09  3316828.98   3535114.05
+geom. mean               81.17             64.01       111.73              104.16       44.34       189.60
+geom. std.              167.60            136.58       205.20              190.42      123.61       227.46
+sh.geom. mean           865.85            682.18      1135.39             1048.49      543.35      1602.03
+sh.geom. std.            24.76             21.12        29.61               28.00       19.21        33.14
+min                       1.00              1.00         1.00                1.00        1.00         1.00
+10.0%                     1.00              1.00         1.00                1.00        1.00         1.00
+25.0%                     1.00              1.00         1.00                1.00        1.00         1.00
+50.0%                     1.00              1.00         4.00               17.00        1.00        84.00
+75.0%                  8707.00           4455.00     13069.00            11273.00     1628.00     35035.00
+90.0%                126453.80          98217.80    204277.20           188914.00    60049.20    273094.00
+max                37525808.00       37525808.00  39052797.00         38800662.00 37525808.00  39052797.00
+Data: stat_Efficiencydata018.txt
+
+Relative to virt. best :
+             SHOTcpx1910nrnc  SHOTcpx1910noref  SHOTcpx1910  SHOTcpx1910rcnoref  virt. worst
+count                 129.00            129.00       129.00              129.00       129.00
+arith. mean          1552.30           3705.64      1594.15             7093.04      8600.50
+arith. std.         12184.83          29287.21     12372.16            36561.88     38347.25
+min                     1.00              1.00         1.00                1.00         1.00
+10.0%                   1.00              1.00         1.00                1.00         1.00
+25.0%                   1.00              1.00         1.00                1.00         1.00
+50.0%                   1.00              1.00         1.00                1.00         1.00
+75.0%                   1.00              1.00         1.18                1.10         2.21
+90.0%                   1.20              1.04        29.22                7.91       283.78
+max                124401.00         259636.00    124401.00           258909.00    259636.00
+better                  0.00              0.00         0.00                0.00         0.00
+close                 113.00            119.00        94.00               97.00        82.00
+worse                  16.00             10.00        35.00               32.00        47.00
+Data: stat_Efficiencyratio018_virt.best.txt
+
+Category: Efficiency
+Attribute: NumberOfNodes
+Filter: gap <= 0.102% and no fail for all solvers
+               SHOTcpx1910nrnc  SHOTcpx1910noref  SHOTcpx1910  SHOTcpx1910rcnoref  virt. best  virt. worst
+count                    43.00             43.00        43.00               43.00       43.00        43.00
+arith. mean              39.30             39.30        40.21               39.30       37.28        42.23
+arith. std.              92.70             92.70        92.60               92.70       91.77        93.45
+geom. mean                2.83              2.83         2.86                2.83        2.56         3.17
+geom. std.                7.78              7.78         7.93                7.78        7.33         8.36
+sh.geom. mean            23.23             23.23        23.90               23.23       21.59        25.57
+sh.geom. std.             1.54              1.54         1.54                1.54        1.53         1.55
+min                       1.00              1.00         1.00                1.00        1.00         1.00
+10.0%                     1.00              1.00         1.00                1.00        1.00         1.00
+25.0%                     1.00              1.00         1.00                1.00        1.00         1.00
+50.0%                     1.00              1.00         1.00                1.00        1.00         1.00
+75.0%                     1.00              1.00         1.00                1.00        1.00         1.00
+90.0%                   132.40            132.40       133.40              132.40      132.40       133.40
+max                     419.00            419.00       419.00              419.00      419.00       419.00
+Data: stat_Efficiencydata019.txt
+
+Relative to virt. best :
+             SHOTcpx1910nrnc  SHOTcpx1910noref  SHOTcpx1910  SHOTcpx1910rcnoref  virt. worst
+count                  43.00             43.00        43.00               43.00        43.00
+arith. mean             2.65              2.65         3.93                2.65         5.58
+arith. std.            10.83             10.83        19.21               10.83        21.83
+min                     1.00              1.00         1.00                1.00         1.00
+10.0%                   1.00              1.00         1.00                1.00         1.00
+25.0%                   1.00              1.00         1.00                1.00         1.00
+50.0%                   1.00              1.00         1.00                1.00         1.00
+75.0%                   1.00              1.00         1.00                1.00         1.00
+90.0%                   1.00              1.00         1.00                1.00         1.00
+max                    72.00             72.00       127.00               72.00       127.00
+better                  0.00              0.00         0.00                0.00         0.00
+close                  42.00             42.00        42.00               42.00        41.00
+worse                   1.00              1.00         1.00                1.00         2.00
+Data: stat_Efficiencyratio019_virt.best.txt
+
+Category: Efficiency
+Attribute: NumberOfNodes
+Filter: gap <= 0.102% and not failed
+Relative performance profile: stat_Efficiencyprofilerel020.txt
+

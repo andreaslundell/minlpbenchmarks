@@ -1,0 +1,21 @@
+Category: Status
+Attribute: Fail
+Filter: instance or solve run marked as failed
+       SHOTcpx1910nrnc  SHOTcpx1910noref  SHOTcpx1910  SHOTcpx1910rcnoref  virt. best  virt. worst
+count               14                30           13                  27          30           13
+Data: stat_Statusdata000.txt
+
+Category: Status
+Attribute: TerminationStatus
+Filter: normal termination
+       SHOTcpx1910nrnc  SHOTcpx1910noref  SHOTcpx1910  SHOTcpx1910rcnoref  virt. best  virt. worst
+count              287               280          275                 277         305          244
+Data: stat_Statusdata001.txt
+
+Category: Status
+Attribute: TerminationStatus
+Filter: exceeded some limit
+       SHOTcpx1910nrnc  SHOTcpx1910noref  SHOTcpx1910  SHOTcpx1910rcnoref  virt. best  virt. worst
+count               36                42           48                  45          78           18
+Data: stat_Statusdata002.txt
+
