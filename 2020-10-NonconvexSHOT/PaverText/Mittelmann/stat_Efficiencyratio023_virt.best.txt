@@ -1,0 +1,4 @@
+                      SHOTcpx1910MMcvx scipNCsoplex baronNC SHOTcpx1910MM  virt. worst
+smallinvSNPr3b050-055            1.00=  5320535.00-   1.00=         1.00=  5320535.00-
+sonet20v6                        1.00=  1249333.00-   1.00=         1.00=  1249333.00-
+sporttournament20                1.00=    51122.00-   1.00=         1.00=    51122.00-

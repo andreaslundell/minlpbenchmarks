@@ -1,0 +1,5 @@
+                   SHOTcpx1910MMcvx  scipNCsoplex  baronNC  SHOTcpx1910MM  virt. best  virt. worst
+multiplants_mtg1a                 7             -        -              -         7.0            -
+oil                               7             -        -              -         7.0            -
+pooling_epa2                      7             -        -              -         7.0            -
+wastepaper4                       7             -        -              -         7.0            -

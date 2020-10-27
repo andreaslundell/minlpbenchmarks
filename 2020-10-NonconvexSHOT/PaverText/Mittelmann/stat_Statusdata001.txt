@@ -1,0 +1,16 @@
+                         SHOTcpx1910MMcvx  scipNCsoplex  baronNC  SHOTcpx1910MM  virt. best  virt. worst
+autocorr_bern25-13                    0.0             -      0.0              -         0.0            -
+cecil_13                              0.0           0.0      0.0            0.0         0.0          0.0
+genpooling_meyer04                      -             -        -            0.0         0.0            -
+multiplants_mtg1a                       -           0.0      0.0            0.0         0.0            -
+oil                                     -             -        -            0.0         0.0            -
+radar-3000-10-a-8_lat_7               0.0             -        -              -         0.0            -
+sfacloc2_4_80                         0.0           0.0      0.0            0.0         0.0          0.0
+smallinvSNPr3b050-055                 0.0           0.0      0.0            0.0         0.0          0.0
+sonet20v6                             0.0           0.0      0.0            0.0         0.0          0.0
+sporttournament20                     0.0           0.0      0.0            0.0         0.0          0.0
+squfl030-150persp                     0.0             -        -              -         0.0            -
+sssd20-04persp                          -             -        -            0.0         0.0            -
+tln7                                    -             -      0.0              -         0.0            -
+wastepaper4                             -           0.0      0.0            0.0         0.0            -
+crudeoil_lee3_10                        -           0.0        -            0.0         0.0            -

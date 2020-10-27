@@ -1,0 +1,35 @@
+Category: Status
+Attribute: Fail
+Filter: instance or solve run marked as failed
+       couenneNCcbc  SHOTcpx1910  baronNC  gurobi  scipNCsoplex  SHOTcbc1910  antigoneNC  lglobal  SHOTgur2310  virt. best  virt. worst
+count            27           16        6     158            16            5          40       18            4         182            0
+Data: stat_Statusdata000.txt
+
+Category: Status
+Attribute: TerminationStatus
+Filter: normal termination
+       couenneNCcbc  SHOTcpx1910  baronNC  gurobi  scipNCsoplex  SHOTcbc1910  antigoneNC  lglobal  SHOTgur2310  virt. best  virt. worst
+count           168          275      222     147           212          201         213      152          249         313           37
+Data: stat_Statusdata001.txt
+
+Category: Status
+Attribute: TerminationStatus
+Filter: exceeded some limit
+       couenneNCcbc  SHOTcpx1910  baronNC  gurobi  scipNCsoplex  SHOTcbc1910  antigoneNC  lglobal  SHOTgur2310  virt. best  virt. worst
+count           156           48      104      20           113          125         111      170           74         269            5
+Data: stat_Statusdata002.txt
+
+Category: Status
+Attribute: TerminationStatus
+Filter: interrupted by user
+       couenneNCcbc  SHOTcpx1910  baronNC  gurobi  scipNCsoplex  SHOTcbc1910  antigoneNC  lglobal  SHOTgur2310  virt. best  virt. worst
+count             0            0        0       1             0            0           0        0            0           1            0
+Data: stat_Statusdata003.txt
+
+Category: Status
+Attribute: TerminationStatus
+Filter: error or other problem
+       couenneNCcbc  SHOTcpx1910  baronNC  gurobi  scipNCsoplex  SHOTcbc1910  antigoneNC  lglobal  SHOTgur2310  virt. best  virt. worst
+count             2            0        0      13             0            0           2        3            0          20            0
+Data: stat_Statusdata004.txt
+

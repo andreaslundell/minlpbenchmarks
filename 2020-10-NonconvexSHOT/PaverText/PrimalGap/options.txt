@@ -1,0 +1,34 @@
+solufile                       []
+writetext                      primal/paver_text/
+ccreltol                       0.001
+timeshift                      10.0
+nodeshift                      100
+refsolver                      []
+nosortsolver                   True
+file                           ['trc/aecpNCALL.trc', 'trc/antigoneNCALL.trc', 'trc/baronNCALL.trc', 'trc/bbbNCcbcALL.trc', 'trc/couenneNCcbcALL.trc', 'trc/dicoptNCALL.trc', 'trc/gurobiALL.trc', 'trc/lglobalALL.trc', 'trc/scipNCsoplexALL.trc', 'trc/sbbNCALL.trc', 'trc/SHOTcpx1910ALL.trc', 'trc/SHOTcbc1910ALL.trc', 'trc/SHOTgur2310ALL.trc', 'minlplib.solu']
+ccabstol                       0.001
+ignoredualbounds               True
+tracefile                      []
+timerelimpr                    0.1
+mintime                        0.005
+gaptol                         0.00102
+writehtml                      primal/paver_html/
+evalgap                        [0.01, 0.1]
+figformat                      png
+filternodes                    None
+failnodes                      None
+novirt                         False
+failtime                       910.0
+bw                             False
+optfileisrunname               True
+eval                           []
+boundrelimpr                   0.1
+ccfeastol                      2e-06
+nocheckinstanceattr            True
+zerogaptol                     1e-09
+instances                      None
+extendedprofiles               False
+numpts                         10000
+setup                          None
+filtertime                     10.0
+ccopttol                       inf

@@ -1,0 +1,4 @@
+                       SHOTcpx1910MMcvx  scipNCsoplex  baronNC  SHOTcpx1910MM  virt. best  virt. worst
+smallinvSNPr3b050-055          7.723588       455.877     4.92       8.059657    4.920000      455.877
+sonet20v6                     55.562879       785.198   177.80     344.091937   55.562879      785.198
+sporttournament20              3.430480        16.813    24.42       4.047030    3.430480       24.420
