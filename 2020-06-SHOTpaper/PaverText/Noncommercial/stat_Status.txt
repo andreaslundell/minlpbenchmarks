@@ -1,0 +1,35 @@
+Category: Status
+Attribute: Fail
+Filter: instance or solve run marked as failed
+       Scb2804m  boaos  scip  virt. best  virt. worst
+count        20     68     0          79            0
+Data: stat_Statusdata000.txt
+
+Category: Status
+Attribute: TerminationStatus
+Filter: normal termination
+       Scb2804m  boaos  scip  virt. best  virt. worst
+count       349    275   358         374          263
+Data: stat_Statusdata001.txt
+
+Category: Status
+Attribute: TerminationStatus
+Filter: exceeded some limit
+       Scb2804m  boaos  scip  virt. best  virt. worst
+count        52    122    47         137           24
+Data: stat_Statusdata002.txt
+
+Category: Status
+Attribute: TerminationStatus
+Filter: capability problem
+       Scb2804m  boaos  scip  virt. best  virt. worst
+count         0      1     0           1            0
+Data: stat_Statusdata003.txt
+
+Category: Status
+Attribute: TerminationStatus
+Filter: error or other problem
+       Scb2804m  boaos  scip  virt. best  virt. worst
+count         0      5     0           5            0
+Data: stat_Statusdata004.txt
+

@@ -1,0 +1,2 @@
+              couenneNCcbc  SHOTcpx1910  baronNC  gurobi  scipNCsoplex  SHOTcbc1910  antigoneNC  lglobal  SHOTgur2310  virt. best  virt. worst
+hydroenergy3             -            -        -       5             -            -           -        -            -         5.0            -

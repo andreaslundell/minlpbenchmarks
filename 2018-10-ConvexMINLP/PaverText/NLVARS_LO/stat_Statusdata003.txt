@@ -1,0 +1,20 @@
+                        dicopt  muriqui  shot  baron  aoa  knitro  alphaecp  knitrobb  scip  bbb  sbb  mtaurbnb  juniper  lindo  boa  mtaurqg  pavito  antigone  couenne  bhyb  virt. best  virt. worst
+clay0305h                    -        -     -      -    -       -         -         -     -    -    -         -        -      -    -        -       -         -      7.0     -         7.0            -
+fo7_ar5_1                    -        -     -      -    -       -         -       7.0     -    -    -         -        -      -    -        -       -         -        -     -         7.0            -
+fo8_ar5_1                    -        -     -      -    -       -         -       7.0     -    -    -         -        -      -    -        -       -         -        -     -         7.0            -
+m7_ar2_1                     -        -     -      -    -       -         -       7.0     -    -    -         -        -      -    -        -       -         -        -     -         7.0            -
+no7_ar25_1                   -        -     -      -    -       -         -       7.0     -    -    -         -        -      -    -        -       -         -        -     -         7.0            -
+no7_ar3_1                    -        -     -      -    -       -         -       7.0     -    -    -         -        -      -    -        -       -         -        -     -         7.0            -
+o7_ar25_1                    -        -     -      -    -       -         -       7.0     -    -    -         -        -      -    -        -       -         -        -     -         7.0            -
+o7_ar2_1                     -        -     -      -    -       -         -       7.0     -    -    -         -        -      -    -        -       -         -        -     -         7.0            -
+o7_ar5_1                     -        -     -      -    -       -         -       7.0     -    -    -         -        -      -    -        -       -         -        -     -         7.0            -
+portfol_buyin                -      8.0     -      -    -     8.0         -       8.0     -    -    -         -        -      -    -        -       -         -        -     -         8.0            -
+portfol_card                 -      8.0     -      -    -     8.0         -       8.0     -    -    -         -        -      -    -        -       -         -        -     -         8.0            -
+portfol_roundlot             -      8.0     -      -    -     8.0         -       8.0     -    -    -         -        -      -    -        -       -         -        -     -         8.0            -
+slay05h                      -        -     -      -    -       -       8.0         -     -    -    -         -        -      -    -        -       -         -        -     -         8.0            -
+slay07h                      -        -     -      -    -       -       8.0         -     -    -    -         -        -      -    -        -       -         -        -     -         8.0            -
+slay07m                      -        -     -      -    -       -       8.0         -     -    -    -         -        -      -    -        -       -         -        -     -         8.0            -
+st_test4                     -        -     -      -    -       -         -         -     -    -    -         -        -      -  7.0        -       -         -        -   7.0         7.0            -
+stockcycle                   -        -     -      -    -     8.0         -         -     -    -    -         -        -      -    -        -       -         -        -     -         8.0            -
+watercontamination0202       -      8.0     -      -    -       -         -         -     -    -    -         -        -      -    -        -       -         -        -     -         8.0            -
+watercontamination0303       -      8.0     -      -    -       -         -         -     -    -    -         -        -      -    -        -       -         -        -     -         8.0            -

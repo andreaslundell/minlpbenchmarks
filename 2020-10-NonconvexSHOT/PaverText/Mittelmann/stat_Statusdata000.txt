@@ -1,0 +1,11 @@
+                    SHOTcpx1910MMcvx  scipNCsoplex  baronNC  SHOTcpx1910MM  virt. best  virt. worst
+cecil_13                        True             -        -              -         1.0            -
+genpooling_meyer04              True             -        -              -         1.0            -
+multiplants_mtg1a               True             -        -            1.0         1.0            -
+oil                             True             -        -              -         1.0            -
+pooling_epa2                    True             -        -            1.0         1.0            -
+sfacloc2_4_80                   True             -        -              -         1.0            -
+sssd20-04persp                  True             -        -              -         1.0            -
+tln7                            True             -        -              -         1.0            -
+wastepaper4                     True             -        -              -         1.0            -
+crudeoil_lee3_10                True             -      1.0              -         1.0            -

@@ -1,0 +1,7 @@
+                         SHOTcpx1910MMcvx  scipNCsoplex  baronNC  SHOTcpx1910MM  virt. best  virt. worst
+autocorr_bern25-13                    804        284126       55          35035          55       284126
+radar-3000-10-a-8_lat_7                 1          6588        7              1           1         6588
+smallinvSNPr3b050-055                   1         76636        5              1           1        76636
+sonet20v6                               1          1695        1              1           1         1695
+sporttournament20                       1           712       17              1           1          712
+squfl030-150persp                       1             1       44          44638           1        44638

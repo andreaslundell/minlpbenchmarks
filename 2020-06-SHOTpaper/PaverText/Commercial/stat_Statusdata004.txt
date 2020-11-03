@@ -1,0 +1,16 @@
+                            Scp2804s  aecp  aoa  baron  dicopt  sbb  virt. best  virt. worst
+ball_mk3_10                        -   8.0    -      -       -    -         8.0            -
+ball_mk4_05                        -   8.0    -      -       -    -         8.0            -
+batch0812                          -   8.0    -      -       -    -         8.0            -
+cvxnonsep_pcon20                   -   8.0    -      -       -    -         8.0            -
+cvxnonsep_pcon30                   -   8.0    -      -       -    -         8.0            -
+meanvar-orl400_05_e_8              -     -    -      -     8.0    -         8.0            -
+pedigree_sp_top4_250               -     -    -      -     8.0    -         8.0            -
+pedigree_sp_top4_300               -     -    -      -     8.0    -         8.0            -
+rsyn0840m04hfsg                    -     -    -      -       -  8.0         8.0            -
+slay04m                            -   8.0    -      -       -    -         8.0            -
+slay05m                            -   8.0    -      -       -    -         8.0            -
+slay06h                            -   8.0    -      -       -    -         8.0            -
+slay07h                            -   8.0    -      -       -    -         8.0            -
+slay07m                            -   8.0    -      -       -    -         8.0            -
+unitcommit_200_100_2_mod_8         -     -    -      -       -  8.0         8.0            -

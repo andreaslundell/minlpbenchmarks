@@ -1,0 +1,982 @@
+<HTML>
+<HEAD> 
+        <STYLE>
+        table.dataframe { text-align: right; font-size: 12px; border: 1px; border-collapse: collapse}
+        </STYLE>
+         </HEAD>
+<BODY>
+<P>For a short description on how gaps and integrals are calculated, refer to <A href=documentation.html>the documentation</A>.</P>
+<P> <TABLE cellpadding="4" style="border: 1px solid #000000; border-collapse: collapse; font-size: 12px;" border="1">
+ <TR>
+  <TH colspan="7" style="border-right: thick solid ;" align="center">Instance</TH>
+  <TH colspan="8" align="center" style="border-right: thick solid ;">SHOTcpx1910MM@1</TH>
+  <TH colspan="8" align="center" style="border-right: thick solid ;">SHOTcpx1910MMcvx@1</TH>
+  <TH colspan="8" align="center" style="border-right: thick solid ;">baronNC@0</TH>
+  <TH colspan="8" align="center" style="border-right: thick solid ;">scipNCsoplex@1</TH>
+ </TR>
+ <TR>
+  <TH align="left">name</TH>
+  <TH align="right" style="font-family: monospace">#Vars</TH>
+  <TH align="right" style="font-family: monospace">#Disc</TH>
+  <TH align="right" style="font-family: monospace">#Equs</TH>
+  <TH align="right" style="font-family: monospace">Dir</TH>
+  <TH align="right" style="font-family: monospace">Dual bound</TH>
+  <TH align="right" style="border-right: thick solid; font-family: monospace">Primal bound</TH>
+  <TH align="left" style="font-family: monospace">TermStatus</TH>
+  <TH align="right" style="font-family: monospace">Dual bound</TH>
+  <TH align="right" style="font-family: monospace" title="in %">DualGap</TH>
+  <TH align="right" style="font-family: monospace">Primal bound</TH>
+  <TH align="right" style="font-family: monospace" title="in %">PrimGap</TH>
+  <TH align="right" style="font-family: monospace" title="in %">Gap</TH>
+  <TH align="right" style="font-family: monospace" title="in s">Time</TH>
+  <TH align="right" style="border-right: thick solid; font-family: monospace">Nodes</TH>
+  <TH align="left" style="font-family: monospace">TermStatus</TH>
+  <TH align="right" style="font-family: monospace">Dual bound</TH>
+  <TH align="right" style="font-family: monospace" title="in %">DualGap</TH>
+  <TH align="right" style="font-family: monospace">Primal bound</TH>
+  <TH align="right" style="font-family: monospace" title="in %">PrimGap</TH>
+  <TH align="right" style="font-family: monospace" title="in %">Gap</TH>
+  <TH align="right" style="font-family: monospace" title="in s">Time</TH>
+  <TH align="right" style="border-right: thick solid; font-family: monospace">Nodes</TH>
+  <TH align="left" style="font-family: monospace">TermStatus</TH>
+  <TH align="right" style="font-family: monospace">Dual bound</TH>
+  <TH align="right" style="font-family: monospace" title="in %">DualGap</TH>
+  <TH align="right" style="font-family: monospace">Primal bound</TH>
+  <TH align="right" style="font-family: monospace" title="in %">PrimGap</TH>
+  <TH align="right" style="font-family: monospace" title="in %">Gap</TH>
+  <TH align="right" style="font-family: monospace" title="in s">Time</TH>
+  <TH align="right" style="border-right: thick solid; font-family: monospace">Nodes</TH>
+  <TH align="left" style="font-family: monospace">TermStatus</TH>
+  <TH align="right" style="font-family: monospace">Dual bound</TH>
+  <TH align="right" style="font-family: monospace" title="in %">DualGap</TH>
+  <TH align="right" style="font-family: monospace">Primal bound</TH>
+  <TH align="right" style="font-family: monospace" title="in %">PrimGap</TH>
+  <TH align="right" style="font-family: monospace" title="in %">Gap</TH>
+  <TH align="right" style="font-family: monospace" title="in s">Time</TH>
+  <TH align="right" style="border-right: thick solid; font-family: monospace">Nodes</TH>
+ </TR>
+ <TR bgcolor="White">
+  <TD align="left">autocorr_bern25-13</TD>
+  <TD align="right" style="font-family: monospace">26</TD>
+  <TD align="right" style="font-family: monospace">25</TD>
+  <TD align="right" style="font-family: monospace">1</TD>
+  <TD align="right" style="font-family: monospace">min</TD>
+  <TD align="right" style="font-family: monospace">-8.148000e+03</TD>
+  <TD align="right" style="border-right: thick solid ;">-8.148000e+03</TD>
+  <TD align="left" style="font-family: monospace"><font color=Black>timelim</font></TD>
+  <TD align="right" style="font-family: monospace">-1.977933e+04</TD>
+  <TD align="right" style="font-family: monospace" title="in %">142.75</TD>
+  <TD align="right" style="font-family: monospace">-8.148000e+03</TD>
+  <TD align="right" style="font-family: monospace" title="in %">0.00</TD>
+  <TD align="right" style="font-family: monospace" title="in %">142.75</TD>
+  <TD align="right" style="font-family: monospace" title="in s">1800.03</TD>
+  <TD align="right" style="border-right: thick solid; font-family: monospace">35035</TD>
+  <TD align="left" style="font-family: monospace"><font color=Blue>normal</font></TD>
+  <TD align="right" style="font-family: monospace">-1.480000e+04</TD>
+  <TD align="right" style="font-family: monospace" title="in %">81.64</TD>
+  <TD align="right" style="font-family: monospace">-7.364000e+03</TD>
+  <TD align="right" style="font-family: monospace" title="in %">10.65</TD>
+  <TD align="right" style="font-family: monospace" title="in %">100.98</TD>
+  <TD align="right" style="font-family: monospace" title="in s">11.05</TD>
+  <TD align="right" style="border-right: thick solid; font-family: monospace">804</TD>
+  <TD align="left" style="font-family: monospace"><font color=Blue>normal</font></TD>
+  <TD align="right" style="font-family: monospace">-8.148148e+03</TD>
+  <TD align="right" style="font-family: monospace" title="in %">0.00</TD>
+  <TD align="right" style="font-family: monospace">-8.140000e+03</TD>
+  <TD align="right" style="font-family: monospace" title="in %">0.10</TD>
+  <TD align="right" style="font-family: monospace" title="in %">0.10</TD>
+  <TD align="right" style="font-family: monospace" title="in s">1532.30</TD>
+  <TD align="right" style="border-right: thick solid; font-family: monospace">55</TD>
+  <TD align="left" style="font-family: monospace"><font color=Black>timelim</font></TD>
+  <TD align="right" style="font-family: monospace">-1.163000e+04</TD>
+  <TD align="right" style="font-family: monospace" title="in %">42.73</TD>
+  <TD align="right" style="font-family: monospace">-8.148000e+03</TD>
+  <TD align="right" style="font-family: monospace" title="in %">0.00</TD>
+  <TD align="right" style="font-family: monospace" title="in %">42.73</TD>
+  <TD align="right" style="font-family: monospace" title="in s">1830.00</TD>
+  <TD align="right" style="border-right: thick solid; font-family: monospace">284126</TD>
+ </TR>
+ <TR bgcolor="LightGrey">
+  <TD align="left">cecil_13</TD>
+  <TD align="right" style="font-family: monospace">841</TD>
+  <TD align="right" style="font-family: monospace">162</TD>
+  <TD align="right" style="font-family: monospace">899</TD>
+  <TD align="right" style="font-family: monospace">min</TD>
+  <TD align="right" style="font-family: monospace">-1.156565e+05</TD>
+  <TD align="right" style="border-right: thick solid ;">-1.156565e+05</TD>
+  <TD align="left" style="font-family: monospace"><font color=Blue>normal</font></TD>
+  <TD align="right" style="font-family: monospace">-4.049874e+05</TD>
+  <TD align="right" style="font-family: monospace" title="in %">250.16</TD>
+  <TD align="right" style="font-family: monospace">-1.083901e+05</TD>
+  <TD align="right" style="font-family: monospace" title="in %">6.70</TD>
+  <TD align="right" style="font-family: monospace" title="in %">273.64</TD>
+  <TD align="right" style="font-family: monospace" title="in s">43.96</TD>
+  <TD align="right" style="border-right: thick solid; font-family: monospace">41400</TD>
+  <TD bgcolor="Pink" align="left" style="font-family: monospace" title="Dual bound contradicts best known primal bound"><font color=Blue>normal</font></TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="Dual bound contradicts best known primal bound">-1.081149e+05</TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="in %">-6.98</TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="Dual bound contradicts best known primal bound">-1.071713e+05</TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="in %">7.92</TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="in %">0.88</TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="in s">2.63</TD>
+  <TD bgcolor="Pink" align="right" style="border-right: thick solid; font-family: monospace" title="Dual bound contradicts best known primal bound">0</TD>
+  <TD align="left" style="font-family: monospace"><font color=Blue>normal</font></TD>
+  <TD align="right" style="font-family: monospace">-1.157723e+05</TD>
+  <TD align="right" style="font-family: monospace" title="in %">0.10</TD>
+  <TD align="right" style="font-family: monospace">-1.156565e+05</TD>
+  <TD align="right" style="font-family: monospace" title="in %">0.00</TD>
+  <TD align="right" style="font-family: monospace" title="in %">0.10</TD>
+  <TD align="right" style="font-family: monospace" title="in s">40.48</TD>
+  <TD align="right" style="border-right: thick solid; font-family: monospace">29</TD>
+  <TD align="left" style="font-family: monospace"><font color=Blue>normal</font></TD>
+  <TD align="right" style="font-family: monospace">-1.157701e+05</TD>
+  <TD align="right" style="font-family: monospace" title="in %">0.10</TD>
+  <TD align="right" style="font-family: monospace">-1.156565e+05</TD>
+  <TD align="right" style="font-family: monospace" title="in %">0.00</TD>
+  <TD align="right" style="font-family: monospace" title="in %">0.10</TD>
+  <TD align="right" style="font-family: monospace" title="in s">1275.31</TD>
+  <TD align="right" style="border-right: thick solid; font-family: monospace">137711</TD>
+ </TR>
+ <TR bgcolor="White">
+  <TD align="left">crudeoil_lee3_10</TD>
+  <TD align="right" style="font-family: monospace">2561</TD>
+  <TD align="right" style="font-family: monospace">140</TD>
+  <TD align="right" style="font-family: monospace">5822</TD>
+  <TD align="right" style="font-family: monospace">max</TD>
+  <TD align="right" style="font-family: monospace">8.544891e+01</TD>
+  <TD align="right" style="border-right: thick solid ;">8.544891e+01</TD>
+  <TD align="left" style="font-family: monospace"><font color=Blue>normal</font></TD>
+  <TD align="right" style="font-family: monospace">8.740000e+01</TD>
+  <TD align="right" style="font-family: monospace" title="in %">2.28</TD>
+  <TD align="right" style="font-family: monospace">8.516720e+01</TD>
+  <TD align="right" style="font-family: monospace" title="in %">0.33</TD>
+  <TD align="right" style="font-family: monospace" title="in %">2.62</TD>
+  <TD align="right" style="font-family: monospace" title="in s">33.15</TD>
+  <TD align="right" style="border-right: thick solid; font-family: monospace">1107</TD>
+  <TD bgcolor="Pink" align="left" style="font-family: monospace" title="No data.">--</TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="No data.">--</TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="in %">inf</TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="No data.">--</TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="in %">inf</TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="in %">--</TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="in s">--</TD>
+  <TD bgcolor="Pink" align="right" style="border-right: thick solid; font-family: monospace" title="No data.">--</TD>
+  <TD bgcolor="Pink" align="left" style="font-family: monospace" title="No data.">--</TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="No data.">--</TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="in %">inf</TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="No data.">--</TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="in %">inf</TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="in %">--</TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="in s">--</TD>
+  <TD bgcolor="Pink" align="right" style="border-right: thick solid; font-family: monospace" title="No data.">--</TD>
+  <TD align="left" style="font-family: monospace"><font color=Blue>normal</font></TD>
+  <TD align="right" style="font-family: monospace">8.552640e+01</TD>
+  <TD align="right" style="font-family: monospace" title="in %">0.09</TD>
+  <TD align="right" style="font-family: monospace">8.544891e+01</TD>
+  <TD align="right" style="font-family: monospace" title="in %">0.00</TD>
+  <TD align="right" style="font-family: monospace" title="in %">0.09</TD>
+  <TD align="right" style="font-family: monospace" title="in s">245.61</TD>
+  <TD align="right" style="border-right: thick solid; font-family: monospace">24431</TD>
+ </TR>
+ <TR bgcolor="LightGrey">
+  <TD align="left">genpooling_meyer04</TD>
+  <TD align="right" style="font-family: monospace">119</TD>
+  <TD align="right" style="font-family: monospace">55</TD>
+  <TD align="right" style="font-family: monospace">142</TD>
+  <TD align="right" style="font-family: monospace">min</TD>
+  <TD align="right" style="font-family: monospace">1.086187e+06</TD>
+  <TD align="right" style="border-right: thick solid ;">1.086187e+06</TD>
+  <TD align="left" style="font-family: monospace"><font color=Blue>normal</font></TD>
+  <TD align="right" style="font-family: monospace">1.027659e+05</TD>
+  <TD align="right" style="font-family: monospace" title="in %">956.95</TD>
+  <TD align="right" style="font-family: monospace">2.461052e+06</TD>
+  <TD align="right" style="font-family: monospace" title="in %">126.58</TD>
+  <TD align="right" style="font-family: monospace" title="in %">Large</TD>
+  <TD align="right" style="font-family: monospace" title="in s">0.52</TD>
+  <TD align="right" style="border-right: thick solid; font-family: monospace">0</TD>
+  <TD bgcolor="Pink" align="left" style="font-family: monospace" title="No data.">--</TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="No data.">--</TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="in %">inf</TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="No data.">--</TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="in %">inf</TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="in %">--</TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="in s">--</TD>
+  <TD bgcolor="Pink" align="right" style="border-right: thick solid; font-family: monospace" title="No data.">--</TD>
+  <TD align="left" style="font-family: monospace"><font color=Black>timelim</font></TD>
+  <TD align="right" style="font-family: monospace">7.626495e+05</TD>
+  <TD align="right" style="font-family: monospace" title="in %">42.42</TD>
+  <TD align="right" style="font-family: monospace">1.213036e+06</TD>
+  <TD align="right" style="font-family: monospace" title="in %">11.68</TD>
+  <TD align="right" style="font-family: monospace" title="in %">59.06</TD>
+  <TD align="right" style="font-family: monospace" title="in s">1830.00</TD>
+  <TD align="right" style="border-right: thick solid; font-family: monospace">230484</TD>
+  <TD align="left" style="font-family: monospace"><font color=Black>timelim</font></TD>
+  <TD align="right" style="font-family: monospace">6.106879e+05</TD>
+  <TD align="right" style="font-family: monospace" title="in %">77.86</TD>
+  <TD align="right" style="font-family: monospace">2.242789e+06</TD>
+  <TD align="right" style="font-family: monospace" title="in %">106.48</TD>
+  <TD align="right" style="font-family: monospace" title="in %">267.26</TD>
+  <TD align="right" style="font-family: monospace" title="in s">1830.23</TD>
+  <TD align="right" style="border-right: thick solid; font-family: monospace">516259</TD>
+ </TR>
+ <TR bgcolor="White">
+  <TD align="left">multiplants_mtg1a</TD>
+  <TD align="right" style="font-family: monospace">194</TD>
+  <TD align="right" style="font-family: monospace">93</TD>
+  <TD align="right" style="font-family: monospace">257</TD>
+  <TD align="right" style="font-family: monospace">max</TD>
+  <TD align="right" style="font-family: monospace">3.916134e+02</TD>
+  <TD align="right" style="border-right: thick solid ;">3.916134e+02</TD>
+  <TD bgcolor="Pink" align="left" style="font-family: monospace" title="Dual bound contradicts best known primal bound"><font color=Blue>normal</font></TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="Dual bound contradicts best known primal bound">0.000000e+00</TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="in %">inf</TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="Dual bound contradicts best known primal bound">7.703754e+01</TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="in %">408.34</TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="in %">inf</TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="in s">0.77</TD>
+  <TD bgcolor="Pink" align="right" style="border-right: thick solid; font-family: monospace" title="Dual bound contradicts best known primal bound">0</TD>
+  <TD bgcolor="Pink" align="left" style="font-family: monospace" title="Termstatus is error"><font color=Red>error</font></TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="Termstatus is error">inf</TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="in %">inf</TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="Termstatus is error">-inf</TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="in %">inf</TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="in %">inf</TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="in s">0.81</TD>
+  <TD bgcolor="Pink" align="right" style="border-right: thick solid; font-family: monospace" title="Termstatus is error">0</TD>
+  <TD align="left" style="font-family: monospace"><font color=Blue>normal</font></TD>
+  <TD align="right" style="font-family: monospace">inf</TD>
+  <TD align="right" style="font-family: monospace" title="in %">inf</TD>
+  <TD align="right" style="font-family: monospace">3.916134e+02</TD>
+  <TD align="right" style="font-family: monospace" title="in %">-0.00</TD>
+  <TD align="right" style="font-family: monospace" title="in %">inf</TD>
+  <TD align="right" style="font-family: monospace" title="in s">575.97</TD>
+  <TD align="right" style="border-right: thick solid; font-family: monospace">43721</TD>
+  <TD align="left" style="font-family: monospace"><font color=Blue>normal</font></TD>
+  <TD align="right" style="font-family: monospace">3.916134e+02</TD>
+  <TD align="right" style="font-family: monospace" title="in %">0.00</TD>
+  <TD align="right" style="font-family: monospace">3.916134e+02</TD>
+  <TD align="right" style="font-family: monospace" title="in %">-0.00</TD>
+  <TD align="right" style="font-family: monospace" title="in %">0.00</TD>
+  <TD align="right" style="font-family: monospace" title="in s">886.62</TD>
+  <TD align="right" style="border-right: thick solid; font-family: monospace">106813</TD>
+ </TR>
+ <TR bgcolor="LightGrey">
+  <TD align="left">oil</TD>
+  <TD align="right" style="font-family: monospace">1536</TD>
+  <TD align="right" style="font-family: monospace">19</TD>
+  <TD align="right" style="font-family: monospace">1547</TD>
+  <TD align="right" style="font-family: monospace">min</TD>
+  <TD align="right" style="font-family: monospace">-9.325082e-01</TD>
+  <TD align="right" style="border-right: thick solid ;">-9.325082e-01</TD>
+  <TD align="left" style="font-family: monospace"><font color=Blue>normal</font></TD>
+  <TD align="right" style="font-family: monospace">-3.232959e+00</TD>
+  <TD align="right" style="font-family: monospace" title="in %">246.69</TD>
+  <TD align="right" style="font-family: monospace">-8.513733e-01</TD>
+  <TD align="right" style="font-family: monospace" title="in %">9.53</TD>
+  <TD align="right" style="font-family: monospace" title="in %">279.73</TD>
+  <TD align="right" style="font-family: monospace" title="in s">4.07</TD>
+  <TD align="right" style="border-right: thick solid; font-family: monospace">0</TD>
+  <TD bgcolor="Pink" align="left" style="font-family: monospace" title="Termstatus is error"><font color=Red>error</font></TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="Termstatus is error">-inf</TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="in %">inf</TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="Termstatus is error">inf</TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="in %">inf</TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="in %">inf</TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="in s">2.77</TD>
+  <TD bgcolor="Pink" align="right" style="border-right: thick solid; font-family: monospace" title="Termstatus is error">0</TD>
+  <TD align="left" style="font-family: monospace"><font color=Black>timelim</font></TD>
+  <TD align="right" style="font-family: monospace">-1.256130e+00</TD>
+  <TD align="right" style="font-family: monospace" title="in %">34.70</TD>
+  <TD align="right" style="font-family: monospace">-9.325082e-01</TD>
+  <TD align="right" style="font-family: monospace" title="in %">0.00</TD>
+  <TD align="right" style="font-family: monospace" title="in %">34.70</TD>
+  <TD align="right" style="font-family: monospace" title="in s">1830.00</TD>
+  <TD align="right" style="border-right: thick solid; font-family: monospace">8986</TD>
+  <TD align="left" style="font-family: monospace"><font color=Black>timelim</font></TD>
+  <TD align="right" style="font-family: monospace">-1.150096e+00</TD>
+  <TD align="right" style="font-family: monospace" title="in %">23.33</TD>
+  <TD align="right" style="font-family: monospace">-9.324939e-01</TD>
+  <TD align="right" style="font-family: monospace" title="in %">0.00</TD>
+  <TD align="right" style="font-family: monospace" title="in %">23.34</TD>
+  <TD align="right" style="font-family: monospace" title="in s">1830.02</TD>
+  <TD align="right" style="border-right: thick solid; font-family: monospace">14230</TD>
+ </TR>
+ <TR bgcolor="White">
+  <TD align="left">pooling_epa2</TD>
+  <TD align="right" style="font-family: monospace">332</TD>
+  <TD align="right" style="font-family: monospace">45</TD>
+  <TD align="right" style="font-family: monospace">525</TD>
+  <TD align="right" style="font-family: monospace">min</TD>
+  <TD align="right" style="font-family: monospace">-4.567356e+03</TD>
+  <TD align="right" style="border-right: thick solid ;">-4.567356e+03</TD>
+  <TD bgcolor="Pink" align="left" style="font-family: monospace" title="No data.">--</TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="No data.">--</TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="in %">inf</TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="No data.">--</TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="in %">inf</TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="in %">--</TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="in s">--</TD>
+  <TD bgcolor="Pink" align="right" style="border-right: thick solid; font-family: monospace" title="No data.">--</TD>
+  <TD bgcolor="Pink" align="left" style="font-family: monospace" title="Termstatus is error"><font color=Red>error</font></TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="Termstatus is error">-inf</TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="in %">inf</TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="Termstatus is error">inf</TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="in %">inf</TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="in %">inf</TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="in s">0.56</TD>
+  <TD bgcolor="Pink" align="right" style="border-right: thick solid; font-family: monospace" title="Termstatus is error">0</TD>
+  <TD align="left" style="font-family: monospace"><font color=Black>timelim</font></TD>
+  <TD align="right" style="font-family: monospace">-4.649452e+03</TD>
+  <TD align="right" style="font-family: monospace" title="in %">1.80</TD>
+  <TD align="right" style="font-family: monospace">-4.567356e+03</TD>
+  <TD align="right" style="font-family: monospace" title="in %">-0.00</TD>
+  <TD align="right" style="font-family: monospace" title="in %">1.80</TD>
+  <TD align="right" style="font-family: monospace" title="in s">1830.00</TD>
+  <TD align="right" style="border-right: thick solid; font-family: monospace">56219</TD>
+  <TD align="left" style="font-family: monospace"><font color=Black>timelim</font></TD>
+  <TD align="right" style="font-family: monospace">-8.580354e+03</TD>
+  <TD align="right" style="font-family: monospace" title="in %">87.86</TD>
+  <TD align="right" style="font-family: monospace">-4.262775e+03</TD>
+  <TD align="right" style="font-family: monospace" title="in %">7.15</TD>
+  <TD align="right" style="font-family: monospace" title="in %">101.29</TD>
+  <TD align="right" style="font-family: monospace" title="in s">1830.00</TD>
+  <TD align="right" style="border-right: thick solid; font-family: monospace">70445</TD>
+ </TR>
+ <TR bgcolor="LightGrey">
+  <TD align="left">radar-3000-10-a-8_lat_7</TD>
+  <TD align="right" style="font-family: monospace">15001</TD>
+  <TD align="right" style="font-family: monospace">3000</TD>
+  <TD align="right" style="font-family: monospace">12002</TD>
+  <TD align="right" style="font-family: monospace">min</TD>
+  <TD align="right" style="font-family: monospace">1.039000e+03</TD>
+  <TD align="right" style="border-right: thick solid ;">1.039000e+03</TD>
+  <TD align="left" style="font-family: monospace"><font color=Black>iterlim</font></TD>
+  <TD align="right" style="font-family: monospace">9.000000e+00</TD>
+  <TD align="right" style="font-family: monospace" title="in %">Large</TD>
+  <TD align="right" style="font-family: monospace">2.999500e+04</TD>
+  <TD align="right" style="font-family: monospace" title="in %">Large</TD>
+  <TD align="right" style="font-family: monospace" title="in %">Large</TD>
+  <TD align="right" style="font-family: monospace" title="in s">118.91</TD>
+  <TD align="right" style="border-right: thick solid; font-family: monospace">0</TD>
+  <TD align="left" style="font-family: monospace"><font color=Blue>normal</font></TD>
+  <TD align="right" style="font-family: monospace">9.000000e+00</TD>
+  <TD align="right" style="font-family: monospace" title="in %">Large</TD>
+  <TD align="right" style="font-family: monospace">inf</TD>
+  <TD align="right" style="font-family: monospace" title="in %">inf</TD>
+  <TD align="right" style="font-family: monospace" title="in %">inf</TD>
+  <TD align="right" style="font-family: monospace" title="in s">9.89</TD>
+  <TD align="right" style="border-right: thick solid; font-family: monospace">0</TD>
+  <TD align="left" style="font-family: monospace"><font color=Black>timelim</font></TD>
+  <TD align="right" style="font-family: monospace">9.000000e+00</TD>
+  <TD align="right" style="font-family: monospace" title="in %">Large</TD>
+  <TD align="right" style="font-family: monospace">2.825000e+03</TD>
+  <TD align="right" style="font-family: monospace" title="in %">171.90</TD>
+  <TD align="right" style="font-family: monospace" title="in %">Large</TD>
+  <TD align="right" style="font-family: monospace" title="in s">1830.76</TD>
+  <TD align="right" style="border-right: thick solid; font-family: monospace">7</TD>
+  <TD align="left" style="font-family: monospace"><font color=Black>timelim</font></TD>
+  <TD align="right" style="font-family: monospace">3.901291e+02</TD>
+  <TD align="right" style="font-family: monospace" title="in %">166.32</TD>
+  <TD align="right" style="font-family: monospace">1.056708e+03</TD>
+  <TD align="right" style="font-family: monospace" title="in %">1.70</TD>
+  <TD align="right" style="font-family: monospace" title="in %">170.86</TD>
+  <TD align="right" style="font-family: monospace" title="in s">1830.00</TD>
+  <TD align="right" style="border-right: thick solid; font-family: monospace">6588</TD>
+ </TR>
+ <TR bgcolor="White">
+  <TD align="left">sfacloc2_4_80</TD>
+  <TD align="right" style="font-family: monospace">401</TD>
+  <TD align="right" style="font-family: monospace">122</TD>
+  <TD align="right" style="font-family: monospace">2372</TD>
+  <TD align="right" style="font-family: monospace">min</TD>
+  <TD align="right" style="font-family: monospace">9.953071e+00</TD>
+  <TD align="right" style="border-right: thick solid ;">9.953071e+00</TD>
+  <TD align="left" style="font-family: monospace"><font color=Blue>normal</font></TD>
+  <TD align="right" style="font-family: monospace">0.000000e+00</TD>
+  <TD align="right" style="font-family: monospace" title="in %">inf</TD>
+  <TD align="right" style="font-family: monospace">1.043273e+01</TD>
+  <TD align="right" style="font-family: monospace" title="in %">4.82</TD>
+  <TD align="right" style="font-family: monospace" title="in %">inf</TD>
+  <TD align="right" style="font-family: monospace" title="in s">11.67</TD>
+  <TD align="right" style="border-right: thick solid; font-family: monospace">995</TD>
+  <TD bgcolor="Pink" align="left" style="font-family: monospace" title="Dual bound contradicts best known primal bound"><font color=Blue>normal</font></TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="Dual bound contradicts best known primal bound">1.222571e+01</TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="in %">-22.83</TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="Dual bound contradicts best known primal bound">1.346861e+01</TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="in %">35.32</TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="in %">10.17</TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="in s">2.24</TD>
+  <TD bgcolor="Pink" align="right" style="border-right: thick solid; font-family: monospace" title="Dual bound contradicts best known primal bound">1021</TD>
+  <TD align="left" style="font-family: monospace"><font color=Blue>normal</font></TD>
+  <TD align="right" style="font-family: monospace">9.943638e+00</TD>
+  <TD align="right" style="font-family: monospace" title="in %">0.09</TD>
+  <TD align="right" style="font-family: monospace">9.953582e+00</TD>
+  <TD align="right" style="font-family: monospace" title="in %">0.01</TD>
+  <TD align="right" style="font-family: monospace" title="in %">0.10</TD>
+  <TD align="right" style="font-family: monospace" title="in s">103.35</TD>
+  <TD align="right" style="border-right: thick solid; font-family: monospace">1864</TD>
+  <TD align="left" style="font-family: monospace"><font color=Blue>normal</font></TD>
+  <TD align="right" style="font-family: monospace">9.953071e+00</TD>
+  <TD align="right" style="font-family: monospace" title="in %">-0.00</TD>
+  <TD align="right" style="font-family: monospace">9.953071e+00</TD>
+  <TD align="right" style="font-family: monospace" title="in %">0.00</TD>
+  <TD align="right" style="font-family: monospace" title="in %">0.00</TD>
+  <TD align="right" style="font-family: monospace" title="in s">143.16</TD>
+  <TD align="right" style="border-right: thick solid; font-family: monospace">41450</TD>
+ </TR>
+ <TR bgcolor="LightGrey">
+  <TD align="left">smallinvSNPr3b050-055</TD>
+  <TD align="right" style="font-family: monospace">101</TD>
+  <TD align="right" style="font-family: monospace">100</TD>
+  <TD align="right" style="font-family: monospace">4</TD>
+  <TD align="right" style="font-family: monospace">min</TD>
+  <TD align="right" style="font-family: monospace">1.589586e+00</TD>
+  <TD align="right" style="border-right: thick solid ;">1.589586e+00</TD>
+  <TD align="left" style="font-family: monospace"><font color=Blue>normal</font></TD>
+  <TD align="right" style="font-family: monospace">1.589586e+00</TD>
+  <TD align="right" style="font-family: monospace" title="in %">0.00</TD>
+  <TD align="right" style="font-family: monospace">1.589586e+00</TD>
+  <TD align="right" style="font-family: monospace" title="in %">0.00</TD>
+  <TD align="right" style="font-family: monospace" title="in %">0.00</TD>
+  <TD align="right" style="font-family: monospace" title="in s">8.06</TD>
+  <TD align="right" style="border-right: thick solid; font-family: monospace">0</TD>
+  <TD align="left" style="font-family: monospace"><font color=Blue>normal</font></TD>
+  <TD align="right" style="font-family: monospace">1.589586e+00</TD>
+  <TD align="right" style="font-family: monospace" title="in %">0.00</TD>
+  <TD align="right" style="font-family: monospace">1.589586e+00</TD>
+  <TD align="right" style="font-family: monospace" title="in %">0.00</TD>
+  <TD align="right" style="font-family: monospace" title="in %">0.00</TD>
+  <TD align="right" style="font-family: monospace" title="in s">7.72</TD>
+  <TD align="right" style="border-right: thick solid; font-family: monospace">0</TD>
+  <TD align="left" style="font-family: monospace"><font color=Blue>normal</font></TD>
+  <TD align="right" style="font-family: monospace">1.587998e+00</TD>
+  <TD align="right" style="font-family: monospace" title="in %">0.10</TD>
+  <TD align="right" style="font-family: monospace">1.589586e+00</TD>
+  <TD align="right" style="font-family: monospace" title="in %">0.00</TD>
+  <TD align="right" style="font-family: monospace" title="in %">0.10</TD>
+  <TD align="right" style="font-family: monospace" title="in s">4.92</TD>
+  <TD align="right" style="border-right: thick solid; font-family: monospace">5</TD>
+  <TD align="left" style="font-family: monospace"><font color=Blue>normal</font></TD>
+  <TD align="right" style="font-family: monospace">1.589586e+00</TD>
+  <TD align="right" style="font-family: monospace" title="in %">0.00</TD>
+  <TD align="right" style="font-family: monospace">1.589586e+00</TD>
+  <TD align="right" style="font-family: monospace" title="in %">-0.00</TD>
+  <TD align="right" style="font-family: monospace" title="in %">0.00</TD>
+  <TD align="right" style="font-family: monospace" title="in s">455.88</TD>
+  <TD align="right" style="border-right: thick solid; font-family: monospace">76636</TD>
+ </TR>
+ <TR bgcolor="White">
+  <TD align="left">sonet20v6</TD>
+  <TD align="right" style="font-family: monospace">191</TD>
+  <TD align="right" style="font-family: monospace">190</TD>
+  <TD align="right" style="font-family: monospace">3441</TD>
+  <TD align="right" style="font-family: monospace">min</TD>
+  <TD align="right" style="font-family: monospace">3.311060e+06</TD>
+  <TD align="right" style="border-right: thick solid ;">3.311060e+06</TD>
+  <TD align="left" style="font-family: monospace"><font color=Blue>normal</font></TD>
+  <TD align="right" style="font-family: monospace">3.311060e+06</TD>
+  <TD align="right" style="font-family: monospace" title="in %">0.00</TD>
+  <TD align="right" style="font-family: monospace">3.311060e+06</TD>
+  <TD align="right" style="font-family: monospace" title="in %">0.00</TD>
+  <TD align="right" style="font-family: monospace" title="in %">0.00</TD>
+  <TD align="right" style="font-family: monospace" title="in s">344.09</TD>
+  <TD align="right" style="border-right: thick solid; font-family: monospace">0</TD>
+  <TD align="left" style="font-family: monospace"><font color=Blue>normal</font></TD>
+  <TD align="right" style="font-family: monospace">3.311060e+06</TD>
+  <TD align="right" style="font-family: monospace" title="in %">0.00</TD>
+  <TD align="right" style="font-family: monospace">3.311060e+06</TD>
+  <TD align="right" style="font-family: monospace" title="in %">0.00</TD>
+  <TD align="right" style="font-family: monospace" title="in %">0.00</TD>
+  <TD align="right" style="font-family: monospace" title="in s">55.56</TD>
+  <TD align="right" style="border-right: thick solid; font-family: monospace">0</TD>
+  <TD align="left" style="font-family: monospace"><font color=Blue>normal</font></TD>
+  <TD align="right" style="font-family: monospace">3.307753e+06</TD>
+  <TD align="right" style="font-family: monospace" title="in %">0.10</TD>
+  <TD align="right" style="font-family: monospace">3.311060e+06</TD>
+  <TD align="right" style="font-family: monospace" title="in %">0.00</TD>
+  <TD align="right" style="font-family: monospace" title="in %">0.10</TD>
+  <TD align="right" style="font-family: monospace" title="in s">177.80</TD>
+  <TD align="right" style="border-right: thick solid; font-family: monospace">1</TD>
+  <TD align="left" style="font-family: monospace"><font color=Blue>normal</font></TD>
+  <TD align="right" style="font-family: monospace">3.311060e+06</TD>
+  <TD align="right" style="font-family: monospace" title="in %">0.00</TD>
+  <TD align="right" style="font-family: monospace">3.311060e+06</TD>
+  <TD align="right" style="font-family: monospace" title="in %">0.00</TD>
+  <TD align="right" style="font-family: monospace" title="in %">0.00</TD>
+  <TD align="right" style="font-family: monospace" title="in s">785.20</TD>
+  <TD align="right" style="border-right: thick solid; font-family: monospace">1695</TD>
+ </TR>
+ <TR bgcolor="LightGrey">
+  <TD align="left">sporttournament20</TD>
+  <TD align="right" style="font-family: monospace">191</TD>
+  <TD align="right" style="font-family: monospace">190</TD>
+  <TD align="right" style="font-family: monospace">1</TD>
+  <TD align="right" style="font-family: monospace">max</TD>
+  <TD align="right" style="font-family: monospace">1.920000e+02</TD>
+  <TD align="right" style="border-right: thick solid ;">1.920000e+02</TD>
+  <TD align="left" style="font-family: monospace"><font color=Blue>normal</font></TD>
+  <TD align="right" style="font-family: monospace">1.920000e+02</TD>
+  <TD align="right" style="font-family: monospace" title="in %">0.00</TD>
+  <TD align="right" style="font-family: monospace">1.920000e+02</TD>
+  <TD align="right" style="font-family: monospace" title="in %">0.00</TD>
+  <TD align="right" style="font-family: monospace" title="in %">0.00</TD>
+  <TD align="right" style="font-family: monospace" title="in s">4.05</TD>
+  <TD align="right" style="border-right: thick solid; font-family: monospace">0</TD>
+  <TD align="left" style="font-family: monospace"><font color=Blue>normal</font></TD>
+  <TD align="right" style="font-family: monospace">1.920000e+02</TD>
+  <TD align="right" style="font-family: monospace" title="in %">0.00</TD>
+  <TD align="right" style="font-family: monospace">1.920000e+02</TD>
+  <TD align="right" style="font-family: monospace" title="in %">0.00</TD>
+  <TD align="right" style="font-family: monospace" title="in %">0.00</TD>
+  <TD align="right" style="font-family: monospace" title="in s">3.43</TD>
+  <TD align="right" style="border-right: thick solid; font-family: monospace">0</TD>
+  <TD align="left" style="font-family: monospace"><font color=Blue>normal</font></TD>
+  <TD align="right" style="font-family: monospace">1.921922e+02</TD>
+  <TD align="right" style="font-family: monospace" title="in %">0.10</TD>
+  <TD align="right" style="font-family: monospace">1.920000e+02</TD>
+  <TD align="right" style="font-family: monospace" title="in %">0.00</TD>
+  <TD align="right" style="font-family: monospace" title="in %">0.10</TD>
+  <TD align="right" style="font-family: monospace" title="in s">24.42</TD>
+  <TD align="right" style="border-right: thick solid; font-family: monospace">17</TD>
+  <TD align="left" style="font-family: monospace"><font color=Blue>normal</font></TD>
+  <TD align="right" style="font-family: monospace">1.920435e+02</TD>
+  <TD align="right" style="font-family: monospace" title="in %">0.02</TD>
+  <TD align="right" style="font-family: monospace">1.920000e+02</TD>
+  <TD align="right" style="font-family: monospace" title="in %">0.00</TD>
+  <TD align="right" style="font-family: monospace" title="in %">0.02</TD>
+  <TD align="right" style="font-family: monospace" title="in s">16.81</TD>
+  <TD align="right" style="border-right: thick solid; font-family: monospace">712</TD>
+ </TR>
+ <TR bgcolor="White">
+  <TD align="left">squfl030-150persp</TD>
+  <TD align="right" style="font-family: monospace">9031</TD>
+  <TD align="right" style="font-family: monospace">30</TD>
+  <TD align="right" style="font-family: monospace">9151</TD>
+  <TD align="right" style="font-family: monospace">min</TD>
+  <TD align="right" style="font-family: monospace">4.305766e+02</TD>
+  <TD align="right" style="border-right: thick solid ;">4.305766e+02</TD>
+  <TD align="left" style="font-family: monospace"><font color=Black>timelim</font></TD>
+  <TD align="right" style="font-family: monospace">7.000000e+00</TD>
+  <TD align="right" style="font-family: monospace" title="in %">Large</TD>
+  <TD align="right" style="font-family: monospace">4.305766e+02</TD>
+  <TD align="right" style="font-family: monospace" title="in %">-0.00</TD>
+  <TD align="right" style="font-family: monospace" title="in %">Large</TD>
+  <TD align="right" style="font-family: monospace" title="in s">1803.98</TD>
+  <TD align="right" style="border-right: thick solid; font-family: monospace">44638</TD>
+  <TD align="left" style="font-family: monospace"><font color=Blue>normal</font></TD>
+  <TD align="right" style="font-family: monospace">7.000000e+00</TD>
+  <TD align="right" style="font-family: monospace" title="in %">Large</TD>
+  <TD align="right" style="font-family: monospace">inf</TD>
+  <TD align="right" style="font-family: monospace" title="in %">inf</TD>
+  <TD align="right" style="font-family: monospace" title="in %">inf</TD>
+  <TD align="right" style="font-family: monospace" title="in s">9.38</TD>
+  <TD align="right" style="border-right: thick solid; font-family: monospace">0</TD>
+  <TD align="left" style="font-family: monospace"><font color=Black>timelim</font></TD>
+  <TD align="right" style="font-family: monospace">3.971207e+02</TD>
+  <TD align="right" style="font-family: monospace" title="in %">8.42</TD>
+  <TD align="right" style="font-family: monospace">4.318252e+02</TD>
+  <TD align="right" style="font-family: monospace" title="in %">0.29</TD>
+  <TD align="right" style="font-family: monospace" title="in %">8.74</TD>
+  <TD align="right" style="font-family: monospace" title="in s">1830.02</TD>
+  <TD align="right" style="border-right: thick solid; font-family: monospace">44</TD>
+  <TD align="left" style="font-family: monospace"><font color=Black>timelim</font></TD>
+  <TD align="right" style="font-family: monospace">4.295989e+02</TD>
+  <TD align="right" style="font-family: monospace" title="in %">0.23</TD>
+  <TD align="right" style="font-family: monospace">4.305741e+02</TD>
+  <TD align="right" style="font-family: monospace" title="in %">-0.00</TD>
+  <TD align="right" style="font-family: monospace" title="in %">0.23</TD>
+  <TD align="right" style="font-family: monospace" title="in s">1830.55</TD>
+  <TD align="right" style="border-right: thick solid; font-family: monospace">1</TD>
+ </TR>
+ <TR bgcolor="LightGrey">
+  <TD align="left">sssd20-04persp</TD>
+  <TD align="right" style="font-family: monospace">109</TD>
+  <TD align="right" style="font-family: monospace">92</TD>
+  <TD align="right" style="font-family: monospace">53</TD>
+  <TD align="right" style="font-family: monospace">min</TD>
+  <TD align="right" style="font-family: monospace">3.476914e+05</TD>
+  <TD align="right" style="border-right: thick solid ;">3.476914e+05</TD>
+  <TD align="left" style="font-family: monospace"><font color=Blue>normal</font></TD>
+  <TD align="right" style="font-family: monospace">4.013689e+03</TD>
+  <TD align="right" style="font-family: monospace" title="in %">Large</TD>
+  <TD align="right" style="font-family: monospace">3.806276e+05</TD>
+  <TD align="right" style="font-family: monospace" title="in %">9.47</TD>
+  <TD align="right" style="font-family: monospace" title="in %">Large</TD>
+  <TD align="right" style="font-family: monospace" title="in s">1047.19</TD>
+  <TD align="right" style="border-right: thick solid; font-family: monospace">10103317</TD>
+  <TD bgcolor="Pink" align="left" style="font-family: monospace" title="No data.">--</TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="No data.">--</TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="in %">inf</TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="No data.">--</TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="in %">inf</TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="in %">--</TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="in s">--</TD>
+  <TD bgcolor="Pink" align="right" style="border-right: thick solid; font-family: monospace" title="No data.">--</TD>
+  <TD align="left" style="font-family: monospace"><font color=Black>timelim</font></TD>
+  <TD align="right" style="font-family: monospace">2.023186e+05</TD>
+  <TD align="right" style="font-family: monospace" title="in %">71.85</TD>
+  <TD align="right" style="font-family: monospace">3.482876e+05</TD>
+  <TD align="right" style="font-family: monospace" title="in %">0.17</TD>
+  <TD align="right" style="font-family: monospace" title="in %">72.15</TD>
+  <TD align="right" style="font-family: monospace" title="in s">1830.00</TD>
+  <TD align="right" style="border-right: thick solid; font-family: monospace">400448</TD>
+  <TD align="left" style="font-family: monospace"><font color=Black>timelim</font></TD>
+  <TD align="right" style="font-family: monospace">2.985836e+05</TD>
+  <TD align="right" style="font-family: monospace" title="in %">16.45</TD>
+  <TD align="right" style="font-family: monospace">3.479441e+05</TD>
+  <TD align="right" style="font-family: monospace" title="in %">0.07</TD>
+  <TD align="right" style="font-family: monospace" title="in %">16.53</TD>
+  <TD align="right" style="font-family: monospace" title="in s">1830.08</TD>
+  <TD align="right" style="border-right: thick solid; font-family: monospace">491412</TD>
+ </TR>
+ <TR bgcolor="White">
+  <TD align="left">tln7</TD>
+  <TD align="right" style="font-family: monospace">64</TD>
+  <TD align="right" style="font-family: monospace">63</TD>
+  <TD align="right" style="font-family: monospace">43</TD>
+  <TD align="right" style="font-family: monospace">min</TD>
+  <TD align="right" style="font-family: monospace">1.500000e+01</TD>
+  <TD align="right" style="border-right: thick solid ;">1.500000e+01</TD>
+  <TD align="left" style="font-family: monospace"><font color=Black>timelim</font></TD>
+  <TD align="right" style="font-family: monospace">0.000000e+00</TD>
+  <TD align="right" style="font-family: monospace" title="in %">inf</TD>
+  <TD align="right" style="font-family: monospace">1.500000e+01</TD>
+  <TD align="right" style="font-family: monospace" title="in %">0.00</TD>
+  <TD align="right" style="font-family: monospace" title="in %">inf</TD>
+  <TD align="right" style="font-family: monospace" title="in s">1801.96</TD>
+  <TD align="right" style="border-right: thick solid; font-family: monospace">0</TD>
+  <TD bgcolor="Pink" align="left" style="font-family: monospace" title="No data.">--</TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="No data.">--</TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="in %">inf</TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="No data.">--</TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="in %">inf</TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="in %">--</TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="in s">--</TD>
+  <TD bgcolor="Pink" align="right" style="border-right: thick solid; font-family: monospace" title="No data.">--</TD>
+  <TD align="left" style="font-family: monospace"><font color=Blue>normal</font></TD>
+  <TD align="right" style="font-family: monospace">1.498501e+01</TD>
+  <TD align="right" style="font-family: monospace" title="in %">0.10</TD>
+  <TD align="right" style="font-family: monospace">1.500000e+01</TD>
+  <TD align="right" style="font-family: monospace" title="in %">0.00</TD>
+  <TD align="right" style="font-family: monospace" title="in %">0.10</TD>
+  <TD align="right" style="font-family: monospace" title="in s">1169.53</TD>
+  <TD align="right" style="border-right: thick solid; font-family: monospace">65599</TD>
+  <TD align="left" style="font-family: monospace"><font color=Black>timelim</font></TD>
+  <TD align="right" style="font-family: monospace">3.060000e+00</TD>
+  <TD align="right" style="font-family: monospace" title="in %">390.20</TD>
+  <TD align="right" style="font-family: monospace">1.530000e+01</TD>
+  <TD align="right" style="font-family: monospace" title="in %">2.00</TD>
+  <TD align="right" style="font-family: monospace" title="in %">400.00</TD>
+  <TD align="right" style="font-family: monospace" title="in s">1830.33</TD>
+  <TD align="right" style="border-right: thick solid; font-family: monospace">116609</TD>
+ </TR>
+ <TR bgcolor="LightGrey">
+  <TD align="left">wastepaper4</TD>
+  <TD align="right" style="font-family: monospace">77</TD>
+  <TD align="right" style="font-family: monospace">44</TD>
+  <TD align="right" style="font-family: monospace">39</TD>
+  <TD align="right" style="font-family: monospace">min</TD>
+  <TD align="right" style="font-family: monospace">3.479163e-03</TD>
+  <TD align="right" style="border-right: thick solid ;">3.479163e-03</TD>
+  <TD align="left" style="font-family: monospace"><font color=Blue>normal</font></TD>
+  <TD align="right" style="font-family: monospace">0.000000e+00</TD>
+  <TD align="right" style="font-family: monospace" title="in %">inf</TD>
+  <TD align="right" style="font-family: monospace">1.005006e-02</TD>
+  <TD align="right" style="font-family: monospace" title="in %">188.86</TD>
+  <TD align="right" style="font-family: monospace" title="in %">inf</TD>
+  <TD align="right" style="font-family: monospace" title="in s">4.74</TD>
+  <TD align="right" style="border-right: thick solid; font-family: monospace">33894</TD>
+  <TD bgcolor="Pink" align="left" style="font-family: monospace" title="Termstatus is error"><font color=Red>error</font></TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="Termstatus is error">-inf</TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="in %">inf</TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="Termstatus is error">inf</TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="in %">inf</TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="in %">inf</TD>
+  <TD bgcolor="Pink" align="right" style="font-family: monospace" title="in s">0.24</TD>
+  <TD bgcolor="Pink" align="right" style="border-right: thick solid; font-family: monospace" title="Termstatus is error">0</TD>
+  <TD align="left" style="font-family: monospace"><font color=Blue>normal</font></TD>
+  <TD align="right" style="font-family: monospace">3.146967e-03</TD>
+  <TD align="right" style="font-family: monospace" title="in %">10.56</TD>
+  <TD align="right" style="font-family: monospace">4.146967e-03</TD>
+  <TD align="right" style="font-family: monospace" title="in %">19.19</TD>
+  <TD align="right" style="font-family: monospace" title="in %">31.78</TD>
+  <TD align="right" style="font-family: monospace" title="in s">90.76</TD>
+  <TD align="right" style="border-right: thick solid; font-family: monospace">28585</TD>
+  <TD align="left" style="font-family: monospace"><font color=Blue>normal</font></TD>
+  <TD align="right" style="font-family: monospace">3.034258e-03</TD>
+  <TD align="right" style="font-family: monospace" title="in %">14.66</TD>
+  <TD align="right" style="font-family: monospace">3.894452e-03</TD>
+  <TD align="right" style="font-family: monospace" title="in %">11.94</TD>
+  <TD align="right" style="font-family: monospace" title="in %">28.35</TD>
+  <TD align="right" style="font-family: monospace" title="in s">125.83</TD>
+  <TD align="right" style="border-right: thick solid; font-family: monospace">133417</TD>
+ </TR>
+</TABLE> </P>
+<P>Instance Attributes:<BR>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>count</th>
+      <th>mean</th>
+      <th>std</th>
+      <th>min</th>
+      <th>25%</th>
+      <th>50%</th>
+      <th>75%</th>
+      <th>max</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Direction</th>
+      <td>16.00</td>
+      <td>0.62</td>
+      <td>0.81</td>
+      <td>-1.00</td>
+      <td>1.00</td>
+      <td>1.00</td>
+      <td>1.00</td>
+      <td>1.00</td>
+    </tr>
+    <tr>
+      <th>NumberOfDiscreteVariables</th>
+      <td>16.00</td>
+      <td>273.12</td>
+      <td>729.35</td>
+      <td>19.00</td>
+      <td>44.75</td>
+      <td>92.50</td>
+      <td>145.50</td>
+      <td>3000.00</td>
+    </tr>
+    <tr>
+      <th>NumberOfEquations</th>
+      <td>16.00</td>
+      <td>2268.69</td>
+      <td>3654.86</td>
+      <td>1.00</td>
+      <td>42.00</td>
+      <td>391.00</td>
+      <td>2639.25</td>
+      <td>12002.00</td>
+    </tr>
+    <tr>
+      <th>NumberOfNonZeros</th>
+      <td>16.00</td>
+      <td>8864.12</td>
+      <td>14230.30</td>
+      <td>26.00</td>
+      <td>327.75</td>
+      <td>1943.50</td>
+      <td>8896.50</td>
+      <td>42001.00</td>
+    </tr>
+    <tr>
+      <th>NumberOfNonlinearNonZeros</th>
+      <td>16.00</td>
+      <td>1845.56</td>
+      <td>3876.68</td>
+      <td>25.00</td>
+      <td>99.50</td>
+      <td>185.00</td>
+      <td>605.25</td>
+      <td>13500.00</td>
+    </tr>
+    <tr>
+      <th>NumberOfVariables</th>
+      <td>16.00</td>
+      <td>1923.44</td>
+      <td>4142.86</td>
+      <td>26.00</td>
+      <td>107.00</td>
+      <td>192.50</td>
+      <td>1014.75</td>
+      <td>15001.00</td>
+    </tr>
+    <tr>
+      <th>KnownPrimalBound</th>
+      <td>16.00</td>
+      <td>288670.68</td>
+      <td>854165.60</td>
+      <td>-115656.50</td>
+      <td>-0.23</td>
+      <td>50.22</td>
+      <td>582.68</td>
+      <td>3311060.00</td>
+    </tr>
+    <tr>
+      <th>KnownDualBound</th>
+      <td>16.00</td>
+      <td>288670.68</td>
+      <td>854165.60</td>
+      <td>-115656.50</td>
+      <td>-0.23</td>
+      <td>50.22</td>
+      <td>582.68</td>
+      <td>3311060.00</td>
+    </tr>
+  </tbody>
+</table></P>
+<P>Solve Attributes (all solver runs):<BR>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>count</th>
+      <th>mean</th>
+      <th>std</th>
+      <th>min</th>
+      <th>25%</th>
+      <th>50%</th>
+      <th>75%</th>
+      <th>max</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>JulianDate</th>
+      <td>58.00</td>
+      <td>44122.01</td>
+      <td>3.64</td>
+      <td>44117.66</td>
+      <td>44118.85</td>
+      <td>44119.06</td>
+      <td>44124.74</td>
+      <td>44126.80</td>
+    </tr>
+    <tr>
+      <th>TerminationStatus</th>
+      <td>58.00</td>
+      <td>0.83</td>
+      <td>1.79</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>1.00</td>
+      <td>7.00</td>
+    </tr>
+    <tr>
+      <th>PrimalBound</th>
+      <td>58.00</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>-inf</td>
+      <td>0.00</td>
+      <td>81.10</td>
+      <td>268456.80</td>
+      <td>inf</td>
+    </tr>
+    <tr>
+      <th>DualBound</th>
+      <td>58.00</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>-inf</td>
+      <td>-1.23</td>
+      <td>8.00</td>
+      <td>391.24</td>
+      <td>inf</td>
+    </tr>
+    <tr>
+      <th>SolverTime</th>
+      <td>58.00</td>
+      <td>696.71</td>
+      <td>807.31</td>
+      <td>0.24</td>
+      <td>8.39</td>
+      <td>134.50</td>
+      <td>1803.48</td>
+      <td>1830.76</td>
+    </tr>
+    <tr>
+      <th>NumberOfIterations</th>
+      <td>58.00</td>
+      <td>1744738.36</td>
+      <td>4605244.75</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>299501.75</td>
+      <td>25119027.00</td>
+    </tr>
+    <tr>
+      <th>NumberOfDomainViolations</th>
+      <td>58.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <th>NumberOfNodes</th>
+      <td>58.00</td>
+      <td>226220.86</td>
+      <td>1324549.35</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>1008.00</td>
+      <td>44408.75</td>
+      <td>10103317.00</td>
+    </tr>
+    <tr>
+      <th>Fail</th>
+      <td>64</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>FailReason</th>
+      <td>64</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>Gap</th>
+      <td>58.00</td>
+      <td>inf</td>
+      <td>NaN</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.30</td>
+      <td>51.12</td>
+      <td>inf</td>
+    </tr>
+    <tr>
+      <th>PrimalGap</th>
+      <td>64.00</td>
+      <td>inf</td>
+      <td>NaN</td>
+      <td>-0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>1.38</td>
+      <td>inf</td>
+    </tr>
+    <tr>
+      <th>DualGap</th>
+      <td>64.00</td>
+      <td>inf</td>
+      <td>NaN</td>
+      <td>-0.23</td>
+      <td>0.00</td>
+      <td>0.43</td>
+      <td>114.44</td>
+      <td>inf</td>
+    </tr>
+  </tbody>
+</table></P>
+</BODY> </HTML>

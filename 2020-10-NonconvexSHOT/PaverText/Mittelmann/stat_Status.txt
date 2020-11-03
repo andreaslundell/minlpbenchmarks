@@ -1,0 +1,28 @@
+Category: Status
+Attribute: Fail
+Filter: instance or solve run marked as failed
+       SHOTcpx1910MMcvx  scipNCsoplex  baronNC  SHOTcpx1910MM  virt. best  virt. worst
+count                10             0        1              2          10            0
+Data: stat_Statusdata000.txt
+
+Category: Status
+Attribute: TerminationStatus
+Filter: normal termination
+       SHOTcpx1910MMcvx  scipNCsoplex  baronNC  SHOTcpx1910MM  virt. best  virt. worst
+count                 8             8        9             11          15            5
+Data: stat_Statusdata001.txt
+
+Category: Status
+Attribute: TerminationStatus
+Filter: exceeded some limit
+       SHOTcpx1910MMcvx  scipNCsoplex  baronNC  SHOTcpx1910MM  virt. best  virt. worst
+count                 0             8        6              4           8            0
+Data: stat_Statusdata002.txt
+
+Category: Status
+Attribute: TerminationStatus
+Filter: error or other problem
+       SHOTcpx1910MMcvx  scipNCsoplex  baronNC  SHOTcpx1910MM  virt. best  virt. worst
+count                 4             0        0              0           4            0
+Data: stat_Statusdata003.txt
+

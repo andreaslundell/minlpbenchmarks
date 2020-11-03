@@ -1,0 +1,28 @@
+Category: Status
+Attribute: Fail
+Filter: instance or solve run marked as failed
+       dicopt  muriqui  shot  baron  aoa  knitro  alphaecp  knitrobb  scip  bbb  sbb  mtaurbnb  juniper  lindo  boa  mtaurqg  pavito  antigone  couenne  bhyb  virt. best  virt. worst
+count       0        6     1      1    3       6         3        21     0    3   40        19       28     92    1        6      21         0       30    14         160            0
+Data: stat_Statusdata000.txt
+
+Category: Status
+Attribute: TerminationStatus
+Filter: normal termination
+       dicopt  muriqui  shot  baron  aoa  knitro  alphaecp  knitrobb  scip  bbb  sbb  mtaurbnb  juniper  lindo  boa  mtaurqg  pavito  antigone  couenne  bhyb  virt. best  virt. worst
+count     215      214   223    213  217     125       204       142   214  146  135       185      139    177  212      206     216       160      108   178         226           59
+Data: stat_Statusdata001.txt
+
+Category: Status
+Attribute: TerminationStatus
+Filter: exceeded some limit
+       dicopt  muriqui  shot  baron  aoa  knitro  alphaecp  knitrobb  scip  bbb  sbb  mtaurbnb  juniper  lindo  boa  mtaurqg  pavito  antigone  couenne  bhyb  virt. best  virt. worst
+count      17       12     9     19   13     103        25        79    18   86   60        44       90     55   19       24      13        72      121    52         167            3
+Data: stat_Statusdata002.txt
+
+Category: Status
+Attribute: TerminationStatus
+Filter: error or other problem
+       dicopt  muriqui  shot  baron  aoa  knitro  alphaecp  knitrobb  scip  bbb  sbb  mtaurbnb  juniper  lindo  boa  mtaurqg  pavito  antigone  couenne  bhyb  virt. best  virt. worst
+count       0        5     0      0    0       4         3        11     0    0    0         0        0      0    1        0       0         0        1     1          19            0
+Data: stat_Statusdata003.txt
+

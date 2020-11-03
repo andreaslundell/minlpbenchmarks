@@ -1,0 +1,35 @@
+Category: Status
+Attribute: Fail
+Filter: instance or solve run marked as failed
+       Scp2804s  aecp  aoa  baron  dicopt  sbb  virt. best  virt. worst
+count         1    13    7      2       8   42          63            1
+Data: stat_Statusdata000.txt
+
+Category: Status
+Attribute: TerminationStatus
+Filter: normal termination
+       Scp2804s  aecp  aoa  baron  dicopt  sbb  virt. best  virt. worst
+count       381   325  370    375     354  285         390          244
+Data: stat_Statusdata001.txt
+
+Category: Status
+Attribute: TerminationStatus
+Filter: exceeded some limit
+       Scp2804s  aecp  aoa  baron  dicopt  sbb  virt. best  virt. worst
+count        25    70   36     30      48   85         128           11
+Data: stat_Statusdata002.txt
+
+Category: Status
+Attribute: TerminationStatus
+Filter: capability problem
+       Scp2804s  aecp  aoa  baron  dicopt  sbb  virt. best  virt. worst
+count         0     1    0      1       1    0           1            0
+Data: stat_Statusdata003.txt
+
+Category: Status
+Attribute: TerminationStatus
+Filter: error or other problem
+       Scp2804s  aecp  aoa  baron  dicopt  sbb  virt. best  virt. worst
+count         0    10    0      0       3    2          15            0
+Data: stat_Statusdata004.txt
+

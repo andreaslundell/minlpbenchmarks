@@ -1,0 +1,7 @@
+                        SHOTcpx1910MMcvx scipNCsoplex baronNC SHOTcpx1910MM virt. worst
+autocorr_bern25-13                 0.90=        1.00=   1.00=         1.00=       0.90=
+radar-3000-10-a-8_lat_7             inf-        1.00=   2.67-        28.39-        inf-
+smallinvSNPr3b050-055              1.00=        1.00=   1.00=         1.00=       1.00=
+sonet20v6                          1.00=        1.00=   1.00=         1.00=       1.00=
+sporttournament20                  1.00=        1.00=   1.00=         1.00=       1.00=
+squfl030-150persp                   inf-        1.00=   1.00=         1.00=        inf-

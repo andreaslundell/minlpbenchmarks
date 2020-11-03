@@ -1,0 +1,21 @@
+Category: Status
+Attribute: Fail
+Filter: instance or solve run marked as failed
+       Scb2804m  Scp2804m  Scp2804nq  Scp2804nqm  Scp2804nqme  Scp2804nqmopt  Scp2804nqmoptsp  Scp2804nqmsp  Scp2804nref  Scp2804s  Scp2804st1  Scp2804st4  Sgb2804s  virt. best  virt. worst
+count        21         1          2           3            4              2                2             4            7         0           0           0         1          27            0
+Data: stat_Statusdata000.txt
+
+Category: Status
+Attribute: TerminationStatus
+Filter: normal termination
+       Scb2804m  Scp2804m  Scp2804nq  Scp2804nqm  Scp2804nqme  Scp2804nqmopt  Scp2804nqmoptsp  Scp2804nqmsp  Scp2804nref  Scp2804s  Scp2804st1  Scp2804st4  Sgb2804s  virt. best  virt. worst
+count       349       381        370         372          367            366              359           370          354       381         378         381       385         394          313
+Data: stat_Statusdata001.txt
+
+Category: Status
+Attribute: TerminationStatus
+Filter: exceeded some limit
+       Scb2804m  Scp2804m  Scp2804nq  Scp2804nqm  Scp2804nqme  Scp2804nqmopt  Scp2804nqmoptsp  Scp2804nqmsp  Scp2804nref  Scp2804s  Scp2804st1  Scp2804st4  Sgb2804s  virt. best  virt. worst
+count        52        25         35          33           37             39               46            34           51        25          28          25        21          93           11
+Data: stat_Statusdata002.txt
+

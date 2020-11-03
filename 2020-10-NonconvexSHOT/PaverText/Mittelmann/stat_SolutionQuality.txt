@@ -1,0 +1,229 @@
+Category: Solution Quality
+Attribute: Gap
+Filter: no fail by all solver
+             SHOTcpx1910MMcvx  scipNCsoplex  baronNC  SHOTcpx1910MM  virt. best  virt. worst
+count                    6.00          6.00     6.00           6.00        6.00         6.00
+arith. mean              0.83          0.36     0.35           0.90        0.29         0.91
+arith. std.              0.98          0.68     0.81           1.01        0.70         1.01
+min                      0.00          0.00     0.00           0.00        0.00         0.00
+10.0%                    0.00          0.00     0.00           0.00        0.00         0.00
+25.0%                    0.00          0.00     0.00           0.00        0.00         0.00
+50.0%                    0.50          0.00     0.00           0.71        0.00         0.71
+75.0%                    1.75          0.32     0.07           1.86        0.00         1.86
+90.0%                    2.00          1.07     1.04           2.00        0.86         2.00
+max                      2.00          1.71     2.00           2.00        1.71         2.00
+Data: stat_SolutionQualitydata000.txt
+
+Category: Solution Quality
+Attribute: Gap
+Filter: time >= 10.0 by at least one solver and no fail for all solvers
+             SHOTcpx1910MMcvx  scipNCsoplex  baronNC  SHOTcpx1910MM  virt. best  virt. worst
+count                    6.00          6.00     6.00           6.00        6.00         6.00
+arith. mean              0.83          0.36     0.35           0.90        0.29         0.91
+arith. std.              0.98          0.68     0.81           1.01        0.70         1.01
+min                      0.00          0.00     0.00           0.00        0.00         0.00
+10.0%                    0.00          0.00     0.00           0.00        0.00         0.00
+25.0%                    0.00          0.00     0.00           0.00        0.00         0.00
+50.0%                    0.50          0.00     0.00           0.71        0.00         0.71
+75.0%                    1.75          0.32     0.07           1.86        0.00         1.86
+90.0%                    2.00          1.07     1.04           2.00        0.86         2.00
+max                      2.00          1.71     2.00           2.00        1.71         2.00
+Data: stat_SolutionQualitydata001.txt
+
+Category: Solution Quality
+Attribute: Gap
+Filter: no fail
+Absolute performance profile: stat_SolutionQualityprofileabs002.txt
+
+Category: Solution Quality
+Attribute: Gap
+Filter: gap <= 0.102% and not failed
+       SHOTcpx1910MMcvx  scipNCsoplex  baronNC  SHOTcpx1910MM  virt. best  virt. worst
+count                 3             7        7              3           9            3
+Data: stat_SolutionQualitydata003.txt
+
+Category: Solution Quality
+Attribute: Gap
+Filter: gap <= 1.0% and not failed
+       SHOTcpx1910MMcvx  scipNCsoplex  baronNC  SHOTcpx1910MM  virt. best  virt. worst
+count                 3             8        7              3          10            3
+Data: stat_SolutionQualitydata004.txt
+
+Category: Solution Quality
+Attribute: Gap
+Filter: gap <= 10.0% and not failed
+       SHOTcpx1910MMcvx  scipNCsoplex  baronNC  SHOTcpx1910MM  virt. best  virt. worst
+count                 3             8        9              4          11            3
+Data: stat_SolutionQualitydata005.txt
+
+Category: Solution Quality
+Attribute: PrimalGap
+Filter: no fail by all solver and known optimal value
+             SHOTcpx1910MMcvx  scipNCsoplex  baronNC  SHOTcpx1910MM  virt. best  virt. worst
+count                    6.00          6.00     6.00           6.00        6.00         6.00
+arith. mean              0.68          0.00     0.29           0.33        0.00         0.68
+arith. std.              1.02          0.01     0.70           0.82        0.01         1.02
+min                      0.00          0.00     0.00           0.00        0.00         0.00
+10.0%                    0.00          0.00     0.00           0.00        0.00         0.00
+25.0%                    0.00          0.00     0.00           0.00        0.00         0.00
+50.0%                    0.05          0.00     0.00           0.00        0.00         0.05
+75.0%                    1.53          0.00     0.00           0.00        0.00         1.53
+90.0%                    2.00          0.01     0.86           1.00        0.01         2.00
+max                      2.00          0.02     1.72           2.00        0.02         2.00
+Data: stat_SolutionQualitydata006.txt
+
+Category: Solution Quality
+Attribute: PrimalGap
+Filter: time >= 10.0 by at least one solver and no fail for all solvers and known optimal value
+             SHOTcpx1910MMcvx  scipNCsoplex  baronNC  SHOTcpx1910MM  virt. best  virt. worst
+count                    6.00          6.00     6.00           6.00        6.00         6.00
+arith. mean              0.68          0.00     0.29           0.33        0.00         0.68
+arith. std.              1.02          0.01     0.70           0.82        0.01         1.02
+min                      0.00          0.00     0.00           0.00        0.00         0.00
+10.0%                    0.00          0.00     0.00           0.00        0.00         0.00
+25.0%                    0.00          0.00     0.00           0.00        0.00         0.00
+50.0%                    0.05          0.00     0.00           0.00        0.00         0.05
+75.0%                    1.53          0.00     0.00           0.00        0.00         1.53
+90.0%                    2.00          0.01     0.86           1.00        0.01         2.00
+max                      2.00          0.02     1.72           2.00        0.02         2.00
+Data: stat_SolutionQualitydata007.txt
+
+Category: Solution Quality
+Attribute: PrimalGap
+Filter: no fail
+Absolute performance profile: stat_SolutionQualityprofileabs008.txt
+
+Category: Solution Quality
+Attribute: PrimalGap
+Filter: within 0.102% of known optimal value and not failed
+       SHOTcpx1910MMcvx  scipNCsoplex  baronNC  SHOTcpx1910MM  virt. best  virt. worst
+count                 3            11       10              6          13            3
+Data: stat_SolutionQualitydata009.txt
+
+Category: Solution Quality
+Attribute: PrimalGap
+Filter: within 1.0% of known optimal value and not failed
+       SHOTcpx1910MMcvx  scipNCsoplex  baronNC  SHOTcpx1910MM  virt. best  virt. worst
+count                 3            11       12              7          13            3
+Data: stat_SolutionQualitydata010.txt
+
+Category: Solution Quality
+Attribute: PrimalGap
+Filter: within 10.0% of known optimal value and not failed
+       SHOTcpx1910MMcvx  scipNCsoplex  baronNC  SHOTcpx1910MM  virt. best  virt. worst
+count                 3            14       12             11          14            3
+Data: stat_SolutionQualitydata011.txt
+
+Category: Solution Quality
+Attribute: DualGap
+Filter: no fail by all solver and known optimal value
+             SHOTcpx1910MMcvx  scipNCsoplex  baronNC  SHOTcpx1910MM  virt. best  virt. worst
+count                    6.00          6.00     6.00           6.00        6.00         6.00
+arith. mean              0.80          0.35     0.35           0.90        0.28         0.91
+arith. std.              0.98          0.67     0.81           1.01        0.68         1.01
+min                      0.00          0.00     0.00           0.00        0.00         0.00
+10.0%                    0.00          0.00     0.00           0.00        0.00         0.00
+25.0%                    0.00          0.00     0.00           0.00        0.00         0.00
+50.0%                    0.41          0.00     0.00           0.71        0.00         0.71
+75.0%                    1.70          0.32     0.06           1.86        0.00         1.86
+90.0%                    2.00          1.05     1.04           2.00        0.83         2.00
+max                      2.00          1.66     2.00           2.00        1.66         2.00
+Data: stat_SolutionQualitydata012.txt
+
+Category: Solution Quality
+Attribute: DualGap
+Filter: time >= 10.0 by at least one solver and no fail for all solvers and known optimal value
+             SHOTcpx1910MMcvx  scipNCsoplex  baronNC  SHOTcpx1910MM  virt. best  virt. worst
+count                    6.00          6.00     6.00           6.00        6.00         6.00
+arith. mean              0.80          0.35     0.35           0.90        0.28         0.91
+arith. std.              0.98          0.67     0.81           1.01        0.68         1.01
+min                      0.00          0.00     0.00           0.00        0.00         0.00
+10.0%                    0.00          0.00     0.00           0.00        0.00         0.00
+25.0%                    0.00          0.00     0.00           0.00        0.00         0.00
+50.0%                    0.41          0.00     0.00           0.71        0.00         0.71
+75.0%                    1.70          0.32     0.06           1.86        0.00         1.86
+90.0%                    2.00          1.05     1.04           2.00        0.83         2.00
+max                      2.00          1.66     2.00           2.00        1.66         2.00
+Data: stat_SolutionQualitydata013.txt
+
+Category: Solution Quality
+Attribute: DualGap
+Filter: dual gap <= 0.102% and not failed
+       SHOTcpx1910MMcvx  scipNCsoplex  baronNC  SHOTcpx1910MM  virt. best  virt. worst
+count                 3             7        7              3           9            3
+Data: stat_SolutionQualitydata014.txt
+
+Category: Solution Quality
+Attribute: DualGap
+Filter: dual gap <= 1.0% and not failed
+       SHOTcpx1910MMcvx  scipNCsoplex  baronNC  SHOTcpx1910MM  virt. best  virt. worst
+count                 3             8        7              3          10            3
+Data: stat_SolutionQualitydata015.txt
+
+Category: Solution Quality
+Attribute: DualGap
+Filter: dual gap <= 10.0% and not failed
+       SHOTcpx1910MMcvx  scipNCsoplex  baronNC  SHOTcpx1910MM  virt. best  virt. worst
+count                 3             8        9              4          11            3
+Data: stat_SolutionQualitydata016.txt
+
+Category: Solution Quality
+Attribute: PrimalBound
+Filter: no fail by all solver
+       SHOTcpx1910MMcvx  scipNCsoplex  baronNC  SHOTcpx1910MM  virt. best  virt. worst
+count                 6             6        6              6           6            6
+Data: stat_SolutionQualitydata017.txt
+
+Relative to virt. best :
+        SHOTcpx1910MMcvx  scipNCsoplex  baronNC  SHOTcpx1910MM  virt. worst
+count                  6             6        6              6            6
+better                 0             0        0              0            0
+close                  4             6        5              5            4
+worse                  2             0        1              1            2
+Data: stat_SolutionQualityratio017_virt.best.txt
+
+Category: Solution Quality
+Attribute: PrimalBound
+Filter: time >= 10.0 by at least one solver and no fail for all solvers
+       SHOTcpx1910MMcvx  scipNCsoplex  baronNC  SHOTcpx1910MM  virt. best  virt. worst
+count                 6             6        6              6           6            6
+Data: stat_SolutionQualitydata018.txt
+
+Relative to virt. best :
+        SHOTcpx1910MMcvx  scipNCsoplex  baronNC  SHOTcpx1910MM  virt. worst
+count                  6             6        6              6            6
+better                 0             0        0              0            0
+close                  4             6        5              5            4
+worse                  2             0        1              1            2
+Data: stat_SolutionQualityratio018_virt.best.txt
+
+Category: Solution Quality
+Attribute: DualBound
+Filter: no fail by all solver
+       SHOTcpx1910MMcvx  scipNCsoplex  baronNC  SHOTcpx1910MM  virt. best  virt. worst
+count                 6             6        6              6           6            6
+Data: stat_SolutionQualitydata019.txt
+
+Relative to virt. best :
+        SHOTcpx1910MMcvx  scipNCsoplex  baronNC  SHOTcpx1910MM  virt. worst
+count                  6             6        6              6            6
+better                 0             0        0              0            0
+close                  3             5        5              3            3
+worse                  3             1        1              3            3
+Data: stat_SolutionQualityratio019_virt.best.txt
+
+Category: Solution Quality
+Attribute: DualBound
+Filter: time >= 10.0 by at least one solver and no fail for all solvers
+       SHOTcpx1910MMcvx  scipNCsoplex  baronNC  SHOTcpx1910MM  virt. best  virt. worst
+count                 6             6        6              6           6            6
+Data: stat_SolutionQualitydata020.txt
+
+Relative to virt. best :
+        SHOTcpx1910MMcvx  scipNCsoplex  baronNC  SHOTcpx1910MM  virt. worst
+count                  6             6        6              6            6
+better                 0             0        0              0            0
+close                  3             5        5              3            3
+worse                  3             1        1              3            3
+Data: stat_SolutionQualityratio020_virt.best.txt
+

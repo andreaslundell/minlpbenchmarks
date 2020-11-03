@@ -1,0 +1,607 @@
+Category: Efficiency
+Attribute: SolverTime
+Filter: all instances
+               SHOTcpx1910MMcvx  scipNCsoplex  baronNC  SHOTcpx1910MM  virt. best  virt. worst
+count                     16.00         16.00    16.00          16.00       16.00        16.00
+arith. mean              574.81        678.07   575.48         377.08      218.43       818.47
+arith. std.              447.06        346.78   411.39         434.32      370.50       241.11
+geom. mean               172.01        487.28   285.96          65.97       26.66       688.76
+geom. std.                 9.12          2.99     5.01          11.95        9.39         2.41
+sh.geom. mean            218.43        502.09   314.86         103.63       43.85       701.50
+sh.geom. std.              6.20          2.72     4.01           6.25        5.19         2.22
+min                        3.43         16.81     4.92           0.52        0.52        24.42
+10.0%                      8.55        134.50    32.45           4.06        3.75       620.54
+25.0%                     10.76        403.31   100.20           7.23        4.87       910.00
+50.0%                    910.00        910.00   910.00          81.43       11.36       910.00
+75.0%                    910.00        910.00   910.00         910.00      185.66       910.00
+90.0%                    910.00        910.00   910.00         910.00      910.00       910.00
+max                      910.00        910.00   910.00         910.00      910.00       910.00
+Data: stat_Efficiencydata000.txt
+
+Relative to virt. best :
+             SHOTcpx1910MMcvx  scipNCsoplex  baronNC  SHOTcpx1910MM  virt. worst
+count                   16.00         16.00    16.00          16.00        16.00
+arith. mean            144.42        152.25   145.18          13.20       168.09
+arith. std.            435.38        431.80   433.70          30.13       428.83
+min                      1.00          1.00     1.00           1.00         1.00
+10.0%                    1.00          1.00     1.00           1.00         1.00
+25.0%                    1.00          4.06     1.00           1.00         5.73
+50.0%                    1.28         18.31     7.99           1.04        52.70
+75.0%                   40.08         92.20    84.80           2.78        93.75
+90.0%                  207.95        160.44   160.44          47.21       207.95
+max                   1755.75       1755.75  1755.75          97.04      1755.75
+better                   0.00          0.00     0.00           0.00         0.00
+close                    8.00          3.00     6.00           9.00         3.00
+worse                    8.00         13.00    10.00           7.00        13.00
+Data: stat_Efficiencyratio000_virt.best.txt
+
+Category: Efficiency
+Attribute: SolverTime
+Filter: no fail by all solver
+               SHOTcpx1910MMcvx  scipNCsoplex  baronNC  SHOTcpx1910MM  virt. best  virt. worst
+count                      6.00          6.00     6.00           6.00        6.00         6.00
+arith. mean               16.17        664.65   489.52         382.52       15.70       665.92
+arith. std.               19.48        362.88   464.49         426.83       19.75       360.16
+geom. mean                10.71        406.85   158.90         101.68        9.93       432.96
+geom. std.                 2.29          4.25     7.62           8.65        2.40         3.70
+sh.geom. mean             12.41        434.71   195.40         136.29       11.77       453.61
+sh.geom. std.              1.65          3.59     5.34           5.50        1.68         3.28
+min                        3.43         16.81     4.92           4.05        3.43        24.42
+10.0%                      5.58        236.34    14.67           6.05        4.18       240.15
+25.0%                      8.14        538.21    62.77          35.77        6.03       538.21
+50.0%                      9.63        847.60   543.90         231.50        9.63       847.60
+75.0%                     10.76        910.00   910.00         768.52       10.76       910.00
+90.0%                     33.30        910.00   910.00         910.00       33.30       910.00
+max                       55.56        910.00   910.00         910.00       55.56       910.00
+Data: stat_Efficiencydata001.txt
+
+Relative to virt. best :
+             SHOTcpx1910MMcvx  scipNCsoplex  baronNC  SHOTcpx1910MM  virt. worst
+count                    6.00          6.00     6.00           6.00         6.00
+arith. mean              1.09         63.86    47.13          33.41        64.23
+arith. std.              0.23         42.47    47.77          44.03        41.86
+min                      1.00          4.90     1.00           1.18         7.12
+10.0%                    1.00          9.52     2.10           1.41        10.63
+25.0%                    1.00         31.20     4.18           2.78        31.20
+50.0%                    1.00         87.22    44.75           9.11        87.22
+75.0%                    1.00         92.51    89.63          64.80        92.51
+90.0%                    1.28         94.85    94.54          89.72        94.85
+max                      1.57         97.04    97.04          97.04        97.04
+better                   0.00          0.00     0.00           0.00         0.00
+close                    5.00          0.00     1.00           0.00         0.00
+worse                    1.00          6.00     5.00           6.00         6.00
+Data: stat_Efficiencyratio001_virt.best.txt
+
+Category: Efficiency
+Attribute: SolverTime
+Filter: time >= 10.0 by at least one solver and no fail for all solvers
+               SHOTcpx1910MMcvx  scipNCsoplex  baronNC  SHOTcpx1910MM  virt. best  virt. worst
+count                      6.00          6.00     6.00           6.00        6.00         6.00
+arith. mean               16.17        664.65   489.52         382.52       15.70       665.92
+arith. std.               19.48        362.88   464.49         426.83       19.75       360.16
+geom. mean                10.71        406.85   158.90         101.68        9.93       432.96
+geom. std.                 2.29          4.25     7.62           8.65        2.40         3.70
+sh.geom. mean             12.41        434.71   195.40         136.29       11.77       453.61
+sh.geom. std.              1.65          3.59     5.34           5.50        1.68         3.28
+min                        3.43         16.81     4.92           4.05        3.43        24.42
+10.0%                      5.58        236.34    14.67           6.05        4.18       240.15
+25.0%                      8.14        538.21    62.77          35.77        6.03       538.21
+50.0%                      9.63        847.60   543.90         231.50        9.63       847.60
+75.0%                     10.76        910.00   910.00         768.52       10.76       910.00
+90.0%                     33.30        910.00   910.00         910.00       33.30       910.00
+max                       55.56        910.00   910.00         910.00       55.56       910.00
+Data: stat_Efficiencydata002.txt
+
+Relative to virt. best :
+             SHOTcpx1910MMcvx  scipNCsoplex  baronNC  SHOTcpx1910MM  virt. worst
+count                    6.00          6.00     6.00           6.00         6.00
+arith. mean              1.09         63.86    47.13          33.41        64.23
+arith. std.              0.23         42.47    47.77          44.03        41.86
+min                      1.00          4.90     1.00           1.18         7.12
+10.0%                    1.00          9.52     2.10           1.41        10.63
+25.0%                    1.00         31.20     4.18           2.78        31.20
+50.0%                    1.00         87.22    44.75           9.11        87.22
+75.0%                    1.00         92.51    89.63          64.80        92.51
+90.0%                    1.28         94.85    94.54          89.72        94.85
+max                      1.57         97.04    97.04          97.04        97.04
+better                   0.00          0.00     0.00           0.00         0.00
+close                    5.00          0.00     1.00           0.00         0.00
+worse                    1.00          6.00     5.00           6.00         6.00
+Data: stat_Efficiencyratio002_virt.best.txt
+
+Category: Efficiency
+Attribute: SolverTime
+Filter: gap <= 0.102% and no fail for all solvers
+               SHOTcpx1910MMcvx  scipNCsoplex  baronNC  SHOTcpx1910MM  virt. best  virt. worst
+count                      3.00          3.00     3.00           3.00        3.00         3.00
+arith. mean               22.24        419.30    69.05         118.73       21.30       421.83
+arith. std.               28.94        385.50    94.69         195.18       29.68       381.53
+geom. mean                11.38        181.90    27.75          22.39        9.79       206.00
+geom. std.                 3.22          5.47     4.34           7.05        3.44         4.59
+sh.geom. mean             14.99        204.96    35.86          34.79       13.60       223.62
+sh.geom. std.              2.00          4.43     2.87           4.33        2.06         3.94
+min                        3.43         16.81     4.92           4.05        3.43        24.42
+10.0%                      4.29        104.63     8.82           4.85        3.73       110.71
+25.0%                      5.58        236.34    14.67           6.05        4.18       240.15
+50.0%                      7.72        455.88    24.42           8.06        4.92       455.88
+75.0%                     31.64        620.54   101.11         176.08       30.24       620.54
+90.0%                     46.00        719.33   147.12         276.89       45.43       719.33
+max                       55.56        785.20   177.80         344.09       55.56       785.20
+Data: stat_Efficiencydata003.txt
+
+Relative to virt. best :
+             SHOTcpx1910MMcvx  scipNCsoplex  baronNC  SHOTcpx1910MM  virt. worst
+count                    3.00          3.00     3.00           3.00         3.00
+arith. mean              1.19         37.23     3.77           3.00        37.97
+arith. std.              0.33         48.22     3.10           2.77        47.49
+min                      1.00          4.90     1.00           1.18         7.12
+10.0%                    1.00          6.75     1.44           1.27         8.52
+25.0%                    1.00          9.52     2.10           1.41        10.63
+50.0%                    1.00         14.13     3.20           1.64        14.13
+75.0%                    1.28         53.39     5.16           3.92        53.39
+90.0%                    1.46         76.95     6.33           5.28        76.95
+max                      1.57         92.66     7.12           6.19        92.66
+better                   0.00          0.00     0.00           0.00         0.00
+close                    2.00          0.00     1.00           0.00         0.00
+worse                    1.00          3.00     2.00           3.00         3.00
+Data: stat_Efficiencyratio003_virt.best.txt
+
+Category: Efficiency
+Attribute: SolverTime
+Filter: gap <= 1.0% and no fail for all solvers
+               SHOTcpx1910MMcvx  scipNCsoplex  baronNC  SHOTcpx1910MM  virt. best  virt. worst
+count                      3.00          3.00     3.00           3.00        3.00         3.00
+arith. mean               22.24        419.30    69.05         118.73       21.30       421.83
+arith. std.               28.94        385.50    94.69         195.18       29.68       381.53
+geom. mean                11.38        181.90    27.75          22.39        9.79       206.00
+geom. std.                 3.22          5.47     4.34           7.05        3.44         4.59
+sh.geom. mean             14.99        204.96    35.86          34.79       13.60       223.62
+sh.geom. std.              2.00          4.43     2.87           4.33        2.06         3.94
+min                        3.43         16.81     4.92           4.05        3.43        24.42
+10.0%                      4.29        104.63     8.82           4.85        3.73       110.71
+25.0%                      5.58        236.34    14.67           6.05        4.18       240.15
+50.0%                      7.72        455.88    24.42           8.06        4.92       455.88
+75.0%                     31.64        620.54   101.11         176.08       30.24       620.54
+90.0%                     46.00        719.33   147.12         276.89       45.43       719.33
+max                       55.56        785.20   177.80         344.09       55.56       785.20
+Data: stat_Efficiencydata004.txt
+
+Relative to virt. best :
+             SHOTcpx1910MMcvx  scipNCsoplex  baronNC  SHOTcpx1910MM  virt. worst
+count                    3.00          3.00     3.00           3.00         3.00
+arith. mean              1.19         37.23     3.77           3.00        37.97
+arith. std.              0.33         48.22     3.10           2.77        47.49
+min                      1.00          4.90     1.00           1.18         7.12
+10.0%                    1.00          6.75     1.44           1.27         8.52
+25.0%                    1.00          9.52     2.10           1.41        10.63
+50.0%                    1.00         14.13     3.20           1.64        14.13
+75.0%                    1.28         53.39     5.16           3.92        53.39
+90.0%                    1.46         76.95     6.33           5.28        76.95
+max                      1.57         92.66     7.12           6.19        92.66
+better                   0.00          0.00     0.00           0.00         0.00
+close                    2.00          0.00     1.00           0.00         0.00
+worse                    1.00          3.00     2.00           3.00         3.00
+Data: stat_Efficiencyratio004_virt.best.txt
+
+Category: Efficiency
+Attribute: SolverTime
+Filter: gap <= 10.0% and no fail for all solvers
+               SHOTcpx1910MMcvx  scipNCsoplex  baronNC  SHOTcpx1910MM  virt. best  virt. worst
+count                      3.00          3.00     3.00           3.00        3.00         3.00
+arith. mean               22.24        419.30    69.05         118.73       21.30       421.83
+arith. std.               28.94        385.50    94.69         195.18       29.68       381.53
+geom. mean                11.38        181.90    27.75          22.39        9.79       206.00
+geom. std.                 3.22          5.47     4.34           7.05        3.44         4.59
+sh.geom. mean             14.99        204.96    35.86          34.79       13.60       223.62
+sh.geom. std.              2.00          4.43     2.87           4.33        2.06         3.94
+min                        3.43         16.81     4.92           4.05        3.43        24.42
+10.0%                      4.29        104.63     8.82           4.85        3.73       110.71
+25.0%                      5.58        236.34    14.67           6.05        4.18       240.15
+50.0%                      7.72        455.88    24.42           8.06        4.92       455.88
+75.0%                     31.64        620.54   101.11         176.08       30.24       620.54
+90.0%                     46.00        719.33   147.12         276.89       45.43       719.33
+max                       55.56        785.20   177.80         344.09       55.56       785.20
+Data: stat_Efficiencydata005.txt
+
+Relative to virt. best :
+             SHOTcpx1910MMcvx  scipNCsoplex  baronNC  SHOTcpx1910MM  virt. worst
+count                    3.00          3.00     3.00           3.00         3.00
+arith. mean              1.19         37.23     3.77           3.00        37.97
+arith. std.              0.33         48.22     3.10           2.77        47.49
+min                      1.00          4.90     1.00           1.18         7.12
+10.0%                    1.00          6.75     1.44           1.27         8.52
+25.0%                    1.00          9.52     2.10           1.41        10.63
+50.0%                    1.00         14.13     3.20           1.64        14.13
+75.0%                    1.28         53.39     5.16           3.92        53.39
+90.0%                    1.46         76.95     6.33           5.28        76.95
+max                      1.57         92.66     7.12           6.19        92.66
+better                   0.00          0.00     0.00           0.00         0.00
+close                    2.00          0.00     1.00           0.00         0.00
+worse                    1.00          3.00     2.00           3.00         3.00
+Data: stat_Efficiencyratio005_virt.best.txt
+
+Category: Efficiency
+Attribute: SolverTime
+Filter: within 0.102% of known optimal value and no fail for all solvers
+               SHOTcpx1910MMcvx  scipNCsoplex  baronNC  SHOTcpx1910MM  virt. best  virt. worst
+count                      3.00          3.00     3.00           3.00        3.00         3.00
+arith. mean               22.24        419.30    69.05         118.73       21.30       421.83
+arith. std.               28.94        385.50    94.69         195.18       29.68       381.53
+geom. mean                11.38        181.90    27.75          22.39        9.79       206.00
+geom. std.                 3.22          5.47     4.34           7.05        3.44         4.59
+sh.geom. mean             14.99        204.96    35.86          34.79       13.60       223.62
+sh.geom. std.              2.00          4.43     2.87           4.33        2.06         3.94
+min                        3.43         16.81     4.92           4.05        3.43        24.42
+10.0%                      4.29        104.63     8.82           4.85        3.73       110.71
+25.0%                      5.58        236.34    14.67           6.05        4.18       240.15
+50.0%                      7.72        455.88    24.42           8.06        4.92       455.88
+75.0%                     31.64        620.54   101.11         176.08       30.24       620.54
+90.0%                     46.00        719.33   147.12         276.89       45.43       719.33
+max                       55.56        785.20   177.80         344.09       55.56       785.20
+Data: stat_Efficiencydata006.txt
+
+Relative to virt. best :
+             SHOTcpx1910MMcvx  scipNCsoplex  baronNC  SHOTcpx1910MM  virt. worst
+count                    3.00          3.00     3.00           3.00         3.00
+arith. mean              1.19         37.23     3.77           3.00        37.97
+arith. std.              0.33         48.22     3.10           2.77        47.49
+min                      1.00          4.90     1.00           1.18         7.12
+10.0%                    1.00          6.75     1.44           1.27         8.52
+25.0%                    1.00          9.52     2.10           1.41        10.63
+50.0%                    1.00         14.13     3.20           1.64        14.13
+75.0%                    1.28         53.39     5.16           3.92        53.39
+90.0%                    1.46         76.95     6.33           5.28        76.95
+max                      1.57         92.66     7.12           6.19        92.66
+better                   0.00          0.00     0.00           0.00         0.00
+close                    2.00          0.00     1.00           0.00         0.00
+worse                    1.00          3.00     2.00           3.00         3.00
+Data: stat_Efficiencyratio006_virt.best.txt
+
+Category: Efficiency
+Attribute: SolverTime
+Filter: within 1.0% of known optimal value and no fail for all solvers
+               SHOTcpx1910MMcvx  scipNCsoplex  baronNC  SHOTcpx1910MM  virt. best  virt. worst
+count                      3.00          3.00     3.00           3.00        3.00         3.00
+arith. mean               22.24        419.30    69.05         118.73       21.30       421.83
+arith. std.               28.94        385.50    94.69         195.18       29.68       381.53
+geom. mean                11.38        181.90    27.75          22.39        9.79       206.00
+geom. std.                 3.22          5.47     4.34           7.05        3.44         4.59
+sh.geom. mean             14.99        204.96    35.86          34.79       13.60       223.62
+sh.geom. std.              2.00          4.43     2.87           4.33        2.06         3.94
+min                        3.43         16.81     4.92           4.05        3.43        24.42
+10.0%                      4.29        104.63     8.82           4.85        3.73       110.71
+25.0%                      5.58        236.34    14.67           6.05        4.18       240.15
+50.0%                      7.72        455.88    24.42           8.06        4.92       455.88
+75.0%                     31.64        620.54   101.11         176.08       30.24       620.54
+90.0%                     46.00        719.33   147.12         276.89       45.43       719.33
+max                       55.56        785.20   177.80         344.09       55.56       785.20
+Data: stat_Efficiencydata007.txt
+
+Relative to virt. best :
+             SHOTcpx1910MMcvx  scipNCsoplex  baronNC  SHOTcpx1910MM  virt. worst
+count                    3.00          3.00     3.00           3.00         3.00
+arith. mean              1.19         37.23     3.77           3.00        37.97
+arith. std.              0.33         48.22     3.10           2.77        47.49
+min                      1.00          4.90     1.00           1.18         7.12
+10.0%                    1.00          6.75     1.44           1.27         8.52
+25.0%                    1.00          9.52     2.10           1.41        10.63
+50.0%                    1.00         14.13     3.20           1.64        14.13
+75.0%                    1.28         53.39     5.16           3.92        53.39
+90.0%                    1.46         76.95     6.33           5.28        76.95
+max                      1.57         92.66     7.12           6.19        92.66
+better                   0.00          0.00     0.00           0.00         0.00
+close                    2.00          0.00     1.00           0.00         0.00
+worse                    1.00          3.00     2.00           3.00         3.00
+Data: stat_Efficiencyratio007_virt.best.txt
+
+Category: Efficiency
+Attribute: SolverTime
+Filter: within 10.0% of known optimal value and no fail for all solvers
+               SHOTcpx1910MMcvx  scipNCsoplex  baronNC  SHOTcpx1910MM  virt. best  virt. worst
+count                      3.00          3.00     3.00           3.00        3.00         3.00
+arith. mean               22.24        419.30    69.05         118.73       21.30       421.83
+arith. std.               28.94        385.50    94.69         195.18       29.68       381.53
+geom. mean                11.38        181.90    27.75          22.39        9.79       206.00
+geom. std.                 3.22          5.47     4.34           7.05        3.44         4.59
+sh.geom. mean             14.99        204.96    35.86          34.79       13.60       223.62
+sh.geom. std.              2.00          4.43     2.87           4.33        2.06         3.94
+min                        3.43         16.81     4.92           4.05        3.43        24.42
+10.0%                      4.29        104.63     8.82           4.85        3.73       110.71
+25.0%                      5.58        236.34    14.67           6.05        4.18       240.15
+50.0%                      7.72        455.88    24.42           8.06        4.92       455.88
+75.0%                     31.64        620.54   101.11         176.08       30.24       620.54
+90.0%                     46.00        719.33   147.12         276.89       45.43       719.33
+max                       55.56        785.20   177.80         344.09       55.56       785.20
+Data: stat_Efficiencydata008.txt
+
+Relative to virt. best :
+             SHOTcpx1910MMcvx  scipNCsoplex  baronNC  SHOTcpx1910MM  virt. worst
+count                    3.00          3.00     3.00           3.00         3.00
+arith. mean              1.19         37.23     3.77           3.00        37.97
+arith. std.              0.33         48.22     3.10           2.77        47.49
+min                      1.00          4.90     1.00           1.18         7.12
+10.0%                    1.00          6.75     1.44           1.27         8.52
+25.0%                    1.00          9.52     2.10           1.41        10.63
+50.0%                    1.00         14.13     3.20           1.64        14.13
+75.0%                    1.28         53.39     5.16           3.92        53.39
+90.0%                    1.46         76.95     6.33           5.28        76.95
+max                      1.57         92.66     7.12           6.19        92.66
+better                   0.00          0.00     0.00           0.00         0.00
+close                    2.00          0.00     1.00           0.00         0.00
+worse                    1.00          3.00     2.00           3.00         3.00
+Data: stat_Efficiencyratio008_virt.best.txt
+
+Category: Efficiency
+Attribute: SolverTime
+Filter: no fail
+Relative performance profile: stat_Efficiencyprofilerel009.txt
+Absolute performance profile: stat_Efficiencyprofileabs009.txt
+
+Category: Efficiency
+Attribute: SolverTime
+Filter: time >= 10.0 by at least one solver and no fail for all solvers
+Relative performance profile: stat_Efficiencyprofilerel010.txt
+Absolute performance profile: stat_Efficiencyprofileabs010.txt
+
+Category: Efficiency
+Attribute: SolverTime
+Filter: gap <= 0.102% and not failed
+Relative performance profile: stat_Efficiencyprofilerel011.txt
+Absolute performance profile: stat_Efficiencyprofileabs011.txt
+
+Category: Efficiency
+Attribute: SolverTime
+Filter: gap <= 1.0% and not failed
+Relative performance profile: stat_Efficiencyprofilerel012.txt
+Absolute performance profile: stat_Efficiencyprofileabs012.txt
+
+Category: Efficiency
+Attribute: SolverTime
+Filter: gap <= 10.0% and not failed
+Relative performance profile: stat_Efficiencyprofilerel013.txt
+Absolute performance profile: stat_Efficiencyprofileabs013.txt
+
+Category: Efficiency
+Attribute: SolverTime
+Filter: within 0.102% of known optimal value and not failed
+Relative performance profile: stat_Efficiencyprofilerel014.txt
+Absolute performance profile: stat_Efficiencyprofileabs014.txt
+
+Category: Efficiency
+Attribute: SolverTime
+Filter: within 1.0% of known optimal value and not failed
+Relative performance profile: stat_Efficiencyprofilerel015.txt
+Absolute performance profile: stat_Efficiencyprofileabs015.txt
+
+Category: Efficiency
+Attribute: SolverTime
+Filter: within 10.0% of known optimal value and not failed
+Relative performance profile: stat_Efficiencyprofilerel016.txt
+Absolute performance profile: stat_Efficiencyprofileabs016.txt
+
+Category: Efficiency
+Attribute: NumberOfNodes
+Filter: no fail by all solver
+               SHOTcpx1910MMcvx  scipNCsoplex  baronNC  SHOTcpx1910MM  virt. best  virt. worst
+count                      6.00          6.00     6.00           6.00        6.00         6.00
+arith. mean              134.83      61626.33    21.50       13279.50       10.00     69065.83
+arith. std.              327.82     113013.82    22.59       20793.90       22.05    109562.27
+geom. mean                 3.05       2360.79    10.63          34.07        1.95     14060.75
+geom. std.                12.10         56.89     3.94         147.00        4.45         8.41
+sh.geom. mean             45.53       5172.10    19.85         639.52        8.47     14456.02
+sh.geom. std.              2.26         14.74     1.18          16.72        1.17         8.07
+min                        1.00          1.00     1.00           1.00        1.00       712.00
+10.0%                      1.00        356.50     3.00           1.00        1.00      1203.50
+25.0%                      1.00        957.75     5.50           1.00        1.00      2918.25
+50.0%                      1.00       4141.50    12.00           1.00        1.00     25613.00
+75.0%                      1.00      59124.00    37.25       26276.50        1.00     68636.50
+90.0%                    402.50     180381.00    49.50       39836.50       28.00    180381.00
+max                      804.00     284126.00    55.00       44638.00       55.00    284126.00
+Data: stat_Efficiencydata017.txt
+
+Relative to virt. best :
+             SHOTcpx1910MMcvx  scipNCsoplex  baronNC  SHOTcpx1910MM  virt. worst
+count                    6.00          6.00     6.00           6.00         6.00
+arith. mean              3.27      15132.99    12.50        7546.50     22572.49
+arith. std.              5.56      30240.70    16.51       18172.83     31247.38
+min                      1.00          1.00     1.00           1.00       712.00
+10.0%                    1.00        356.50     1.00           1.00      1203.50
+25.0%                    1.00        957.75     2.00           1.00      2562.73
+50.0%                    1.00       3430.46     6.00           1.00      5876.96
+75.0%                    1.00       6232.48    14.50         478.00     35125.50
+90.0%                    7.81      41612.00    30.50       22637.50     60637.00
+max                     14.62      76636.00    44.00       44638.00     76636.00
+better                   0.00          0.00     0.00           0.00         0.00
+close                    5.00          1.00     2.00           4.00         0.00
+worse                    1.00          5.00     4.00           2.00         6.00
+Data: stat_Efficiencyratio017_virt.best.txt
+
+Category: Efficiency
+Attribute: NumberOfNodes
+Filter: time >= 10.0 by at least one solver and no fail for all solvers
+               SHOTcpx1910MMcvx  scipNCsoplex  baronNC  SHOTcpx1910MM  virt. best  virt. worst
+count                      6.00          6.00     6.00           6.00        6.00         6.00
+arith. mean              134.83      61626.33    21.50       13279.50       10.00     69065.83
+arith. std.              327.82     113013.82    22.59       20793.90       22.05    109562.27
+geom. mean                 3.05       2360.79    10.63          34.07        1.95     14060.75
+geom. std.                12.10         56.89     3.94         147.00        4.45         8.41
+sh.geom. mean             45.53       5172.10    19.85         639.52        8.47     14456.02
+sh.geom. std.              2.26         14.74     1.18          16.72        1.17         8.07
+min                        1.00          1.00     1.00           1.00        1.00       712.00
+10.0%                      1.00        356.50     3.00           1.00        1.00      1203.50
+25.0%                      1.00        957.75     5.50           1.00        1.00      2918.25
+50.0%                      1.00       4141.50    12.00           1.00        1.00     25613.00
+75.0%                      1.00      59124.00    37.25       26276.50        1.00     68636.50
+90.0%                    402.50     180381.00    49.50       39836.50       28.00    180381.00
+max                      804.00     284126.00    55.00       44638.00       55.00    284126.00
+Data: stat_Efficiencydata018.txt
+
+Relative to virt. best :
+             SHOTcpx1910MMcvx  scipNCsoplex  baronNC  SHOTcpx1910MM  virt. worst
+count                    6.00          6.00     6.00           6.00         6.00
+arith. mean              3.27      15132.99    12.50        7546.50     22572.49
+arith. std.              5.56      30240.70    16.51       18172.83     31247.38
+min                      1.00          1.00     1.00           1.00       712.00
+10.0%                    1.00        356.50     1.00           1.00      1203.50
+25.0%                    1.00        957.75     2.00           1.00      2562.73
+50.0%                    1.00       3430.46     6.00           1.00      5876.96
+75.0%                    1.00       6232.48    14.50         478.00     35125.50
+90.0%                    7.81      41612.00    30.50       22637.50     60637.00
+max                     14.62      76636.00    44.00       44638.00     76636.00
+better                   0.00          0.00     0.00           0.00         0.00
+close                    5.00          1.00     2.00           4.00         0.00
+worse                    1.00          5.00     4.00           2.00         6.00
+Data: stat_Efficiencyratio018_virt.best.txt
+
+Category: Efficiency
+Attribute: NumberOfNodes
+Filter: gap <= 0.102% and no fail for all solvers
+               SHOTcpx1910MMcvx  scipNCsoplex  baronNC  SHOTcpx1910MM  virt. best  virt. worst
+count                      3.00          3.00     3.00           3.00        3.00         3.00
+arith. mean                1.00      26347.67     7.67           1.00        1.00     26347.67
+arith. std.                0.00      43553.75     8.33           0.00        0.00     43553.75
+geom. mean                 1.00       4522.32     4.40           1.00        1.00      4522.32
+geom. std.                 1.00          7.63     3.19           1.00        1.00         7.63
+sh.geom. mean              1.00       4718.07     7.46           1.00        1.00      4718.07
+sh.geom. std.              1.00          7.27     1.06           1.00        1.00         7.27
+min                        1.00        712.00     1.00           1.00        1.00       712.00
+10.0%                      1.00        908.60     1.80           1.00        1.00       908.60
+25.0%                      1.00       1203.50     3.00           1.00        1.00      1203.50
+50.0%                      1.00       1695.00     5.00           1.00        1.00      1695.00
+75.0%                      1.00      39165.50    11.00           1.00        1.00     39165.50
+90.0%                      1.00      61647.80    14.60           1.00        1.00     61647.80
+max                        1.00      76636.00    17.00           1.00        1.00     76636.00
+Data: stat_Efficiencydata019.txt
+
+Relative to virt. best :
+             SHOTcpx1910MMcvx  scipNCsoplex  baronNC  SHOTcpx1910MM  virt. worst
+count                    3.00          3.00     3.00           3.00         3.00
+arith. mean              1.00      26347.67     7.67           1.00     26347.67
+arith. std.              0.00      43553.75     8.33           0.00     43553.75
+min                      1.00        712.00     1.00           1.00       712.00
+10.0%                    1.00        908.60     1.80           1.00       908.60
+25.0%                    1.00       1203.50     3.00           1.00      1203.50
+50.0%                    1.00       1695.00     5.00           1.00      1695.00
+75.0%                    1.00      39165.50    11.00           1.00     39165.50
+90.0%                    1.00      61647.80    14.60           1.00     61647.80
+max                      1.00      76636.00    17.00           1.00     76636.00
+better                   0.00          0.00     0.00           0.00         0.00
+close                    3.00          0.00     1.00           3.00         0.00
+worse                    0.00          3.00     2.00           0.00         3.00
+Data: stat_Efficiencyratio019_virt.best.txt
+
+Category: Efficiency
+Attribute: NumberOfNodes
+Filter: gap <= 0.102% and not failed
+Relative performance profile: stat_Efficiencyprofilerel020.txt
+
+Category: Efficiency
+Attribute: NumberOfIterations
+Filter: no fail by all solver
+             SHOTcpx1910MMcvx  scipNCsoplex  baronNC  SHOTcpx1910MM  virt. best  virt. worst
+count                    6.00          6.00     6.00           6.00        6.00         6.00
+arith. mean              1.00    3422408.17     1.00           1.00        1.00   3422408.17
+arith. std.              0.00    2688806.20     0.00           0.00        0.00   2688806.20
+geom. mean               1.00    1702483.34     1.00           1.00        1.00   1702483.34
+geom. std.               1.00          5.33     1.00           1.00        1.00         5.33
+min                      1.00      51122.00     1.00           1.00        1.00     51122.00
+10.0%                    1.00     650227.50     1.00           1.00        1.00    650227.50
+25.0%                    1.00    1479042.00     1.00           1.00        1.00   1479042.00
+50.0%                    1.00    3420694.00     1.00           1.00        1.00   3420694.00
+75.0%                    1.00    5158706.00     1.00           1.00        1.00   5158706.00
+90.0%                    1.00    6196303.00     1.00           1.00        1.00   6196303.00
+max                      1.00    7072071.00     1.00           1.00        1.00   7072071.00
+Data: stat_Efficiencydata021.txt
+
+Relative to virt. best :
+             SHOTcpx1910MMcvx  scipNCsoplex  baronNC  SHOTcpx1910MM  virt. worst
+count                    6.00          6.00     6.00           6.00         6.00
+arith. mean              1.00    3422408.17     1.00           1.00   3422408.17
+arith. std.              0.00    2688806.20     0.00           0.00   2688806.20
+min                      1.00      51122.00     1.00           1.00     51122.00
+10.0%                    1.00     650227.50     1.00           1.00    650227.50
+25.0%                    1.00    1479042.00     1.00           1.00   1479042.00
+50.0%                    1.00    3420694.00     1.00           1.00   3420694.00
+75.0%                    1.00    5158706.00     1.00           1.00   5158706.00
+90.0%                    1.00    6196303.00     1.00           1.00   6196303.00
+max                      1.00    7072071.00     1.00           1.00   7072071.00
+better                   0.00          0.00     0.00           0.00         0.00
+close                    6.00          0.00     6.00           6.00         0.00
+worse                    0.00          6.00     0.00           0.00         6.00
+Data: stat_Efficiencyratio021_virt.best.txt
+
+Category: Efficiency
+Attribute: NumberOfIterations
+Filter: time >= 10.0 by at least one solver and no fail for all solvers
+             SHOTcpx1910MMcvx  scipNCsoplex  baronNC  SHOTcpx1910MM  virt. best  virt. worst
+count                    6.00          6.00     6.00           6.00        6.00         6.00
+arith. mean              1.00    3422408.17     1.00           1.00        1.00   3422408.17
+arith. std.              0.00    2688806.20     0.00           0.00        0.00   2688806.20
+geom. mean               1.00    1702483.34     1.00           1.00        1.00   1702483.34
+geom. std.               1.00          5.33     1.00           1.00        1.00         5.33
+min                      1.00      51122.00     1.00           1.00        1.00     51122.00
+10.0%                    1.00     650227.50     1.00           1.00        1.00    650227.50
+25.0%                    1.00    1479042.00     1.00           1.00        1.00   1479042.00
+50.0%                    1.00    3420694.00     1.00           1.00        1.00   3420694.00
+75.0%                    1.00    5158706.00     1.00           1.00        1.00   5158706.00
+90.0%                    1.00    6196303.00     1.00           1.00        1.00   6196303.00
+max                      1.00    7072071.00     1.00           1.00        1.00   7072071.00
+Data: stat_Efficiencydata022.txt
+
+Relative to virt. best :
+             SHOTcpx1910MMcvx  scipNCsoplex  baronNC  SHOTcpx1910MM  virt. worst
+count                    6.00          6.00     6.00           6.00         6.00
+arith. mean              1.00    3422408.17     1.00           1.00   3422408.17
+arith. std.              0.00    2688806.20     0.00           0.00   2688806.20
+min                      1.00      51122.00     1.00           1.00     51122.00
+10.0%                    1.00     650227.50     1.00           1.00    650227.50
+25.0%                    1.00    1479042.00     1.00           1.00   1479042.00
+50.0%                    1.00    3420694.00     1.00           1.00   3420694.00
+75.0%                    1.00    5158706.00     1.00           1.00   5158706.00
+90.0%                    1.00    6196303.00     1.00           1.00   6196303.00
+max                      1.00    7072071.00     1.00           1.00   7072071.00
+better                   0.00          0.00     0.00           0.00         0.00
+close                    6.00          0.00     6.00           6.00         0.00
+worse                    0.00          6.00     0.00           0.00         6.00
+Data: stat_Efficiencyratio022_virt.best.txt
+
+Category: Efficiency
+Attribute: NumberOfIterations
+Filter: gap <= 0.102% and no fail for all solvers
+             SHOTcpx1910MMcvx  scipNCsoplex  baronNC  SHOTcpx1910MM  virt. best  virt. worst
+count                    3.00          3.00     3.00           3.00        3.00         3.00
+arith. mean              1.00    2206996.67     1.00           1.00        1.00   2206996.67
+arith. std.              0.00    2762158.23     0.00           0.00        0.00   2762158.23
+geom. mean               1.00     697825.95     1.00           1.00        1.00    697825.95
+geom. std.               1.00          6.96     1.00           1.00        1.00         6.96
+min                      1.00      51122.00     1.00           1.00        1.00     51122.00
+10.0%                    1.00     290764.20     1.00           1.00        1.00    290764.20
+25.0%                    1.00     650227.50     1.00           1.00        1.00    650227.50
+50.0%                    1.00    1249333.00     1.00           1.00        1.00   1249333.00
+75.0%                    1.00    3284934.00     1.00           1.00        1.00   3284934.00
+90.0%                    1.00    4506294.60     1.00           1.00        1.00   4506294.60
+max                      1.00    5320535.00     1.00           1.00        1.00   5320535.00
+Data: stat_Efficiencydata023.txt
+
+Relative to virt. best :
+             SHOTcpx1910MMcvx  scipNCsoplex  baronNC  SHOTcpx1910MM  virt. worst
+count                    3.00          3.00     3.00           3.00         3.00
+arith. mean              1.00    2206996.67     1.00           1.00   2206996.67
+arith. std.              0.00    2762158.23     0.00           0.00   2762158.23
+min                      1.00      51122.00     1.00           1.00     51122.00
+10.0%                    1.00     290764.20     1.00           1.00    290764.20
+25.0%                    1.00     650227.50     1.00           1.00    650227.50
+50.0%                    1.00    1249333.00     1.00           1.00   1249333.00
+75.0%                    1.00    3284934.00     1.00           1.00   3284934.00
+90.0%                    1.00    4506294.60     1.00           1.00   4506294.60
+max                      1.00    5320535.00     1.00           1.00   5320535.00
+better                   0.00          0.00     0.00           0.00         0.00
+close                    3.00          0.00     3.00           3.00         0.00
+worse                    0.00          3.00     0.00           0.00         3.00
+Data: stat_Efficiencyratio023_virt.best.txt
+
+Category: Efficiency
+Attribute: NumberOfIterations
+Filter: gap <= 0.102% and not failed
+Relative performance profile: stat_Efficiencyprofilerel024.txt
+

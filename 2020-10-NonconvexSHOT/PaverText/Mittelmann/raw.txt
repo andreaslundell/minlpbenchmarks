@@ -1,0 +1,229 @@
+                         Direction  NumberOfDiscreteVariables  NumberOfEquations  NumberOfNonZeros  NumberOfNonlinearNonZeros  NumberOfVariables  KnownPrimalBound  KnownDualBound   Fail FailReason
+autocorr_bern25-13             1.0                       25.0                1.0              26.0                       25.0               26.0     -8.148000e+03   -8.148000e+03  False           
+cecil_13                       1.0                      162.0              899.0            2812.0                      360.0              841.0     -1.156565e+05   -1.156565e+05  False           
+genpooling_meyer04             1.0                       55.0              142.0             740.0                      156.0              119.0      1.086187e+06    1.086187e+06  False           
+multiplants_mtg1a             -1.0                       93.0              257.0            1973.0                       95.0              194.0      3.916134e+02    3.916134e+02  False           
+oil                            1.0                       19.0             1547.0            3932.0                      759.0             1536.0     -9.325082e-01   -9.325082e-01  False           
+pooling_epa2                   1.0                       45.0              525.0            1914.0                      554.0              332.0     -4.567356e+03   -4.567356e+03  False           
+radar-3000-10-a-8_lat_7        1.0                     3000.0            12002.0           42001.0                     9000.0            15001.0      1.039000e+03    1.039000e+03  False           
+sfacloc2_4_80                  1.0                      122.0             2372.0            8252.0                      180.0              401.0      9.953071e+00    9.953071e+00  False           
+smallinvSNPr3b050-055          1.0                      100.0                4.0             401.0                      100.0              101.0      1.589586e+00    1.589586e+00  False           
+sonet20v6                      1.0                      190.0             3441.0           10830.0                      380.0              191.0      3.311060e+06    3.311060e+06  False           
+sporttournament20             -1.0                      190.0                1.0             191.0                      190.0              191.0      1.920000e+02    1.920000e+02  False           
+squfl030-150persp              1.0                       30.0             9151.0           31531.0                    13500.0             9031.0      4.305766e+02    4.305766e+02  False           
+sssd20-04persp                 1.0                       92.0               53.0             341.0                       36.0              109.0      3.476914e+05    3.476914e+05  False           
+tln7                           1.0                       63.0               43.0             288.0                       98.0               64.0      1.500000e+01    1.500000e+01  False           
+wastepaper4                    1.0                       44.0               39.0             275.0                      176.0               77.0      3.479163e-03    3.479163e-03  False           
+crudeoil_lee3_10              -1.0                      140.0             5822.0           36319.0                     3920.0             2561.0      8.544891e+01    8.544891e+01  False           
+
+
+                                                    baronNC@0 scipNCsoplex@1                                 SHOTcpx1910MM@1                              SHOTcpx1910MMcvx@1
+major                   minor                                                                                                                                               
+autocorr_bern25-13      JulianDate                    44118.7        44118.9                                         44124.6                                         44126.8
+                        TerminationStatus                   0              1                                               1                                               0
+                        PrimalBound                     -8140          -8148                                           -8148                                           -7364
+                        DualBound                    -8148.15         -11630                                        -19779.3                                          -14800
+                        SolverTime                     1532.3           1830                                         1800.03                                         11.0451
+                        NumberOfIterations                  0        4673219                                               0                                               0
+                        NumberOfDomainViolations            0              0                                               0                                               0
+                        NumberOfNodes                      55         284126                                           35035                                             804
+                        Fail                            False          False                                           False                                           False
+                        FailReason                                                                                                                                          
+                        Gap                          0.001001       0.427344                                         1.42751                                         1.00978
+                        PrimalGap                 0.000982801              0                                               0                                        0.106464
+                        DualGap                   1.81821e-05       0.427344                                         1.42751                                        0.816397
+cecil_13                JulianDate                    44117.7        44118.9                                         44124.6                                         44126.8
+                        TerminationStatus                   0              0                                               0                                               0
+                        PrimalBound                   -115656        -115656                                         -108390                                         -107171
+                        DualBound                     -115772        -115770                                         -404987                                         -108115
+                        SolverTime                      40.48        1275.31                                         43.9611                                         2.62662
+                        NumberOfIterations                  0        5151469                                               0                                               0
+                        NumberOfDomainViolations            0              0                                               0                                               0
+                        NumberOfNodes                      29         137711                                           41400                                               0
+                        Fail                            False          False                                           False                                            True
+                        FailReason                                                                                            Dual bound contradicts best known primal bound
+                        Gap                          0.001001    0.000981911                                         2.73639                                      0.00880472
+                        PrimalGap                 1.96591e-10    1.96617e-10                                       0.0670396                                       0.0791746
+                        DualGap                      0.001001     0.00098191                                         2.50164                                      -0.0697557
+genpooling_meyer04      JulianDate                    44124.7        44118.9                                         44124.6                                             NaN
+                        TerminationStatus                   1              1                                               0                                             NaN
+                        PrimalBound               1.21304e+06    2.24279e+06                                     2.46105e+06                                             NaN
+                        DualBound                      762650         610688                                          102766                                             NaN
+                        SolverTime                       1830        1830.23                                        0.518297                                             NaN
+                        NumberOfIterations                  0        8988063                                               0                                             NaN
+                        NumberOfDomainViolations            0              0                                               0                                             NaN
+                        NumberOfNodes                  230484         516259                                               0                                             NaN
+                        Fail                            False          False                                           False                                            True
+                        FailReason                                                                                                                                  No data.
+                        Gap                          0.590555        2.67256                                         22.9481                                             NaN
+                        PrimalGap                    0.116784        1.06483                                         1.26577                                             inf
+                        DualGap                      0.424228       0.778629                                         9.56953                                             inf
+multiplants_mtg1a       JulianDate                    44118.8          44119                                         44124.6                                         44126.8
+                        TerminationStatus                   0              0                                               0                                               7
+                        PrimalBound                   391.613        391.613                                         77.0375                                            -inf
+                        DualBound                         inf        391.613                                               0                                             inf
+                        SolverTime                     575.97        886.621                                        0.771372                                        0.814864
+                        NumberOfIterations                  0        6118500                                               0                                               0
+                        NumberOfDomainViolations            0              0                                               0                                               0
+                        NumberOfNodes                   43721         106813                                               0                                               0
+                        Fail                            False          False                                            True                                            True
+                        FailReason                                            Dual bound contradicts best known primal bound                             Termstatus is error
+                        Gap                               inf              0                                             inf                                             inf
+                        PrimalGap                -7.44969e-11   -1.47518e-10                                         4.08341                                             inf
+                        DualGap                           inf    1.47518e-10                                             inf                                             inf
+oil                     JulianDate                    44118.8          44119                                         44124.6                                         44126.8
+                        TerminationStatus                   1              1                                               0                                               7
+                        PrimalBound                 -0.932508      -0.932494                                       -0.851373                                             inf
+                        DualBound                    -1.25613        -1.1501                                        -3.23296                                            -inf
+                        SolverTime                       1830        1830.02                                         4.06556                                         2.77239
+                        NumberOfIterations                  0       25119027                                               0                                               0
+                        NumberOfDomainViolations            0              0                                               0                                               0
+                        NumberOfNodes                    8986          14230                                               0                                               0
+                        Fail                            False          False                                           False                                            True
+                        FailReason                                                                                                                       Termstatus is error
+                        Gap                          0.347045       0.233355                                         2.79735                                             inf
+                        PrimalGap                  3.9529e-09    1.52566e-05                                       0.0952988                                             inf
+                        DualGap                      0.347045       0.233336                                         2.46695                                             inf
+pooling_epa2            JulianDate                    44118.8          44119                                             NaN                                         44126.8
+                        TerminationStatus                   1              1                                             NaN                                               7
+                        PrimalBound                  -4567.36       -4262.78                                             NaN                                             inf
+                        DualBound                    -4649.45       -8580.35                                             NaN                                            -inf
+                        SolverTime                       1830           1830                                             NaN                                        0.557865
+                        NumberOfIterations                  0       19563405                                             NaN                                               0
+                        NumberOfDomainViolations            0              0                                             NaN                                               0
+                        NumberOfNodes                   56219          70445                                             NaN                                               0
+                        Fail                            False          False                                            True                                            True
+                        FailReason                                                                                  No data.                             Termstatus is error
+                        Gap                         0.0179745        1.01286                                             NaN                                             inf
+                        PrimalGap                 -1.2151e-10      0.0714512                                             inf                                             inf
+                        DualGap                     0.0179745       0.878626                                             inf                                             inf
+radar-3000-10-a-8_lat_7 JulianDate                    44118.8        44117.9                                         44124.6                                         44126.8
+                        TerminationStatus                   1              1                                               3                                               0
+                        PrimalBound                      2825        1056.71                                           29995                                             inf
+                        DualBound                           9        390.129                                               9                                               9
+                        SolverTime                    1830.76           1830                                         118.906                                         9.88621
+                        NumberOfIterations                  0        7072071                                               0                                               0
+                        NumberOfDomainViolations            0              0                                               0                                               0
+                        NumberOfNodes                       7           6588                                               0                                               0
+                        Fail                            False          False                                           False                                           False
+                        FailReason                                                                                                                                          
+                        Gap                           312.889        1.70861                                         3331.78                                             inf
+                        PrimalGap                     1.71896      0.0170436                                         27.8691                                             inf
+                        DualGap                       114.444        1.66322                                         114.444                                         114.444
+sfacloc2_4_80           JulianDate                    44117.8          44118                                         44124.6                                         44126.8
+                        TerminationStatus                   0              0                                               0                                               0
+                        PrimalBound                   9.95358        9.95307                                         10.4327                                         13.4686
+                        DualBound                     9.94364        9.95307                                               0                                         12.2257
+                        SolverTime                     103.35         143.16                                         11.6733                                         2.23681
+                        NumberOfIterations                  0         875035                                               0                                               0
+                        NumberOfDomainViolations            0              0                                               0                                               0
+                        NumberOfNodes                    1864          41450                                             995                                            1021
+                        Fail                            False          False                                           False                                            True
+                        FailReason                                                                                            Dual bound contradicts best known primal bound
+                        Gap                             0.001              0                                             inf                                        0.101663
+                        PrimalGap                 5.12735e-05    2.67924e-10                                        0.048192                                        0.353212
+                        DualGap                   0.000948678   -2.67924e-10                                             inf                                       -0.228335
+smallinvSNPr3b050-055   JulianDate                    44118.8          44118                                         44124.6                                         44126.8
+                        TerminationStatus                   0              0                                               0                                               0
+                        PrimalBound                   1.58959        1.58959                                         1.58959                                         1.58959
+                        DualBound                       1.588        1.58959                                         1.58959                                         1.58959
+                        SolverTime                       4.92        455.877                                         8.05966                                         7.72359
+                        NumberOfIterations                  0        5320535                                               0                                               0
+                        NumberOfDomainViolations            0              0                                               0                                               0
+                        NumberOfNodes                       5          76636                                               0                                               0
+                        Fail                            False          False                                           False                                           False
+                        FailReason                                                                                                                                          
+                        Gap                             0.001              0                                               0                                               0
+                        PrimalGap                           0   -6.29095e-10                                               0                                               0
+                        DualGap                         0.001    6.29095e-10                                               0                                               0
+sonet20v6               JulianDate                    44118.8          44119                                         44124.6                                         44126.8
+                        TerminationStatus                   0              0                                               0                                               0
+                        PrimalBound               3.31106e+06    3.31106e+06                                     3.31106e+06                                     3.31106e+06
+                        DualBound                 3.30775e+06    3.31106e+06                                     3.31106e+06                                     3.31106e+06
+                        SolverTime                      177.8        785.198                                         344.092                                         55.5629
+                        NumberOfIterations                  0        1249333                                               0                                               0
+                        NumberOfDomainViolations            0              0                                               0                                               0
+                        NumberOfNodes                       1           1695                                               0                                               0
+                        Fail                            False          False                                           False                                           False
+                        FailReason                                                                                                                                          
+                        Gap                       0.000999772              0                                               0                                               0
+                        PrimalGap                           0              0                                               0                                               0
+                        DualGap                   0.000999772              0                                               0                                               0
+sporttournament20       JulianDate                    44117.8          44119                                         44124.6                                         44126.8
+                        TerminationStatus                   0              0                                               0                                               0
+                        PrimalBound                       192            192                                             192                                             192
+                        DualBound                     192.192        192.043                                             192                                             192
+                        SolverTime                      24.42         16.813                                         4.04703                                         3.43048
+                        NumberOfIterations                  0          51122                                               0                                               0
+                        NumberOfDomainViolations            0              0                                               0                                               0
+                        NumberOfNodes                      17            712                                               0                                               0
+                        Fail                            False          False                                           False                                           False
+                        FailReason                                                                                                                                          
+                        Gap                          0.001001    0.000226449                                               0                                               0
+                        PrimalGap                           0              0                                               0                                               0
+                        DualGap                      0.001001    0.000226449                                               0                                               0
+squfl030-150persp       JulianDate                    44118.8          44119                                         44124.7                                         44126.8
+                        TerminationStatus                   1              1                                               1                                               0
+                        PrimalBound                   431.825        430.574                                         430.577                                             inf
+                        DualBound                     397.121        429.599                                               7                                               7
+                        SolverTime                    1830.02        1830.55                                         1803.98                                         9.37748
+                        NumberOfIterations                  0        2168169                                               0                                               0
+                        NumberOfDomainViolations            0              0                                               0                                               0
+                        NumberOfNodes                      44              1                                           44638                                               0
+                        Fail                            False          False                                           False                                           False
+                        FailReason                                                                                                                                          
+                        Gap                         0.0873905     0.00226984                                         60.5109                                             inf
+                        PrimalGap                      0.0029   -5.81448e-06                                    -6.43457e-09                                             inf
+                        DualGap                     0.0842462     0.00227567                                         60.5109                                         60.5109
+sssd20-04persp          JulianDate                    44118.9          44119                                         44124.7                                             NaN
+                        TerminationStatus                   1              1                                               0                                             NaN
+                        PrimalBound                    348288         347944                                          380628                                             NaN
+                        DualBound                      202319         298584                                         4013.69                                             NaN
+                        SolverTime                       1830        1830.08                                         1047.19                                             NaN
+                        NumberOfIterations                  0       10553785                                               0                                             NaN
+                        NumberOfDomainViolations            0              0                                               0                                             NaN
+                        NumberOfNodes                  400448         491412                                        10103317                                             NaN
+                        Fail                            False          False                                           False                                            True
+                        FailReason                                                                                                                                  No data.
+                        Gap                           0.72148       0.165315                                         93.8324                                             NaN
+                        PrimalGap                  0.00171466    0.000726656                                       0.0947283                                             inf
+                        DualGap                      0.718534       0.164469                                         85.6264                                             inf
+tln7                    JulianDate                    44118.9        44119.1                                         44124.7                                             NaN
+                        TerminationStatus                   0              1                                               1                                             NaN
+                        PrimalBound                        15           15.3                                              15                                             NaN
+                        DualBound                      14.985           3.06                                               0                                             NaN
+                        SolverTime                    1169.53        1830.33                                         1801.96                                             NaN
+                        NumberOfIterations                  0        2511132                                               0                                             NaN
+                        NumberOfDomainViolations            0              0                                               0                                             NaN
+                        NumberOfNodes                   65599         116609                                               0                                             NaN
+                        Fail                            False          False                                           False                                            True
+                        FailReason                                                                                                                                  No data.
+                        Gap                             0.001              4                                             inf                                             NaN
+                        PrimalGap                           0           0.02                                               0                                             inf
+                        DualGap                         0.001        3.90196                                             inf                                             inf
+wastepaper4             JulianDate                    44117.8        44118.6                                         44124.7                                         44126.8
+                        TerminationStatus                   0              0                                               0                                               7
+                        PrimalBound                0.00414697     0.00389445                                       0.0100501                                             inf
+                        DualBound                  0.00314697     0.00303426                                               0                                            -inf
+                        SolverTime                      90.76         125.83                                         4.73804                                        0.244761
+                        NumberOfIterations                  0        1397665                                               0                                               0
+                        NumberOfDomainViolations            0              0                                               0                                               0
+                        NumberOfNodes                   28585         133417                                           33894                                               0
+                        Fail                            False          False                                           False                                            True
+                        FailReason                                                                                                                       Termstatus is error
+                        Gap                          0.317766       0.283494                                             inf                                             inf
+                        PrimalGap                    0.191944       0.119365                                         1.88864                                             inf
+                        DualGap                      0.105561       0.146627                                             inf                                             inf
+crudeoil_lee3_10        JulianDate                        NaN        44117.9                                         44126.8                                             NaN
+                        TerminationStatus                 NaN              0                                               0                                             NaN
+                        PrimalBound                       NaN        85.4489                                         85.1672                                             NaN
+                        DualBound                         NaN        85.5264                                            87.4                                             NaN
+                        SolverTime                        NaN        245.606                                         33.1512                                             NaN
+                        NumberOfIterations                NaN         382295                                               0                                             NaN
+                        NumberOfDomainViolations          NaN              0                                               0                                             NaN
+                        NumberOfNodes                     NaN          24431                                            1107                                             NaN
+                        Fail                             True          False                                           False                                            True
+                        FailReason                   No data.                                                                                                       No data.
+                        Gap                               NaN    0.000906871                                       0.0262167                                             NaN
+                        PrimalGap                         inf     1.9718e-10                                      0.00330782                                             inf
+                        DualGap                           inf    0.000906871                                       0.0228334                                             inf
