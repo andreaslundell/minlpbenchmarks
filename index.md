@@ -10,7 +10,7 @@ The PAVER reports used in the paper: "A Review and Comparison of Solvers for Con
 3. Problems with a [high](https://andreaslundell.github.io/minlpbenchmarks/2018-10-ConvexMINLP/PaverReports/DVARS_HI)/[low](https://andreaslundell.github.io/minlpbenchmarks/2018-10-ConvexMINLP/PaverReports/DVARS_LO) level of discrete variables.
 4. Problems with a [high](https://andreaslundell.github.io/minlpbenchmarks/2018-10-ConvexMINLP/PaverReports/NLVARS_HI)/[low](https://andreaslundell.github.io/minlpbenchmarks/2018-10-ConvexMINLP/PaverReports/NLVARS_LO) level of nonlinearity.
 
-The reports can also be downloaded from the [repository](https://github.com/andreaslundell/minlpbenchmarks/tree/gh-pages/2018-10-ConvexMINLP). The logs can be downloaded [here](https://github.com/andreaslundell/minlpbenchmarks/releases/tag/v1.0).
+The reports can also be downloaded from the [repository](https://github.com/andreaslundell/minlpbenchmarks/tree/master/2018-10-ConvexMINLP). The logs can be downloaded [here](https://github.com/andreaslundell/minlpbenchmarks/releases/tag/v1.0).
 
 ### The Supporting Hyperplane Optimization Toolkit
 
@@ -20,16 +20,16 @@ The PAVER reports used in the paper: "The Supporting Hyperplane Optimization Too
 2. [Noncommercial solvers](https://andreaslundell.github.io/minlpbenchmarks/2020-06-SHOTpaper/PaverReports/Noncommercial).
 3. [Different SHOT strategies and subsolvers](https://andreaslundell.github.io/minlpbenchmarks/2020-06-SHOTpaper/PaverReports/SHOT).
 
-The reports can also be downloaded from the [repository](https://github.com/andreaslundell/minlpbenchmarks/tree/gh-pages/2020-06-SHOTpaper).
+The reports can also be downloaded from the [repository](https://github.com/andreaslundell/minlpbenchmarks/tree/master/2020-06-SHOTpaper).
 
 ### Polyhedral Approximation Strategies for Nonconvex Mixed-Integer Nonlinear Programming in SHOT
 
 The PAVER reports used in the paper: "Polyhedral Approximation Strategies for Nonconvex Mixed-Integer Nonlinear Programming in SHOTt" by A. Lundell and J. Kronqvist are available here.
 
-1. [Objective gap](https://andreaslundell.github.io/minlpbenchmarks/2020-10-Nonconvex/PaverReports/ObjectiveGap).
-2. [Objective gap, MIQCQP problems](https://andreaslundell.github.io/minlpbenchmarks/2020-10-Nonconvex/PaverReports/ObjectiveGapMIQCQP).
-3. [Primal gap](https://andreaslundell.github.io/minlpbenchmarks/2020-10-Nonconvex/PaverReports/PrimalGap).
-3. [Mittelmann, nonconvex](https://andreaslundell.github.io/minlpbenchmarks/2020-10-Nonconvex/PaverReports/Mittelmann).
-5. [SHOT nonconvex strategies](https://andreaslundell.github.io/minlpbenchmarks/2020-10-Nonconvex/PaverReports/SHOTNonconvex).
+1. [Objective gap](https://andreaslundell.github.io/minlpbenchmarks/2020-10-NonconvexSHOT/PaverReports/ObjectiveGap).
+2. [Objective gap, MIQCQP problems](https://andreaslundell.github.io/minlpbenchmarks/2020-10-NonconvexSHOT/PaverReports/ObjectiveGapMIQCQP).
+3. [Primal gap](https://andreaslundell.github.io/minlpbenchmarks/2020-10-NonconvexSHOT/PaverReports/PrimalGap).
+3. [Mittelmann, nonconvex](https://andreaslundell.github.io/minlpbenchmarks/2020-10-NonconvexSHOT/PaverReports/Mittelmann).
+5. [SHOT nonconvex strategies](https://andreaslundell.github.io/minlpbenchmarks/2020-10-NonconvexSHOT/PaverReports/SHOTNonconvex).
 
-The reports can also be downloaded from the [repository](https://github.com/andreaslundell/minlpbenchmarks/tree/gh-pages/2020-10-SHOTpaper).
+The reports can also be downloaded from the [repository](https://github.com/andreaslundell/minlpbenchmarks/tree/master/2020-10-NonconvexSHOT).
