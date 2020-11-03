@@ -27,7 +27,7 @@ The reports can also be downloaded from the [repository](https://github.com/andr
 The PAVER reports used in the paper: "Polyhedral Approximation Strategies for Nonconvex Mixed-Integer Nonlinear Programming in SHOTt" by A. Lundell and J. Kronqvist are available here.
 
 1. [Objective gap](https://andreaslundell.github.io/minlpbenchmarks/2020-10-NonconvexSHOT/PaverReports/ObjectiveGap).
-2. [Objective gap, MIQCQP problems](https://andreaslundell.github.io/minlpbenchmarks/2020-10-NonconvexSHOT/PaverReports/ObjectiveGapMIQCQP).
+2. [Objective gap, MIQCQP problems only](https://andreaslundell.github.io/minlpbenchmarks/2020-10-NonconvexSHOT/PaverReports/ObjectiveGapMIQCQP).
 3. [Primal gap](https://andreaslundell.github.io/minlpbenchmarks/2020-10-NonconvexSHOT/PaverReports/PrimalGap).
 3. [Mittelmann, nonconvex](https://andreaslundell.github.io/minlpbenchmarks/2020-10-NonconvexSHOT/PaverReports/Mittelmann).
 5. [SHOT nonconvex strategies](https://andreaslundell.github.io/minlpbenchmarks/2020-10-NonconvexSHOT/PaverReports/SHOTNonconvex).
